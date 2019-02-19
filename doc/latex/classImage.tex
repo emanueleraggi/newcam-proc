@@ -1,0 +1,432 @@
+\hypertarget{classImage}{}\section{Image Class Reference}
+\label{classImage}\index{Image@{Image}}
+
+
+Inheritance diagram for Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classImage__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classImage__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structImage_1_1TiffTag__t}{Tiff\+Tag\+\_\+t}
+\begin{DoxyCompactList}\small\item\em the values pulled from the proscillica tifftags \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classImage_ab5a21f84f8a2acda7a63567f1078e35c}{initialize} (Color\+Space cs)
+\begin{DoxyCompactList}\small\item\em initialize an image with a specified Color\+Space \end{DoxyCompactList}\item 
+void {\bfseries set\+Read\+Only} (bool x)\hypertarget{classImage_a091620a35574d2c404ae6a8946dae33e}{}\label{classImage_a091620a35574d2c404ae6a8946dae33e}
+
+\item 
+bool \hyperlink{classImage_a87e5728d527b4e28f8696a4f266f07e7}{set\+Bitmap} (cv\+::\+Mat bmp)
+\begin{DoxyCompactList}\small\item\em Set the bitmap of the \hyperlink{classImage}{Image}. \end{DoxyCompactList}\item 
+bool \hyperlink{classImage_ac0cc82352caee90c6faa9401663e16fd}{read\+From\+File} (std\+::string f\+Name, Color\+Space cs=B\+GR)
+\begin{DoxyCompactList}\small\item\em Load an image from a file on disk. \end{DoxyCompactList}\item 
+bool \hyperlink{classImage_aa2f3974b50f53aecfca04077b5ccadf6}{read\+From\+File} (boost\+::filesystem\+::path file\+Path, Color\+Space cs=B\+GR)
+\begin{DoxyCompactList}\small\item\em Load an image from a file on disk. \end{DoxyCompactList}\item 
+cv\+::\+Mat \& \hyperlink{classImage_a75c5976f165be3d79b745d3d0a297662}{get\+Bitmap} ()
+\begin{DoxyCompactList}\small\item\em set the parameters for the image so that I can find it in the DB \end{DoxyCompactList}\item 
+cv\+::\+Mat {\bfseries get8\+Bitmap} ()\hypertarget{classImage_a4a6e8b26ab1004190896faf55f0f7616}{}\label{classImage_a4a6e8b26ab1004190896faf55f0f7616}
+
+\item 
+cv\+::\+Mat {\bfseries get16\+Bitmap} ()\hypertarget{classImage_aa8aebc050b89bbaae627c12880b6088d}{}\label{classImage_aa8aebc050b89bbaae627c12880b6088d}
+
+\item 
+bool \hyperlink{classImage_a1a393960f7402515428bd982c32f59af}{load} ()
+\begin{DoxyCompactList}\small\item\em loads stored filename into memory. Will N\+OT reload if image was already loaded \end{DoxyCompactList}\item 
+bool \hyperlink{classImage_a37b7fbb0e61bf13f86557f507478ac38}{load\+From\+DB} ()
+\begin{DoxyCompactList}\small\item\em populates the \+\_\+bitmap \end{DoxyCompactList}\item 
+bool \hyperlink{classImage_a23899e8362a6755cc51f46fd490881ba}{load\+From\+File} ()
+\item 
+void \hyperlink{classImage_a4197ac415ed55494d21d9fae506ee806}{unload} ()
+\begin{DoxyCompactList}\small\item\em Removes an image from R\+AM and stores (caches) it to the \+\_\+save\+Path. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a643d9f46961e8372b6a573246aad66d1}{save} ()
+\begin{DoxyCompactList}\small\item\em save an image to the save path set by Image\+::set\+Save\+Path \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a8d3bca1c0c20e4a8740b883f3f61bd87}{save\+To\+DB} ()
+\item 
+void \hyperlink{classImage_a94e5fcd0ba589d8187393d230d15b83d}{save\+To\+File} ()
+\item 
+boost\+::filesystem\+::path {\bfseries get\+Load\+Path} ()\hypertarget{classImage_a6269eaa2758e10a6644e68bc878fdec6}{}\label{classImage_a6269eaa2758e10a6644e68bc878fdec6}
+
+\item 
+boost\+::filesystem\+::path {\bfseries get\+Save\+Path} ()\hypertarget{classImage_ac6f982ea176c5d1fd95cfded780bb8de}{}\label{classImage_ac6f982ea176c5d1fd95cfded780bb8de}
+
+\item 
+void {\bfseries set\+Save\+Path} (boost\+::filesystem\+::path p)\hypertarget{classImage_ae7533f776abe2e1b4e6681985ba66aab}{}\label{classImage_ae7533f776abe2e1b4e6681985ba66aab}
+
+\item 
+void {\bfseries set\+Save\+D\+B\+Param} ()\hypertarget{classImage_a55ff7e2ed3f552f49f9ea139e4545718}{}\label{classImage_a55ff7e2ed3f552f49f9ea139e4545718}
+
+\item 
+std\+::string {\bfseries get\+Name} () const \hypertarget{classImage_acdd2b0d19aa5f00e1177e700db2bea5b}{}\label{classImage_acdd2b0d19aa5f00e1177e700db2bea5b}
+
+\item 
+unsigned long {\bfseries get\+U\+Time} ()\hypertarget{classImage_a1cb942960098498f91b180909913c10b}{}\label{classImage_a1cb942960098498f91b180909913c10b}
+
+\item 
+void {\bfseries set\+Name} (std\+::string str)\hypertarget{classImage_aa4e028c7e168f66d705b6e1a9072ee1d}{}\label{classImage_aa4e028c7e168f66d705b6e1a9072ee1d}
+
+\item 
+cv\+::\+Mat \hyperlink{classImage_ab5320afddf5e1f2f91de8b55d4c34f4f}{generate\+Hist} ()
+\begin{DoxyCompactList}\small\item\em This function returns a Histogram inf the form of a cv\+::\+Mat. \end{DoxyCompactList}\item 
+void {\bfseries display\+Hist} (std\+::string window\+Name)\hypertarget{classImage_ac90012db4bf46088777b9e03a9c20700}{}\label{classImage_ac90012db4bf46088777b9e03a9c20700}
+
+\item 
+std\+::vector$<$ std\+::string $>$ \& {\bfseries get\+Channels} ()\hypertarget{classImage_a52c5c706f2a5b87271b1d817b61f3b59}{}\label{classImage_a52c5c706f2a5b87271b1d817b61f3b59}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries get\+Copy} ()\hypertarget{classImage_a03bf7a24f3a8c010430384dde4e46304}{}\label{classImage_a03bf7a24f3a8c010430384dde4e46304}
+
+\item 
+bool \hyperlink{classImage_a7a3bf833c8e740d483f46eff90c90889}{is\+Loaded} ()
+\begin{DoxyCompactList}\small\item\em a simple check to determine if the data is loaded \end{DoxyCompactList}\item 
+void {\bfseries to8\+Bit} ()\hypertarget{classImage_abb27cf7805e76d571e8353b77c8f02a4}{}\label{classImage_abb27cf7805e76d571e8353b77c8f02a4}
+
+\item 
+void {\bfseries to\+Grey} ()\hypertarget{classImage_a708cddc0be49dc2a2fb5baeb8de7243d}{}\label{classImage_a708cddc0be49dc2a2fb5baeb8de7243d}
+
+\item 
+void {\bfseries to\+B\+GR} ()\hypertarget{classImage_a45ab66f3333a4269d96b8e4737c4b3dd}{}\label{classImage_a45ab66f3333a4269d96b8e4737c4b3dd}
+
+\item 
+void {\bfseries to\+R\+GB} ()\hypertarget{classImage_a36d5d12820681cc556f6424dace28592}{}\label{classImage_a36d5d12820681cc556f6424dace28592}
+
+\item 
+void {\bfseries to\+H\+SV} ()\hypertarget{classImage_ae0bbaf7bf9b4622ca7ee52912d9f47f2}{}\label{classImage_ae0bbaf7bf9b4622ca7ee52912d9f47f2}
+
+\item 
+void {\bfseries to8\+Bit\+Grey} ()\hypertarget{classImage_aede7554ad24dfc8d69e491d35a6d77d8}{}\label{classImage_aede7554ad24dfc8d69e491d35a6d77d8}
+
+\item 
+Color\+Space \& {\bfseries get\+Color\+Space} ()\hypertarget{classImage_a70d42eb45b552b08b2d4e91620a43479}{}\label{classImage_a70d42eb45b552b08b2d4e91620a43479}
+
+\item 
+{\bfseries Image} (const \hyperlink{classImage}{Image} \&other)\hypertarget{classImage_a5a3bc57bd7ba53f9ae55b1963b9ba0a1}{}\label{classImage_a5a3bc57bd7ba53f9ae55b1963b9ba0a1}
+
+\item 
+\hyperlink{classImage}{Image} \& {\bfseries operator=} (const \hyperlink{classImage}{Image} \&other)\hypertarget{classImage_a3037a583d17594b1835d9b6b8d09875c}{}\label{classImage_a3037a583d17594b1835d9b6b8d09875c}
+
+\item 
+bool {\bfseries operator$<$} (\hyperlink{classImage}{Image} const \&rhs) const \hypertarget{classImage_a084be7e5413180208d54077f17bf124f}{}\label{classImage_a084be7e5413180208d54077f17bf124f}
+
+\item 
+\hyperlink{structImage_1_1TiffTag__t}{Tiff\+Tag\+\_\+t} {\bfseries get\+Tiff\+Tag} ()\hypertarget{classImage_ac406cd1b38c6cadd4f93b8b40b64e258}{}\label{classImage_ac406cd1b38c6cadd4f93b8b40b64e258}
+
+\item 
+time\+\_\+t {\bfseries time} ()\hypertarget{classImage_a30253abde880671f30418829d8fba213}{}\label{classImage_a30253abde880671f30418829d8fba213}
+
+\item 
+long double {\bfseries img\+Float\+Time} ()\hypertarget{classImage_a26cd3cc2ba62c392421258788a2359e0}{}\label{classImage_a26cd3cc2ba62c392421258788a2359e0}
+
+\item 
+virtual void {\bfseries on\+File\+Set} ()\hypertarget{classImage_aac15594555d7479747ae0730444f89f2}{}\label{classImage_aac15594555d7479747ae0730444f89f2}
+
+\item 
+virtual void {\bfseries write\+DB} (std\+::string table, Q\+Sql\+Database m\+Database)\hypertarget{classImage_a2bc415e23666a6f85557cd270bcacae0}{}\label{classImage_a2bc415e23666a6f85557cd270bcacae0}
+
+\item 
+virtual Q\+String\+List {\bfseries read\+D\+B\+Tables} (Q\+Sql\+Database m\+Database)\hypertarget{classImage_a208498504b7aef66f5671596c3b99601}{}\label{classImage_a208498504b7aef66f5671596c3b99601}
+
+\item 
+virtual std\+::string {\bfseries get\+D\+B\+Table\+Description} (Q\+Sql\+Database m\+Database)\hypertarget{classImage_a4de05a161fa65cefbdc9a50f406c45a7}{}\label{classImage_a4de05a161fa65cefbdc9a50f406c45a7}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries parse\+Time} ()\hypertarget{classImage_adf09c3545b003199640276db553efc30}{}\label{classImage_adf09c3545b003199640276db553efc30}
+
+\item 
+void {\bfseries read\+Tiff\+Tags} ()\hypertarget{classImage_a8b17b83fee9978e7595b491a53a50445}{}\label{classImage_a8b17b83fee9978e7595b491a53a50445}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::mutex {\bfseries \+\_\+child\+Mutex}\hypertarget{classImage_a64bb7abc523a4788f67325e9546f6930}{}\label{classImage_a64bb7abc523a4788f67325e9546f6930}
+
+\item 
+std\+::mutex {\bfseries mtx}\hypertarget{classImage_a395fed1c28872b35071d1c20bd7e8d4a}{}\label{classImage_a395fed1c28872b35071d1c20bd7e8d4a}
+
+\item 
+Color\+Space {\bfseries \+\_\+color\+Space}\hypertarget{classImage_a7e53861a6bf28cc17f50b455b2e12870}{}\label{classImage_a7e53861a6bf28cc17f50b455b2e12870}
+
+\item 
+std\+::vector$<$ std\+::string $>$ {\bfseries \+\_\+channels}\hypertarget{classImage_ae124805d09fdb8a4c5949d26be8b5665}{}\label{classImage_ae124805d09fdb8a4c5949d26be8b5665}
+
+\item 
+cv\+::\+Mat {\bfseries \+\_\+bitmap}\hypertarget{classImage_aa6dccdccfa626658a905158033b94350}{}\label{classImage_aa6dccdccfa626658a905158033b94350}
+
+\item 
+bool {\bfseries \+\_\+pre\+Load\+On}\hypertarget{classImage_a34e92624409041b70f4f7e8178772daa}{}\label{classImage_a34e92624409041b70f4f7e8178772daa}
+
+\item 
+std\+::string {\bfseries \+\_\+name}\hypertarget{classImage_a710cbb535c1f1d4cfa084ee4e3bc5a94}{}\label{classImage_a710cbb535c1f1d4cfa084ee4e3bc5a94}
+
+\item 
+std\+::string {\bfseries \+\_\+filename}\hypertarget{classImage_a8a135e263fc865714385e3d8d79214b3}{}\label{classImage_a8a135e263fc865714385e3d8d79214b3}
+
+\item 
+boost\+::filesystem\+::path \hyperlink{classImage_a2c14564a147339a626465d6ced4f327c}{\+\_\+load\+Path}\hypertarget{classImage_a2c14564a147339a626465d6ced4f327c}{}\label{classImage_a2c14564a147339a626465d6ced4f327c}
+
+\begin{DoxyCompactList}\small\item\em the location were we load the image when needed \end{DoxyCompactList}\item 
+boost\+::filesystem\+::path \hyperlink{classImage_a4c9f29fea2927d0019d3c82c2faa9f9d}{\+\_\+save\+Path}\hypertarget{classImage_a4c9f29fea2927d0019d3c82c2faa9f9d}{}\label{classImage_a4c9f29fea2927d0019d3c82c2faa9f9d}
+
+\begin{DoxyCompactList}\small\item\em the location where the image will be saved when save is called or when an image is cleared from the buffer \end{DoxyCompactList}\item 
+std\+::string {\bfseries \+\_\+file\+Type}\hypertarget{classImage_a42dd30309b9f742238216a6322815728}{}\label{classImage_a42dd30309b9f742238216a6322815728}
+
+\item 
+bool {\bfseries \+\_\+read\+Only}\hypertarget{classImage_a9cd61367d13018402e79fdebfb0bf5bc}{}\label{classImage_a9cd61367d13018402e79fdebfb0bf5bc}
+
+\item 
+time\+\_\+t \hyperlink{classImage_a6c46324c22609a4e2eeca44f4f7eccd1}{\+\_\+img\+Time}\hypertarget{classImage_a6c46324c22609a4e2eeca44f4f7eccd1}{}\label{classImage_a6c46324c22609a4e2eeca44f4f7eccd1}
+
+\begin{DoxyCompactList}\small\item\em ctime the image was taken \end{DoxyCompactList}\item 
+long double \hyperlink{classImage_afb0940623e07e584db3ea1be35e152b4}{\+\_\+img\+Float\+Time}\hypertarget{classImage_afb0940623e07e584db3ea1be35e152b4}{}\label{classImage_afb0940623e07e584db3ea1be35e152b4}
+
+\begin{DoxyCompactList}\small\item\em time the image was taken as a double (stored in DB) \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classImage_aacb7c47258bf05483114dc7787ebcbee}{\+\_\+image\+Num}\hypertarget{classImage_aacb7c47258bf05483114dc7787ebcbee}{}\label{classImage_aacb7c47258bf05483114dc7787ebcbee}
+
+\begin{DoxyCompactList}\small\item\em image id \end{DoxyCompactList}\item 
+\hyperlink{structImage_1_1TiffTag__t}{Tiff\+Tag\+\_\+t} \hyperlink{classImage_aa127a23a0ab1c7dc3004a96e2d159057}{\+\_\+tiff\+Tag}\hypertarget{classImage_aa127a23a0ab1c7dc3004a96e2d159057}{}\label{classImage_aa127a23a0ab1c7dc3004a96e2d159057}
+
+\begin{DoxyCompactList}\small\item\em metadata stored in tiff tags of image \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Image@{Image}!generate\+Hist@{generate\+Hist}}
+\index{generate\+Hist@{generate\+Hist}!Image@{Image}}
+\subsubsection[{\texorpdfstring{generate\+Hist()}{generateHist()}}]{\setlength{\rightskip}{0pt plus 5cm}cv\+::\+Mat Image\+::generate\+Hist (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_ab5320afddf5e1f2f91de8b55d4c34f4f}{}\label{classImage_ab5320afddf5e1f2f91de8b55d4c34f4f}
+
+
+This function returns a Histogram inf the form of a cv\+::\+Mat. 
+
+\begin{DoxyReturn}{Returns}
+the cv\+::\+Mat histogram 
+\end{DoxyReturn}
+\index{Image@{Image}!get\+Bitmap@{get\+Bitmap}}
+\index{get\+Bitmap@{get\+Bitmap}!Image@{Image}}
+\subsubsection[{\texorpdfstring{get\+Bitmap()}{getBitmap()}}]{\setlength{\rightskip}{0pt plus 5cm}cv\+::\+Mat \& Image\+::get\+Bitmap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a75c5976f165be3d79b745d3d0a297662}{}\label{classImage_a75c5976f165be3d79b745d3d0a297662}
+
+
+set the parameters for the image so that I can find it in the DB 
+
+basically the columns field values \begin{DoxyReturn}{Returns}
+true if success 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000001}{Todo}]implement this \end{DoxyRefDesc}
+\index{Image@{Image}!initialize@{initialize}}
+\index{initialize@{initialize}!Image@{Image}}
+\subsubsection[{\texorpdfstring{initialize(\+Color\+Space cs)}{initialize(ColorSpace cs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::initialize (
+\begin{DoxyParamCaption}
+\item[{Color\+Space}]{cs}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_ab5a21f84f8a2acda7a63567f1078e35c}{}\label{classImage_ab5a21f84f8a2acda7a63567f1078e35c}
+
+
+initialize an image with a specified Color\+Space 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cs} & the Color\+Space you wish to set \\
+\hline
+\end{DoxyParams}
+\index{Image@{Image}!is\+Loaded@{is\+Loaded}}
+\index{is\+Loaded@{is\+Loaded}!Image@{Image}}
+\subsubsection[{\texorpdfstring{is\+Loaded()}{isLoaded()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::is\+Loaded (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classImage_a7a3bf833c8e740d483f46eff90c90889}{}\label{classImage_a7a3bf833c8e740d483f46eff90c90889}
+
+
+a simple check to determine if the data is loaded 
+
+\begin{DoxyReturn}{Returns}
+true if loaded otherwise false 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classAbstractData_a8524756b3b36642ab007296da748b6db}{Abstract\+Data}.
+
+\index{Image@{Image}!load@{load}}
+\index{load@{load}!Image@{Image}}
+\subsubsection[{\texorpdfstring{load()}{load()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a1a393960f7402515428bd982c32f59af}{}\label{classImage_a1a393960f7402515428bd982c32f59af}
+
+
+loads stored filename into memory. Will N\+OT reload if image was already loaded 
+
+loads a an image into R\+AM
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000002}{Todo}]respond load Switch mode \end{DoxyRefDesc}
+
+
+\begin{DoxyReturn}{Returns}
+true if operation was successfull 
+\end{DoxyReturn}
+\index{Image@{Image}!load\+From\+DB@{load\+From\+DB}}
+\index{load\+From\+DB@{load\+From\+DB}!Image@{Image}}
+\subsubsection[{\texorpdfstring{load\+From\+D\+B()}{loadFromDB()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::load\+From\+DB (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a37b7fbb0e61bf13f86557f507478ac38}{}\label{classImage_a37b7fbb0e61bf13f86557f507478ac38}
+
+
+populates the \+\_\+bitmap 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000003}{Todo}]Implement \end{DoxyRefDesc}
+\index{Image@{Image}!load\+From\+File@{load\+From\+File}}
+\index{load\+From\+File@{load\+From\+File}!Image@{Image}}
+\subsubsection[{\texorpdfstring{load\+From\+File()}{loadFromFile()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::load\+From\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a23899e8362a6755cc51f46fd490881ba}{}\label{classImage_a23899e8362a6755cc51f46fd490881ba}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000004}{Todo}]Implement \end{DoxyRefDesc}
+\index{Image@{Image}!read\+From\+File@{read\+From\+File}}
+\index{read\+From\+File@{read\+From\+File}!Image@{Image}}
+\subsubsection[{\texorpdfstring{read\+From\+File(std\+::string f\+Name, Color\+Space cs=\+B\+G\+R)}{readFromFile(std::string fName, ColorSpace cs=BGR)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::read\+From\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{f\+Name, }
+\item[{Color\+Space}]{cs = {\ttfamily BGR}}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_ac0cc82352caee90c6faa9401663e16fd}{}\label{classImage_ac0cc82352caee90c6faa9401663e16fd}
+
+
+Load an image from a file on disk. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Name} & std\+::string specifying the filename \\
+\hline
+{\em cs} & the colorspace you wish to initialize \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{Image@{Image}!read\+From\+File@{read\+From\+File}}
+\index{read\+From\+File@{read\+From\+File}!Image@{Image}}
+\subsubsection[{\texorpdfstring{read\+From\+File(boost\+::filesystem\+::path file\+Path, Color\+Space cs=\+B\+G\+R)}{readFromFile(boost::filesystem::path filePath, ColorSpace cs=BGR)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::read\+From\+File (
+\begin{DoxyParamCaption}
+\item[{boost\+::filesystem\+::path}]{file\+Path, }
+\item[{Color\+Space}]{cs = {\ttfamily BGR}}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_aa2f3974b50f53aecfca04077b5ccadf6}{}\label{classImage_aa2f3974b50f53aecfca04077b5ccadf6}
+
+
+Load an image from a file on disk. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & the filepath in the form of a boost\+::filesystem\+::path \\
+\hline
+{\em cs} & the Color\+Space you wish to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{Image@{Image}!save@{save}}
+\index{save@{save}!Image@{Image}}
+\subsubsection[{\texorpdfstring{save()}{save()}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a643d9f46961e8372b6a573246aad66d1}{}\label{classImage_a643d9f46961e8372b6a573246aad66d1}
+
+
+save an image to the save path set by Image\+::set\+Save\+Path 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000005}{Todo}]respond load Switch mode \end{DoxyRefDesc}
+\index{Image@{Image}!save\+To\+DB@{save\+To\+DB}}
+\index{save\+To\+DB@{save\+To\+DB}!Image@{Image}}
+\subsubsection[{\texorpdfstring{save\+To\+D\+B()}{saveToDB()}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::save\+To\+DB (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a8d3bca1c0c20e4a8740b883f3f61bd87}{}\label{classImage_a8d3bca1c0c20e4a8740b883f3f61bd87}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000006}{Todo}]Implement \end{DoxyRefDesc}
+\index{Image@{Image}!save\+To\+File@{save\+To\+File}}
+\index{save\+To\+File@{save\+To\+File}!Image@{Image}}
+\subsubsection[{\texorpdfstring{save\+To\+File()}{saveToFile()}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::save\+To\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a94e5fcd0ba589d8187393d230d15b83d}{}\label{classImage_a94e5fcd0ba589d8187393d230d15b83d}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000007}{Todo}]Implement \end{DoxyRefDesc}
+\index{Image@{Image}!set\+Bitmap@{set\+Bitmap}}
+\index{set\+Bitmap@{set\+Bitmap}!Image@{Image}}
+\subsubsection[{\texorpdfstring{set\+Bitmap(cv\+::\+Mat bmp)}{setBitmap(cv::Mat bmp)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Image\+::set\+Bitmap (
+\begin{DoxyParamCaption}
+\item[{cv\+::\+Mat}]{bmp}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a87e5728d527b4e28f8696a4f266f07e7}{}\label{classImage_a87e5728d527b4e28f8696a4f266f07e7}
+
+
+Set the bitmap of the \hyperlink{classImage}{Image}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cv\+::\+Mat} & that that you want to set as your bitmap \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{Image@{Image}!unload@{unload}}
+\index{unload@{unload}!Image@{Image}}
+\subsubsection[{\texorpdfstring{unload()}{unload()}}]{\setlength{\rightskip}{0pt plus 5cm}void Image\+::unload (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classImage_a4197ac415ed55494d21d9fae506ee806}{}\label{classImage_a4197ac415ed55494d21d9fae506ee806}
+
+
+Removes an image from R\+AM and stores (caches) it to the \+\_\+save\+Path. 
+
+\begin{DoxyNote}{Note}
+N\+O\+TE\+: this function will not save if the image is read only! 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/image.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/image.\+cpp\end{DoxyCompactItemize}

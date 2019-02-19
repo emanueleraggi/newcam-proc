@@ -1,0 +1,3 @@
+#!/bin/sh
+export CLASSPATH=$CLASSPATH:/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/lcmtypes_libcamlcm.jar
+exec /usr/local/bin/lcm-spy $*

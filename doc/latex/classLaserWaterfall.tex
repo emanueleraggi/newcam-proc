@@ -1,0 +1,110 @@
+\hypertarget{classLaserWaterfall}{}\section{Laser\+Waterfall$<$ T $>$ Class Template Reference}
+\label{classLaserWaterfall}\index{Laser\+Waterfall$<$ T $>$@{Laser\+Waterfall$<$ T $>$}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ T $>$ $>$ in\+List)\hypertarget{classLaserWaterfall_aa47637b350f6a84efc213d2fb3af69f3}{}\label{classLaserWaterfall_aa47637b350f6a84efc213d2fb3af69f3}
+
+\item 
+void {\bfseries set\+Image\+Dir} (boost\+::filesystem\+::path p)\hypertarget{classLaserWaterfall_ab7ac5a97ae90d6a007c6d7be0a2bae42}{}\label{classLaserWaterfall_ab7ac5a97ae90d6a007c6d7be0a2bae42}
+
+\item 
+void {\bfseries add\+Image\+From\+File} (std\+::string file)\hypertarget{classLaserWaterfall_a5a1223d30238b0f857d437c6871753cb}{}\label{classLaserWaterfall_a5a1223d30238b0f857d437c6871753cb}
+
+\item 
+void {\bfseries set\+Laser\+Cal} (\hyperlink{classLaserCal}{Laser\+Cal} cal)\hypertarget{classLaserWaterfall_a5c51b2f9776c279784dd8cd04d3770e7}{}\label{classLaserWaterfall_a5c51b2f9776c279784dd8cd04d3770e7}
+
+\item 
+void {\bfseries set\+Camera\+Cal} (\hyperlink{classCameraCal}{Camera\+Cal} cal)\hypertarget{classLaserWaterfall_ac9aa185cf2259b265ffa6679ebf22118}{}\label{classLaserWaterfall_ac9aa185cf2259b265ffa6679ebf22118}
+
+\item 
+void {\bfseries set\+Laser\+Cal} (std\+::shared\+\_\+ptr$<$ \hyperlink{classLaserCal}{Laser\+Cal} $>$ cal)\hypertarget{classLaserWaterfall_a8293a170e6f2b9ffe3320802b9d67449}{}\label{classLaserWaterfall_a8293a170e6f2b9ffe3320802b9d67449}
+
+\item 
+void {\bfseries set\+Camera\+Cal} (std\+::shared\+\_\+ptr$<$ \hyperlink{classCameraCal}{Camera\+Cal} $>$ cal)\hypertarget{classLaserWaterfall_acd0c34bb7f8d6962c3c97f782536acbc}{}\label{classLaserWaterfall_acd0c34bb7f8d6962c3c97f782536acbc}
+
+\item 
+void {\bfseries load\+Laser\+Cal} (std\+::string filename)\hypertarget{classLaserWaterfall_ab151837565a5fdd04c85b460cd38a3a4}{}\label{classLaserWaterfall_ab151837565a5fdd04c85b460cd38a3a4}
+
+\item 
+void {\bfseries load\+Camera\+Cal} (std\+::string filename)\hypertarget{classLaserWaterfall_af4d12184d7c827a6dc7b632742be6b36}{}\label{classLaserWaterfall_af4d12184d7c827a6dc7b632742be6b36}
+
+\item 
+\hyperlink{classCameraCal}{Camera\+Cal} {\bfseries get\+Camera\+Cal} ()\hypertarget{classLaserWaterfall_aeefda605acb879bd3081ecb73942e171}{}\label{classLaserWaterfall_aeefda605acb879bd3081ecb73942e171}
+
+\item 
+\hyperlink{classLaserCal}{Laser\+Cal} {\bfseries get\+Laser\+Cal} ()\hypertarget{classLaserWaterfall_a0208156ed7159acb5f1532b0cab7daab}{}\label{classLaserWaterfall_a0208156ed7159acb5f1532b0cab7daab}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ T $>$ $>$ {\bfseries get\+Image\+List} ()\hypertarget{classLaserWaterfall_a3eec9a9b1d8db536696251ce937c01f0}{}\label{classLaserWaterfall_a3eec9a9b1d8db536696251ce937c01f0}
+
+\item 
+bool {\bfseries next\+Image} ()\hypertarget{classLaserWaterfall_ac11ac0811c2d8ac1c31d8fc575892756}{}\label{classLaserWaterfall_ac11ac0811c2d8ac1c31d8fc575892756}
+
+\item 
+void {\bfseries process\+Image} (unsigned int i)\hypertarget{classLaserWaterfall_a58920dba080341d697a825977603f597}{}\label{classLaserWaterfall_a58920dba080341d697a825977603f597}
+
+\item 
+bool \hyperlink{classLaserWaterfall_a5a51ba6a7277355d1f30d5d9ba321619}{next\+Thread\+Batch} ()
+\item 
+T {\bfseries current\+Image} ()\hypertarget{classLaserWaterfall_af4888167b7f3b1506f8d94a4f7b3bd19}{}\label{classLaserWaterfall_af4888167b7f3b1506f8d94a4f7b3bd19}
+
+\item 
+T \& {\bfseries get\+Image} (unsigned int i)\hypertarget{classLaserWaterfall_ab715d101c696649254e9fc0e5d35a9f0}{}\label{classLaserWaterfall_ab715d101c696649254e9fc0e5d35a9f0}
+
+\item 
+unsigned int {\bfseries get\+Thread\+Count} ()\hypertarget{classLaserWaterfall_aeb49cf721c7e9752ec8107ae6d1108b7}{}\label{classLaserWaterfall_aeb49cf721c7e9752ec8107ae6d1108b7}
+
+\item 
+void {\bfseries begin\+Waterfall} ()\hypertarget{classLaserWaterfall_a9062f904f8921e80d93c4d5d97a7184a}{}\label{classLaserWaterfall_a9062f904f8921e80d93c4d5d97a7184a}
+
+\item 
+void {\bfseries set\+Buffer\+Size} (unsigned int size)\hypertarget{classLaserWaterfall_a3ad83037775dd720c6c1316158e89b9a}{}\label{classLaserWaterfall_a3ad83037775dd720c6c1316158e89b9a}
+
+\item 
+unsigned int {\bfseries get\+Buffer\+Size} ()\hypertarget{classLaserWaterfall_a335ab2cd8359df8d8b2b657630d932d1}{}\label{classLaserWaterfall_a335ab2cd8359df8d8b2b657630d932d1}
+
+\item 
+unsigned int {\bfseries get\+End\+Of\+Queue} ()\hypertarget{classLaserWaterfall_aace8c130f4040a5351d8b152d2304796}{}\label{classLaserWaterfall_aace8c130f4040a5351d8b152d2304796}
+
+\item 
+void {\bfseries set\+Thread\+Count} (unsigned int count)\hypertarget{classLaserWaterfall_a42972869b31a7b5be75ad5ba6605bfc9}{}\label{classLaserWaterfall_a42972869b31a7b5be75ad5ba6605bfc9}
+
+\item 
+size\+\_\+t {\bfseries size} ()\hypertarget{classLaserWaterfall_ac41048d9e49c7711503eaa34acfbc09b}{}\label{classLaserWaterfall_ac41048d9e49c7711503eaa34acfbc09b}
+
+\item 
+void {\bfseries set\+Threshold\+Limit} (float limit)\hypertarget{classLaserWaterfall_a083228a85fe6923305469b40a45bc787}{}\label{classLaserWaterfall_a083228a85fe6923305469b40a45bc787}
+
+\item 
+void {\bfseries open\+F\+Stream} (std\+::string fname)\hypertarget{classLaserWaterfall_ad6046775676d85d1b45c5ba29610c1e6}{}\label{classLaserWaterfall_ad6046775676d85d1b45c5ba29610c1e6}
+
+\item 
+void {\bfseries close\+F\+Stream} ()\hypertarget{classLaserWaterfall_a36d4e347cbf9f8b383eb02aa1ece9d85}{}\label{classLaserWaterfall_a36d4e347cbf9f8b383eb02aa1ece9d85}
+
+\item 
+bool {\bfseries outfile\+Set} ()\hypertarget{classLaserWaterfall_a6a7cd3ffd99813242d89b38de9020417}{}\label{classLaserWaterfall_a6a7cd3ffd99813242d89b38de9020417}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long {\bfseries last\+Processed\+Image}\hypertarget{classLaserWaterfall_a0ee5520a12c33277a1d7bd47225c013c}{}\label{classLaserWaterfall_a0ee5520a12c33277a1d7bd47225c013c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Laser\+Waterfall@{Laser\+Waterfall}!next\+Thread\+Batch@{next\+Thread\+Batch}}
+\index{next\+Thread\+Batch@{next\+Thread\+Batch}!Laser\+Waterfall@{Laser\+Waterfall}}
+\subsubsection[{\texorpdfstring{next\+Thread\+Batch()}{nextThreadBatch()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ bool {\bf Laser\+Waterfall}$<$ T $>$\+::next\+Thread\+Batch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classLaserWaterfall_a5a51ba6a7277355d1f30d5d9ba321619}{}\label{classLaserWaterfall_a5a51ba6a7277355d1f30d5d9ba321619}
+clear out laser data that is beyond queue 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserwaterfall.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserwaterfall.\+hpp\end{DoxyCompactItemize}

@@ -1,0 +1,86 @@
+\hypertarget{classBoardLocator}{}\section{Board\+Locator Class Reference}
+\label{classBoardLocator}\index{Board\+Locator@{Board\+Locator}}
+
+
+Inheritance diagram for Board\+Locator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=168pt]{classBoardLocator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Board\+Locator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classBoardLocator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Output\+Dir} (boost\+::filesystem\+::path dir)\hypertarget{classBoardLocator_afec0b2b2ed20d6d88df974cb70dd9068}{}\label{classBoardLocator_afec0b2b2ed20d6d88df974cb70dd9068}
+
+\item 
+void {\bfseries save} ()\hypertarget{classBoardLocator_aa2aa939df52f013a6b1536349cad40c6}{}\label{classBoardLocator_aa2aa939df52f013a6b1536349cad40c6}
+
+\item 
+void {\bfseries set\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ in\+List, std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ out\+List)\hypertarget{classBoardLocator_ab2c61c79c92766cb63b2c88709f9ddb9}{}\label{classBoardLocator_ab2c61c79c92766cb63b2c88709f9ddb9}
+
+\item 
+void {\bfseries set\+Camera\+Cal} (\hyperlink{classCameraCal}{Camera\+Cal} cal)\hypertarget{classBoardLocator_a2711154066601fa30ea260b5f063ea34}{}\label{classBoardLocator_a2711154066601fa30ea260b5f063ea34}
+
+\item 
+void {\bfseries setup\+Board} (int num\+Horizontal, int num\+Vertical, float cell\+Dim)\hypertarget{classBoardLocator_aed856a6d3da376ef415f06fa58436be0}{}\label{classBoardLocator_aed856a6d3da376ef415f06fa58436be0}
+
+\item 
+void {\bfseries set\+Min\+Board} (int row, int col)\hypertarget{classBoardLocator_a975c6ea16a45ecbe1db48494beeb1f38}{}\label{classBoardLocator_a975c6ea16a45ecbe1db48494beeb1f38}
+
+\item 
+\hyperlink{classautoSizeBoard}{auto\+Size\+Board} \& {\bfseries get\+Board} (unsigned int i)\hypertarget{classBoardLocator_af5516dabace68531b4723e807916f630}{}\label{classBoardLocator_af5516dabace68531b4723e807916f630}
+
+\item 
+void {\bfseries find\+Board} (unsigned int i)\hypertarget{classBoardLocator_a90d2b37d862f255be0d8de4a8eb68764}{}\label{classBoardLocator_a90d2b37d862f255be0d8de4a8eb68764}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries run\+Operations} ()\hypertarget{classBoardLocator_a08ec97bb3b5a5228c8e9090d525c2816}{}\label{classBoardLocator_a08ec97bb3b5a5228c8e9090d525c2816}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boost\+::filesystem\+::path {\bfseries \+\_\+save\+Path}\hypertarget{classBoardLocator_a80885202ff22cfc4fee337d29c61047b}{}\label{classBoardLocator_a80885202ff22cfc4fee337d29c61047b}
+
+\item 
+std\+::vector$<$ \hyperlink{classautoSizeBoard}{auto\+Size\+Board} $>$ {\bfseries \+\_\+boards}\hypertarget{classBoardLocator_a486f5e1573f84e3c8af5169855e4909c}{}\label{classBoardLocator_a486f5e1573f84e3c8af5169855e4909c}
+
+\item 
+\hyperlink{classCameraCal}{Camera\+Cal} {\bfseries \+\_\+cal}\hypertarget{classBoardLocator_a608463a44ef3dd90634277115203bd61}{}\label{classBoardLocator_a608463a44ef3dd90634277115203bd61}
+
+\item 
+int {\bfseries \+\_\+num\+Horizontal}\hypertarget{classBoardLocator_a5fe2fc7e06c6774bf195ab0a05282dac}{}\label{classBoardLocator_a5fe2fc7e06c6774bf195ab0a05282dac}
+
+\item 
+int {\bfseries \+\_\+num\+Vertical}\hypertarget{classBoardLocator_a80b5c8ff6a8f3b7aea19ef3545fa487c}{}\label{classBoardLocator_a80b5c8ff6a8f3b7aea19ef3545fa487c}
+
+\item 
+float {\bfseries \+\_\+cell\+Dim}\hypertarget{classBoardLocator_a79404e4c68c077a5eac599fb7e7c2c90}{}\label{classBoardLocator_a79404e4c68c077a5eac599fb7e7c2c90}
+
+\item 
+int {\bfseries \+\_\+row}\hypertarget{classBoardLocator_a4d3182d946b8b3baa1f9662e82a50190}{}\label{classBoardLocator_a4d3182d946b8b3baa1f9662e82a50190}
+
+\item 
+int {\bfseries \+\_\+col}\hypertarget{classBoardLocator_aaf12e063957845af1561ca008f92de4e}{}\label{classBoardLocator_aaf12e063957845af1561ca008f92de4e}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/boardlocator.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/boardlocator.\+cpp\end{DoxyCompactItemize}

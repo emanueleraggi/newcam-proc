@@ -1,0 +1,113 @@
+\hypertarget{classStereoCal}{}\section{Stereo\+Cal Class Reference}
+\label{classStereoCal}\index{Stereo\+Cal@{Stereo\+Cal}}
+
+
+Inheritance diagram for Stereo\+Cal\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classStereoCal__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Stereo\+Cal\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classStereoCal__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classStereoCal_a88808ab1dcc56daa4838bee7b4d1eadb}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+void \hyperlink{classStereoCal_ac31d3a00ccfb336f0755a12053609710}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries reprojection\+Error}\hypertarget{classStereoCal_a85aebb318142fa919f0d4f9e3d0eb573}{}\label{classStereoCal_a85aebb318142fa919f0d4f9e3d0eb573}
+
+\item 
+cv\+::\+Mat {\bfseries camera\+MatrixA}\hypertarget{classStereoCal_a6b3f31ee923df2aa4db3edf0b16c2abb}{}\label{classStereoCal_a6b3f31ee923df2aa4db3edf0b16c2abb}
+
+\item 
+cv\+::\+Mat {\bfseries camera\+MatrixB}\hypertarget{classStereoCal_af615493765ddf531152351478bda22e9}{}\label{classStereoCal_af615493765ddf531152351478bda22e9}
+
+\item 
+cv\+::\+Mat {\bfseries distortion\+CoeffA}\hypertarget{classStereoCal_a833dc88d30a025e44cb560de29f05816}{}\label{classStereoCal_a833dc88d30a025e44cb560de29f05816}
+
+\item 
+cv\+::\+Mat {\bfseries distortion\+CoeffB}\hypertarget{classStereoCal_a501c693df5f84d9d19577ac0adbabbf1}{}\label{classStereoCal_a501c693df5f84d9d19577ac0adbabbf1}
+
+\item 
+cv\+::\+Mat {\bfseries rotation}\hypertarget{classStereoCal_a7beed9f0fb6cc3cc597ca7d37c5ed713}{}\label{classStereoCal_a7beed9f0fb6cc3cc597ca7d37c5ed713}
+
+\item 
+cv\+::\+Mat {\bfseries translation}\hypertarget{classStereoCal_a34118e7ac1b2bbd4ee1bb1ff09a61440}{}\label{classStereoCal_a34118e7ac1b2bbd4ee1bb1ff09a61440}
+
+\item 
+cv\+::\+Mat {\bfseries essential}\hypertarget{classStereoCal_a29a19767e991bf81d531107c5263efd2}{}\label{classStereoCal_a29a19767e991bf81d531107c5263efd2}
+
+\item 
+cv\+::\+Mat {\bfseries fundamental}\hypertarget{classStereoCal_ae0a265612be88dfc178e7e41b7a9ec77}{}\label{classStereoCal_ae0a265612be88dfc178e7e41b7a9ec77}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\index{Stereo\+Cal@{Stereo\+Cal}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Stereo\+Cal@{Stereo\+Cal}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Stereo\+Cal\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classStereoCal_a88808ab1dcc56daa4838bee7b4d1eadb}{}\label{classStereoCal_a88808ab1dcc56daa4838bee7b4d1eadb}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{Abstract\+Data}.
+
+\index{Stereo\+Cal@{Stereo\+Cal}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Stereo\+Cal@{Stereo\+Cal}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Stereo\+Cal\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classStereoCal_ac31d3a00ccfb336f0755a12053609710}{}\label{classStereoCal_ac31d3a00ccfb336f0755a12053609710}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{Abstract\+Data}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/stereocal.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/stereocal.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,65 @@
+\hypertarget{classImageProcessor}{}\section{Image\+Processor Class Reference}
+\label{classImageProcessor}\index{Image\+Processor@{Image\+Processor}}
+
+
+Inheritance diagram for Image\+Processor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageProcessor__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ in\+List)\hypertarget{classImageProcessor_a1942aba3eae508a9c7301e592274514c}{}\label{classImageProcessor_a1942aba3eae508a9c7301e592274514c}
+
+\item 
+virtual void {\bfseries set\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ in\+List, std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ out\+List)\hypertarget{classImageProcessor_a5feb19d8e2f9a7fa2abb4c822e996b24}{}\label{classImageProcessor_a5feb19d8e2f9a7fa2abb4c822e996b24}
+
+\item 
+\hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ \& {\bfseries out\+List} ()\hypertarget{classImageProcessor_a4a14ddc4205547c86b8dead7b5f59a73}{}\label{classImageProcessor_a4a14ddc4205547c86b8dead7b5f59a73}
+
+\item 
+\hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ \& {\bfseries in\+List} ()\hypertarget{classImageProcessor_ac69924b36456820bc0c1ab396ded7c4e}{}\label{classImageProcessor_ac69924b36456820bc0c1ab396ded7c4e}
+
+\item 
+int {\bfseries get\+Run\+Progress} ()\hypertarget{classImageProcessor_a72fe69335c081b23b5d2f81df9275f5a}{}\label{classImageProcessor_a72fe69335c081b23b5d2f81df9275f5a}
+
+\item 
+virtual void {\bfseries set\+Output\+Dir} (boost\+::filesystem\+::path dir)\hypertarget{classImageProcessor_a1113f7c6ce91bef9611128b86449eaed}{}\label{classImageProcessor_a1113f7c6ce91bef9611128b86449eaed}
+
+\item 
+virtual void {\bfseries save} ()\hypertarget{classImageProcessor_a3bc034cb23d44256d020a189b55a5f9f}{}\label{classImageProcessor_a3bc034cb23d44256d020a189b55a5f9f}
+
+\item 
+void {\bfseries run} ()\hypertarget{classImageProcessor_a2f7b0040d90bda19ae2f0393fbe59abd}{}\label{classImageProcessor_a2f7b0040d90bda19ae2f0393fbe59abd}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries run\+Operations} ()\hypertarget{classImageProcessor_a941a4522d877b3f8f5e60decc8b2aabc}{}\label{classImageProcessor_a941a4522d877b3f8f5e60decc8b2aabc}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::atomic$<$ int $>$ {\bfseries \+\_\+run\+Progress}\hypertarget{classImageProcessor_af0a4507f08cb0d46059f0f27210189b6}{}\label{classImageProcessor_af0a4507f08cb0d46059f0f27210189b6}
+
+\item 
+boost\+::filesystem\+::path {\bfseries \+\_\+output\+Dir}\hypertarget{classImageProcessor_a86cd22b7774c324d198866412a711c91}{}\label{classImageProcessor_a86cd22b7774c324d198866412a711c91}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ {\bfseries \+\_\+in\+List}\hypertarget{classImageProcessor_a2dfb4670e08306f65988776cac511e2b}{}\label{classImageProcessor_a2dfb4670e08306f65988776cac511e2b}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ {\bfseries \+\_\+out\+List}\hypertarget{classImageProcessor_a31872eb7998b43058f4c678ba24d1d31}{}\label{classImageProcessor_a31872eb7998b43058f4c678ba24d1d31}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/imageprocessor.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/imageprocessor.\+cpp\end{DoxyCompactItemize}

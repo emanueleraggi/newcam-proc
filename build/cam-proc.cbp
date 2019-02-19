@@ -1,0 +1,2542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="cam-proc" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\ERDatabaseSystem\;CMake Files\src\libCam\;CMake Files\src\colorCorrector\;CMake Files\src\example\;CMake Files\src\detector\;CMake Files\src\libcamlcm\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\build\;CMake Files\build\src\;CMake Files\build\src\libcamlcm\;CMake Files\build\src\libcamlcm\lcmtypes\;CMake Files\build\src\libcamlcm\lcmtypes\c\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libCam">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/liblibCam.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libCam" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libCam" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 libCam" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libCam/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/liblibCam.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libCam" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libCam" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 libCam/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libCam_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libCam" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 libCam_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libCam/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector_lib">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libcolorCorrector_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector_lib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector_lib/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libcolorCorrector_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector_lib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/colorCorrector" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/colorCorrector" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/colorCorrector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector_lib_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector_lib_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="colorCorrector_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/colorCorrector" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 colorCorrector_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/colorCorrector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/example" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/example" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/example" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 example" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/example" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/example" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/example" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 example/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem_lib">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libERDatabaseSystem_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem_lib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem_lib/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libERDatabaseSystem_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem_lib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/ERDatabaseSystem" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/ERDatabaseSystem" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem_lib_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem_lib_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ERDatabaseSystem_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 ERDatabaseSystem_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/ERDatabaseSystem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector_lib">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libdetector_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/detector" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector_lib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector_lib/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/libdetector_lib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/detector" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector/src" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector/ui" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector_lib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/detector" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/bin/detector" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XMLPATTERNS_LIB" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/detector" />
+            <Add directory="/home/labrat/Desktop/cam-proc/src/libCam" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector_lib_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/detector" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector_lib_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="detector_automoc">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/detector" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 detector_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/detector/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmgen_c">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmgen_c" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmgen_python">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmgen_python" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libcamlcm">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/liblibcamlcm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/cpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 libcamlcm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libcamlcm/fast">
+         <Option output="/home/labrat/Desktop/cam-proc/build/lib/liblibcamlcm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c" />
+            <Add directory="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/cpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 libcamlcm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmgen_python_package">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmgen_python_package" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmtypes_libcamlcm_jar">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmtypes_libcamlcm_jar" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmgen_cpp">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmgen_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lcmgen_java">
+         <Option working_dir="/home/labrat/Desktop/cam-proc/build/src/libcamlcm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 lcmgen_java" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/labrat/Desktop/cam-proc/build/src/libcamlcm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_attribute_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_attribute_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_camera_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_camera_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_fired_report_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_fired_report_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_herc_acq_status_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_herc_acq_status_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_state_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_state_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_switch_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_switch_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_image_info_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_image_info_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_command_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_command_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_config_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_config_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_trigger_state_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_trigger_state_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_attribute_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_attribute_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_t.c">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_t.h">
+         <Option target="libcamlcm"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/main/main.cpp">
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/buttoncolumndelegate.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/buttoncolumndelegate.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/database.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/database.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/databaseroi.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/databaseroi.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/databasesearch.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/databasesearch.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/define.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/ertreewidget.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/ertreewidget.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/finddialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/finddialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/findform.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/findform.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/findreplace_global.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/insertvaluesxmlexcelcsv.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/insertvaluesxmlexcelcsv.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/item.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/item.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/itemroi.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/itemroi.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/itemsearch.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/itemsearch.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/settings.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/settings.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/treewidget.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/src/treewidget.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/adddialogxmlexcelcsv.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/adddialogxmlexcelcsv.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/adddialogxmlexcelcsv.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/additemfirstnestedtabledialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/additemfirstnestedtabledialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/additemfirstnestedtabledialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/addroidialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/addroidialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/addroidialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/edittabledialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/edittabledialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/edittabledialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/erpreferencesdialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/erpreferencesdialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/erpreferencesdialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplacedialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplacedialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplacedialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplaceform.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplaceform.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/findreplaceform.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firstnestedtable.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firstnestedtable.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firstnestedtable.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firsttablexmlexcelcsv.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firsttablexmlexcelcsv.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/firsttablexmlexcelcsv.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/mainwindow.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/mainwindow.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/mainwindow.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/newtabledialog.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/newtabledialog.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/newtabledialog.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/qrc/res.qrc">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/roi.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/roi.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/roi.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/searchtable.cpp">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/searchtable.h">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/ui/searchtable.ui">
+         <Option target="ERDatabaseSystem_lib"/>
+         <Option target="ERDatabaseSystem"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/main/main.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/adaptivelightfield.cpp">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/adaptivelightfield.h">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/histequalizer.cpp">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/histequalizer.h">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/lightfield.cpp">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/lightfield.h">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/lightfieldcorrector.cpp">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/lightfieldcorrector.h">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/rgbhsvstretch.cpp">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/src/rgbhsvstretch.h">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/adaptivelightfieldwidget.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/adaptivelightfieldwidget.h">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/adaptivelightfieldwidget.ui">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/histeqwidget.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/histeqwidget.h">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/histeqwidget.ui">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/lightfieldwidget.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/lightfieldwidget.h">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/lightfieldwidget.ui">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/mainwindow.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/mainwindow.h">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/mainwindow.ui">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/qdarkstyle/style.qrc">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/rgbhsvwidget.cpp">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/rgbhsvwidget.h">
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/ui/rgbhsvwidget.ui">
+         <Option target="colorCorrector_lib"/>
+         <Option target="colorCorrector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/main/main.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/coordinatedelegate.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/coordinatedelegate.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataleftcamera.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataleftcamera.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataregion.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataregion.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataregionprimarysub.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/dataregionprimarysub.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/datarightcamera.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/datarightcamera.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/defines.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/graphicsviewbothdrag.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/graphicsviewbothdrag.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/imagedelegate.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/imagedelegate.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/leftcamparameters.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/leftcamparameters.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/mgraphicsview.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/mgraphicsview.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/qcustomplot.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/qcustomplot.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/rightcamparameters.cpp">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/src/rightcamparameters.h">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/clipscene.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/clipscene.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/clipscene.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/connectionmenu.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/connectionmenu.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/connectionmenu.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editlefttabledialog.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editlefttabledialog.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editlefttabledialog.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editrighttabledialog.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editrighttabledialog.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/editrighttabledialog.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/graphdialog.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/graphdialog.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/graphdialog.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/mainwindow.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/mainwindow.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/mainwindow.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/res/res.qrc">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/windowingdialog.cpp">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/windowingdialog.h">
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/ui/windowingdialog.ui">
+         <Option target="detector_lib"/>
+         <Option target="detector"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/example/main.cpp">
+         <Option target="example"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/abstractdata.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/abstractdata.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/cameracal.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/cameracal.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/colorcorrector.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/colorcorrector.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/featureops.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/featureops.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/image.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/image.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imagelist.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imagelist.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imagelist.hpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imageprocessor.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imageprocessor.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imagingwindow.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/imagingwindow.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/processor.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/processor.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/prosilicaDrvTags.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/regions.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereocal.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereocal.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereoimage.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereoimage.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereolist.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereolist.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereoprocessor.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereoprocessor.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/include/stereostruct.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/abstracttoolbar.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/abstracttoolbar.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/connectionbrowser.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/connectionbrowser.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/connectionmenu.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/connectionmenu.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/connectionmenu.ui">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagelabel.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagelabel.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagelistwidget.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagelistwidget.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagemanager.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagemanager.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/imagemanager.ui">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/qdarkstyle/style.qrc">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereolistwidget.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereolistwidget.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereolistwidget.ui">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereomanager.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereomanager.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereomanager.ui">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereotoolbar.cpp">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/qtinclude/stereotoolbar.h">
+         <Option target="libCam"/>
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ERDatabaseSystem\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/ERDatabaseSystem/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ERDatabaseSystem\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libCam\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libCam/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libCam\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\colorCorrector\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/colorCorrector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\colorCorrector\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\detector\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/detector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\detector\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libcamlcm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libcamlcm\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/src/libcamlcm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libcamlcm\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5XmlPatterns/Qt5XmlPatternsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5XmlPatterns\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/cmake/Modules/FindLCM.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/cmake/Modules/lcmtypes.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/cmake/Modules/FindLCM.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/cmake/Modules/lcmtypes.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_herc_acq_status_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_trigger_state_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_fired_report_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_attribute_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_state_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_config_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_image_info_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_attribute_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_camera_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_switch_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_command_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/libcamlcm.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_herc_acq_status_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_trigger_state_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_fired_report_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_attribute_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_state_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_config_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/senlcm_prosilica_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_image_info_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_attribute_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_camera_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_hercbottle_switch_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/herc_acq_timing_command_t.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+      <Unit filename="/home/labrat/Desktop/cam-proc/build/src/libcamlcm/lcmtypes/c/libcamlcm.h">
+          <Option virtualFolder="CMake Files\build\src\libcamlcm\lcmtypes\c\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

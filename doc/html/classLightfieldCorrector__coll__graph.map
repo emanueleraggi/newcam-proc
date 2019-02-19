@@ -1,0 +1,4 @@
+<map id="LightfieldCorrector" name="LightfieldCorrector">
+<area shape="rect" id="node2" href="$classColorCorrector.html" title="ColorCorrector" alt="" coords="16,80,123,107"/>
+<area shape="rect" id="node3" href="$classImageProcessor.html" title="ImageProcessor" alt="" coords="11,5,128,32"/>
+</map>

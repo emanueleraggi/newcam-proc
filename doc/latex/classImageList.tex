@@ -1,0 +1,119 @@
+\hypertarget{classImageList}{}\section{Image\+List$<$ T $>$ Class Template Reference}
+\label{classImageList}\index{Image\+List$<$ T $>$@{Image\+List$<$ T $>$}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List} $>$ {\bfseries Ptr}\hypertarget{classImageList_a569597bdb53c7c387f93043494f981b5}{}\label{classImageList_a569597bdb53c7c387f93043494f981b5}
+
+\item 
+typedef std\+::shared\+\_\+ptr$<$ const \hyperlink{classImageList}{Image\+List} $>$ {\bfseries Const\+Ptr}\hypertarget{classImageList_a700bb19db02b13cb4ccd12603b3b5ad8}{}\label{classImageList_a700bb19db02b13cb4ccd12603b3b5ad8}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Read\+Only} (bool x)\hypertarget{classImageList_a9abadb57460441240166901a0b8994cb}{}\label{classImageList_a9abadb57460441240166901a0b8994cb}
+
+\item 
+void {\bfseries set\+Name} (std\+::string name)\hypertarget{classImageList_a790da2148cf5c1a99a16c398d5cf32b5}{}\label{classImageList_a790da2148cf5c1a99a16c398d5cf32b5}
+
+\item 
+void {\bfseries set\+Save\+Dir} (boost\+::filesystem\+::path p)\hypertarget{classImageList_a52c145334f0090f48805dd2c4d09d2e5}{}\label{classImageList_a52c145334f0090f48805dd2c4d09d2e5}
+
+\item 
+bool {\bfseries add\+Image} (cv\+::\+Mat img)\hypertarget{classImageList_aab2a4a06d796c6351a7e3c6289825245}{}\label{classImageList_aab2a4a06d796c6351a7e3c6289825245}
+
+\item 
+bool {\bfseries add\+Image} (cv\+::\+Mat img, unsigned int index)\hypertarget{classImageList_a5a9a560ec68b0606924bee2c4b84733f}{}\label{classImageList_a5a9a560ec68b0606924bee2c4b84733f}
+
+\item 
+bool {\bfseries add\+Image\+From\+File} (std\+::string f\+Name, Color\+Space cs=B\+GR)\hypertarget{classImageList_ae8092361c5a3615e4a0a9e5707b47d59}{}\label{classImageList_ae8092361c5a3615e4a0a9e5707b47d59}
+
+\item 
+bool {\bfseries add\+Images\+From\+Dir} (boost\+::filesystem\+::path p, Color\+Space cs=B\+GR)\hypertarget{classImageList_a20c7df9d1e81e9161d012e16027a4913}{}\label{classImageList_a20c7df9d1e81e9161d012e16027a4913}
+
+\item 
+void {\bfseries load\+All} ()\hypertarget{classImageList_a1965a189a9e9376582b9756b0b9cb08d}{}\label{classImageList_a1965a189a9e9376582b9756b0b9cb08d}
+
+\item 
+size\+\_\+t {\bfseries size} () const \hypertarget{classImageList_ac155eb69034ed8650256296cce2b2e2d}{}\label{classImageList_ac155eb69034ed8650256296cce2b2e2d}
+
+\item 
+T \& {\bfseries get\+Image} (unsigned int index)\hypertarget{classImageList_ae54a4a122c16cfbb0f9de6d696844b91}{}\label{classImageList_ae54a4a122c16cfbb0f9de6d696844b91}
+
+\item 
+T \& {\bfseries get\+Image} ()\hypertarget{classImageList_abf66959c2cffacd6cff55f555b5a0551}{}\label{classImageList_abf66959c2cffacd6cff55f555b5a0551}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ T $>$ $>$ \hyperlink{classImageList_a9c64bdc0f3aaf5940318a06484ce026f}{get\+Sub\+List} (size\+\_\+t begin, size\+\_\+t end)
+\begin{DoxyCompactList}\small\item\em returns a sublist of images. The returned list will is a shalow copy of the origional so you will have access to the origional images in the sublist. \end{DoxyCompactList}\item 
+T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (unsigned int index)\hypertarget{classImageList_a5b0d566aade2b0af6bfcb82d5d82af4c}{}\label{classImageList_a5b0d566aade2b0af6bfcb82d5d82af4c}
+
+\item 
+unsigned int \& {\bfseries get\+Index} ()\hypertarget{classImageList_a9b9769c365a2ac5934c70d642b17eaac}{}\label{classImageList_a9b9769c365a2ac5934c70d642b17eaac}
+
+\item 
+void {\bfseries set\+Index} (unsigned int i)\hypertarget{classImageList_a0d9f0ce8e358968899bf15266e33cac7}{}\label{classImageList_a0d9f0ce8e358968899bf15266e33cac7}
+
+\item 
+bool {\bfseries next\+Image} ()\hypertarget{classImageList_a6a785b839c0440fcbd339402e2144a9c}{}\label{classImageList_a6a785b839c0440fcbd339402e2144a9c}
+
+\item 
+bool {\bfseries prev\+Image} ()\hypertarget{classImageList_af1005ad543dad08a543fc430b6edf183}{}\label{classImageList_af1005ad543dad08a543fc430b6edf183}
+
+\item 
+void {\bfseries resize} (size\+\_\+t size)\hypertarget{classImageList_a4b61745c57e406f90f1ca90dd06a015b}{}\label{classImageList_a4b61745c57e406f90f1ca90dd06a015b}
+
+\item 
+void {\bfseries save} (std\+::string dir)\hypertarget{classImageList_a86b8ee285adc50f1b4061a0744abbb69}{}\label{classImageList_a86b8ee285adc50f1b4061a0744abbb69}
+
+\item 
+void {\bfseries save} ()\hypertarget{classImageList_a91391438cd38f99bdb34d125da38ba84}{}\label{classImageList_a91391438cd38f99bdb34d125da38ba84}
+
+\item 
+void {\bfseries save\+Buffer} ()\hypertarget{classImageList_ac8b058585039d0ba98e2b40096064269}{}\label{classImageList_ac8b058585039d0ba98e2b40096064269}
+
+\item 
+void {\bfseries clear} ()\hypertarget{classImageList_ad8478a016fdb9dd68fde6dc8a3bd7ce3}{}\label{classImageList_ad8478a016fdb9dd68fde6dc8a3bd7ce3}
+
+\item 
+void {\bfseries push\+Back} (\hyperlink{classImage}{Image} img, std\+::string name=\char`\"{}untitled.\+tif\char`\"{})\hypertarget{classImageList_a44657c236acb5ada4ead2b5a73c6cbae}{}\label{classImageList_a44657c236acb5ada4ead2b5a73c6cbae}
+
+\item 
+void {\bfseries set\+Buffer\+Size} (size\+\_\+t size)\hypertarget{classImageList_aa0c79efb6e45be7074b25b69359807f6}{}\label{classImageList_aa0c79efb6e45be7074b25b69359807f6}
+
+\item 
+\hyperlink{classImageList}{Image\+List}$<$ T $>$ \& {\bfseries operator=} (const \hyperlink{classImageList}{Image\+List} \&other)\hypertarget{classImageList_a929bebd968dbe112223a1a963a407979}{}\label{classImageList_a929bebd968dbe112223a1a963a407979}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Image\+List@{Image\+List}!get\+Sub\+List@{get\+Sub\+List}}
+\index{get\+Sub\+List@{get\+Sub\+List}!Image\+List@{Image\+List}}
+\subsubsection[{\texorpdfstring{get\+Sub\+List(size\+\_\+t begin, size\+\_\+t end)}{getSubList(size_t begin, size_t end)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ std\+::shared\+\_\+ptr$<$ {\bf Image\+List}$<$ T $>$ $>$ {\bf Image\+List}$<$ T $>$\+::get\+Sub\+List (
+\begin{DoxyParamCaption}
+\item[{size\+\_\+t}]{begin, }
+\item[{size\+\_\+t}]{end}
+\end{DoxyParamCaption}
+)}\hypertarget{classImageList_a9c64bdc0f3aaf5940318a06484ce026f}{}\label{classImageList_a9c64bdc0f3aaf5940318a06484ce026f}
+
+
+returns a sublist of images. The returned list will is a shalow copy of the origional so you will have access to the origional images in the sublist. 
+
+This function is intended to be use where you want to work on a small section of a larger list. For example\+: trimming ends of an image survey or breaking into several lists for multithreading. 
+\begin{DoxyParams}{Parameters}
+{\em begin} & the fist image index you want to return \\
+\hline
+{\em end} & the index of the last image you want in your list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a sublist with refrences to the images in the origional list\mbox{[}\mbox{]};\textquotesingle{} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/imagelist.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/imagelist.\+hpp\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node3" href="$classImagingWindow.html" title="ImagingWindow" alt="" coords="120,171,235,197"/>
+<area shape="rect" id="node4" href="$classHistEqWidget.html" title="HistEqWidget" alt="" coords="259,171,362,197"/>
+<area shape="rect" id="node5" href="$classAbstractToolbar.html" title="AbstractToolbar" alt="" coords="145,81,260,108"/>
+<area shape="rect" id="node7" href="$classcalibrator2d.html" title="calibrator2d" alt="" coords="386,171,475,197"/>
+<area shape="rect" id="node8" href="$classimageList.html" title="imageList" alt="" coords="285,81,363,108"/>
+<area shape="rect" id="node9" href="$classautoSizeBoard.html" title="autoSizeBoard" alt="" coords="388,81,495,108"/>
+<area shape="rect" id="node10" href="$classHistEqualizer.html" title="HistEqualizer" alt="" coords="499,171,599,197"/>
+<area shape="rect" id="node11" href="$classColorCorrector.html" title="ColorCorrector" alt="" coords="519,81,625,108"/>
+<area shape="rect" id="node12" href="$classImageProcessor.html" title="ImageProcessor" alt="" coords="513,5,631,32"/>
+<area shape="rect" id="node13" href="$classImageList.html" title="ImageList\&lt; Image \&gt;" alt="" coords="624,171,763,197"/>
+</map>

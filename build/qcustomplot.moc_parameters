@@ -1,0 +1,6 @@
+-I/usr/local/include/opencv
+-I/usr/local/include
+-I/usr/include
+-o
+/home/labrat/Desktop/cam-proc/build/qcustomplot.moc
+/home/labrat/Desktop/cam-proc/src/GUIconceptStudy/src/qcustomplot.cpp

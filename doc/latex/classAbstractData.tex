@@ -1,0 +1,166 @@
+\hypertarget{classAbstractData}{}\section{Abstract\+Data Class Reference}
+\label{classAbstractData}\index{Abstract\+Data@{Abstract\+Data}}
+
+
+Inheritance diagram for Abstract\+Data\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAbstractData__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+virtual void \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\item 
+virtual Q\+String\+List \hyperlink{classAbstractData_af9276f9e783765db82c8a7150c0ec632}{read\+D\+B\+Tables} ()
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a database \end{DoxyCompactList}\item 
+virtual void \hyperlink{classAbstractData_a6eaaee3b3926d9044649249e7b665c66}{write\+DB} (std\+::string table)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data to a database \end{DoxyCompactList}\item 
+virtual std\+::string {\bfseries get\+D\+B\+Table\+Description} ()\hypertarget{classAbstractData_a09d6d5beb359c704c58d41d9710a167f}{}\label{classAbstractData_a09d6d5beb359c704c58d41d9710a167f}
+
+\item 
+virtual int \hyperlink{classAbstractData_a11dc7c98def9fb8b2c622d9af63cdd0e}{get\+Version} ()
+\begin{DoxyCompactList}\small\item\em the version number of the datatype so that you can preserve backwards compatibility. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classAbstractData_a8524756b3b36642ab007296da748b6db}{is\+Loaded} ()
+\begin{DoxyCompactList}\small\item\em a simple check to determine if the data is loaded \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classAbstractData_a9e0d49b44dafbbb9db044d3b53dc7be2}{data\+Type}\hypertarget{classAbstractData_a9e0d49b44dafbbb9db044d3b53dc7be2}{}\label{classAbstractData_a9e0d49b44dafbbb9db044d3b53dc7be2}
+
+\begin{DoxyCompactList}\small\item\em a brief description of what type of data this is. intended for use when reading human readble file formats like yaml, csv or xml. \end{DoxyCompactList}\item 
+int \hyperlink{classAbstractData_a39401138096e4825fa782a7436efb3c8}{version}\hypertarget{classAbstractData_a39401138096e4825fa782a7436efb3c8}{}\label{classAbstractData_a39401138096e4825fa782a7436efb3c8}
+
+\begin{DoxyCompactList}\small\item\em the version number see \hyperlink{classAbstractData_a11dc7c98def9fb8b2c622d9af63cdd0e}{Abstract\+Data\+::get\+Version()} \end{DoxyCompactList}\item 
+bool \hyperlink{classAbstractData_a9c66c08ff8a48be7e194d30754e96dc0}{loaded}\hypertarget{classAbstractData_a9c66c08ff8a48be7e194d30754e96dc0}{}\label{classAbstractData_a9c66c08ff8a48be7e194d30754e96dc0}
+
+\begin{DoxyCompactList}\small\item\em is the thing loaded see \hyperlink{classAbstractData_a8524756b3b36642ab007296da748b6db}{Abstract\+Data\+::is\+Loaded()} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Abstract\+Data@{Abstract\+Data}!get\+Version@{get\+Version}}
+\index{get\+Version@{get\+Version}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{get\+Version()}{getVersion()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Abstract\+Data\+::get\+Version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_a11dc7c98def9fb8b2c622d9af63cdd0e}{}\label{classAbstractData_a11dc7c98def9fb8b2c622d9af63cdd0e}
+
+
+the version number of the datatype so that you can preserve backwards compatibility. 
+
+\begin{DoxyReturn}{Returns}
+the version number as an integer 
+\end{DoxyReturn}
+\index{Abstract\+Data@{Abstract\+Data}!is\+Loaded@{is\+Loaded}}
+\index{is\+Loaded@{is\+Loaded}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{is\+Loaded()}{isLoaded()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Abstract\+Data\+::is\+Loaded (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_a8524756b3b36642ab007296da748b6db}{}\label{classAbstractData_a8524756b3b36642ab007296da748b6db}
+
+
+a simple check to determine if the data is loaded 
+
+\begin{DoxyReturn}{Returns}
+true if loaded otherwise false 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classImage_a7a3bf833c8e740d483f46eff90c90889}{Image}.
+
+\index{Abstract\+Data@{Abstract\+Data}!read\+D\+B\+Tables@{read\+D\+B\+Tables}}
+\index{read\+D\+B\+Tables@{read\+D\+B\+Tables}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{read\+D\+B\+Tables()}{readDBTables()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\+String\+List Abstract\+Data\+::read\+D\+B\+Tables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_af9276f9e783765db82c8a7150c0ec632}{}\label{classAbstractData_af9276f9e783765db82c8a7150c0ec632}
+
+
+abstract memeber to read data from a database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table} & the table you want to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+\index{Abstract\+Data@{Abstract\+Data}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Abstract\+Data\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{}\label{classAbstractData_ab43309236fd644fd303b4b1468a87d86}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented in \hyperlink{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{Camera\+Cal}, \hyperlink{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{Camera\+Cal}, \hyperlink{classLaserData_ae7d37ab61d0ee00538c33740ac0ad7ab}{Laser\+Data}, \hyperlink{classStereoCal_a88808ab1dcc56daa4838bee7b4d1eadb}{Stereo\+Cal}, \hyperlink{classLaserCal_a8b046415d554ab9a0612a5f55f5e92ce}{Laser\+Cal}, and \hyperlink{classBoardLocations_aaf84c2db5212ae94ddece86c333befb8}{Board\+Locations}.
+
+\index{Abstract\+Data@{Abstract\+Data}!write\+DB@{write\+DB}}
+\index{write\+DB@{write\+DB}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{write\+D\+B(std\+::string table)}{writeDB(std::string table)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Abstract\+Data\+::write\+DB (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_a6eaaee3b3926d9044649249e7b665c66}{}\label{classAbstractData_a6eaaee3b3926d9044649249e7b665c66}
+
+
+abstract memeber to write data to a database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table} & the table you want to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+\index{Abstract\+Data@{Abstract\+Data}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Abstract\+Data@{Abstract\+Data}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Abstract\+Data\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{}\label{classAbstractData_a338dce47a9901032fd7b908a1c6df514}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented in \hyperlink{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{Camera\+Cal}, \hyperlink{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{Camera\+Cal}, \hyperlink{classLaserData_abef00b09c8ee06285c0683198de5a9e3}{Laser\+Data}, \hyperlink{classStereoCal_ac31d3a00ccfb336f0755a12053609710}{Stereo\+Cal}, \hyperlink{classLaserCal_a08ba4fb6840a73989f75d2ec4aea3fcd}{Laser\+Cal}, and \hyperlink{classBoardLocations_a9355491bd25943d2ad4f725fc8aae849}{Board\+Locations}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/abstractdata.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/include/abstractdata.\+cpp\end{DoxyCompactItemize}

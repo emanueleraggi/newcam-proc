@@ -1,0 +1,152 @@
+\hypertarget{classLightfield}{}\section{Lightfield Class Reference}
+\label{classLightfield}\index{Lightfield@{Lightfield}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Directory} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ in\+List)\hypertarget{classLightfield_a9f85ec2466de24a6846de0a93fe8e570}{}\label{classLightfield_a9f85ec2466de24a6846de0a93fe8e570}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries calculate\+Sliding\+Window\+LF} (int ind)\hypertarget{classLightfield_a00541cb8a4280ebf724aac202fb6d389}{}\label{classLightfield_a00541cb8a4280ebf724aac202fb6d389}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries calculate\+Fixed\+Sliding\+Window\+LF} (int ind)\hypertarget{classLightfield_ace1887a29a7e850ea3a162142f1768c3}{}\label{classLightfield_ace1887a29a7e850ea3a162142f1768c3}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries calculate\+Adaptive\+Window\+LF} (int ind)\hypertarget{classLightfield_a096deb07564b1fddff0d837f623e0288}{}\label{classLightfield_a096deb07564b1fddff0d837f623e0288}
+
+\item 
+void {\bfseries calculate\+Zero\+Mean\+Pf\+LF} ()\hypertarget{classLightfield_a42be1d3c9eca89f90a004d721475e388}{}\label{classLightfield_a42be1d3c9eca89f90a004d721475e388}
+
+\item 
+void {\bfseries initialize\+LF} ()\hypertarget{classLightfield_a06f1e802ec94f9fe4562b597e8de6442}{}\label{classLightfield_a06f1e802ec94f9fe4562b597e8de6442}
+
+\item 
+void {\bfseries calculate\+Bright\+Stats} ()\hypertarget{classLightfield_ada31f20ddaf91ba1b2bbd6fcfaa57558}{}\label{classLightfield_ada31f20ddaf91ba1b2bbd6fcfaa57558}
+
+\item 
+void {\bfseries assign\+Image\+Dev} ()\hypertarget{classLightfield_a2e2ce8efa2f7ae07155414f3cc1e1485}{}\label{classLightfield_a2e2ce8efa2f7ae07155414f3cc1e1485}
+
+\item 
+void {\bfseries fix\+Window\+Size} ()\hypertarget{classLightfield_a3cd49b8935450d3fc448d44d92717f5c}{}\label{classLightfield_a3cd49b8935450d3fc448d44d92717f5c}
+
+\item 
+void {\bfseries calculate\+Min\+Err\+Win} (int ind)\hypertarget{classLightfield_af7885b6dd73a593cf3f8e2d0c747ebfd}{}\label{classLightfield_af7885b6dd73a593cf3f8e2d0c747ebfd}
+
+\item 
+void {\bfseries add\+L\+F\+Ims} ()\hypertarget{classLightfield_a8039d89e9e81202f6e875073f6dba917}{}\label{classLightfield_a8039d89e9e81202f6e875073f6dba917}
+
+\item 
+void {\bfseries subtract\+L\+F\+Ims} ()\hypertarget{classLightfield_a19566281f8bdb8a332243fd7352533d1}{}\label{classLightfield_a19566281f8bdb8a332243fd7352533d1}
+
+\item 
+void {\bfseries scale\+LF} ()\hypertarget{classLightfield_a1e781a6364a5cb848aed05d6a7246070}{}\label{classLightfield_a1e781a6364a5cb848aed05d6a7246070}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries get\+Win\+L\+F\+Channels} ()\hypertarget{classLightfield_a1c477d74a229e4a90bbfa59360c41163}{}\label{classLightfield_a1c477d74a229e4a90bbfa59360c41163}
+
+\item 
+cv\+::\+Mat {\bfseries get\+Win\+L\+F\+Chan} (int ind)\hypertarget{classLightfield_a35944f792940a847cb6444897f01d6f7}{}\label{classLightfield_a35944f792940a847cb6444897f01d6f7}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries get\+Im\+Channels} (cv\+::\+Mat in)\hypertarget{classLightfield_a3f0e5049e23ca98310d0c835b85449ab}{}\label{classLightfield_a3f0e5049e23ca98310d0c835b85449ab}
+
+\item 
+cv\+::\+Mat {\bfseries get\+Im\+Chan} (cv\+::\+Mat in, int ind)\hypertarget{classLightfield_a5001ad2bdf1bde074ab4575d7fc02554}{}\label{classLightfield_a5001ad2bdf1bde074ab4575d7fc02554}
+
+\item 
+void {\bfseries set\+Window\+Size} (int ind)\hypertarget{classLightfield_a70008fe6f77212e40c7d9627de36a7b9}{}\label{classLightfield_a70008fe6f77212e40c7d9627de36a7b9}
+
+\item 
+void {\bfseries set\+Window\+Limits} (int ind)\hypertarget{classLightfield_a63500a582c7e888a8889019b94ec835d}{}\label{classLightfield_a63500a582c7e888a8889019b94ec835d}
+
+\item 
+void {\bfseries set\+Prev\+Win\+Params} ()\hypertarget{classLightfield_a239fc39c98231f2853cfeef6e376e056}{}\label{classLightfield_a239fc39c98231f2853cfeef6e376e056}
+
+\item 
+void {\bfseries set\+Delta\+Win\+Params} ()\hypertarget{classLightfield_a277d969921e3c0b1cdbd8cd917bbd0e2}{}\label{classLightfield_a277d969921e3c0b1cdbd8cd917bbd0e2}
+
+\item 
+void {\bfseries set\+Weights} ()\hypertarget{classLightfield_a7b121196c3353d6b767825847aac2e1a}{}\label{classLightfield_a7b121196c3353d6b767825847aac2e1a}
+
+\item 
+void {\bfseries set\+Window\+Edges} (int ind)\hypertarget{classLightfield_a269507f61b069535ee3d582d36d2242d}{}\label{classLightfield_a269507f61b069535ee3d582d36d2242d}
+
+\item 
+void {\bfseries set\+Zero\+Mean\+LF} (\hyperlink{classImage}{Image} zmlf)\hypertarget{classLightfield_aeb0c1a70e08e42c227f1ed3397ad7bbf}{}\label{classLightfield_aeb0c1a70e08e42c227f1ed3397ad7bbf}
+
+\item 
+void {\bfseries set\+Window\+LF} (\hyperlink{classImage}{Image} lf)\hypertarget{classLightfield_ae4a2bccbbcb49a364094a36ad4910d3e}{}\label{classLightfield_ae4a2bccbbcb49a364094a36ad4910d3e}
+
+\item 
+void {\bfseries set\+Win\+Size\+Max} (int sz)\hypertarget{classLightfield_a846193c79d7a16094525f02876f1532a}{}\label{classLightfield_a846193c79d7a16094525f02876f1532a}
+
+\item 
+void {\bfseries set\+Mat\+Type} (int type)\hypertarget{classLightfield_a304004f97c91ce47274cbe2b427c7897}{}\label{classLightfield_a304004f97c91ce47274cbe2b427c7897}
+
+\item 
+void {\bfseries set\+L\+F\+Blur\+Size} (int sz)\hypertarget{classLightfield_a27269cee0e31f2501ae1a04b0e15b53e}{}\label{classLightfield_a27269cee0e31f2501ae1a04b0e15b53e}
+
+\item 
+void {\bfseries set\+Cut\+Off} (int cutoff)\hypertarget{classLightfield_a6dfe1c28085a0371fe611f8310a9dc3b}{}\label{classLightfield_a6dfe1c28085a0371fe611f8310a9dc3b}
+
+\item 
+int {\bfseries get\+Win\+Start} ()\hypertarget{classLightfield_a0dde164f5427c882f29e78d028d62e7a}{}\label{classLightfield_a0dde164f5427c882f29e78d028d62e7a}
+
+\item 
+int {\bfseries get\+Win\+End} ()\hypertarget{classLightfield_af9d4d435a6bc701bd5cade7dcf2ec6ba}{}\label{classLightfield_af9d4d435a6bc701bd5cade7dcf2ec6ba}
+
+\item 
+float {\bfseries get\+Win\+Weight} ()\hypertarget{classLightfield_aa6a8df32785aad53aee5341339aec38d}{}\label{classLightfield_aa6a8df32785aad53aee5341339aec38d}
+
+\item 
+float {\bfseries get\+Scale\+Win\+Weights} ()\hypertarget{classLightfield_ada94369c8fe1f02cbacfb241f4591828}{}\label{classLightfield_ada94369c8fe1f02cbacfb241f4591828}
+
+\item 
+int {\bfseries get\+Delta\+Win\+Start} ()\hypertarget{classLightfield_aee32e4214030dab67fe3ee5a77f9459c}{}\label{classLightfield_aee32e4214030dab67fe3ee5a77f9459c}
+
+\item 
+int {\bfseries get\+Delta\+Win\+End} ()\hypertarget{classLightfield_a19e84afc7d98dba8ea6a9d9eedd0640f}{}\label{classLightfield_a19e84afc7d98dba8ea6a9d9eedd0640f}
+
+\item 
+float {\bfseries get\+Survived\+Weight} ()\hypertarget{classLightfield_a44b6f95974c9d59d3acbf5f8afca66a3}{}\label{classLightfield_a44b6f95974c9d59d3acbf5f8afca66a3}
+
+\item 
+int {\bfseries get\+Survived\+Size} ()\hypertarget{classLightfield_acc21913bc13ec9e07df208be96b49ad2}{}\label{classLightfield_acc21913bc13ec9e07df208be96b49ad2}
+
+\item 
+int {\bfseries get\+Win\+Size\+Max} ()\hypertarget{classLightfield_a6ba4ad9f8ac178d393e70cd5d85dfc9e}{}\label{classLightfield_a6ba4ad9f8ac178d393e70cd5d85dfc9e}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries get\+Zero\+Mean\+LF} ()\hypertarget{classLightfield_ae2c5aed82e49b6603c1034f3281a71f2}{}\label{classLightfield_ae2c5aed82e49b6603c1034f3281a71f2}
+
+\item 
+cv\+::\+Mat {\bfseries get\+Zero\+Mean\+L\+F\+Mat} ()\hypertarget{classLightfield_aedb63558cdf3415bcf6357f2a79e6feb}{}\label{classLightfield_aedb63558cdf3415bcf6357f2a79e6feb}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries get\+Win\+LF} ()\hypertarget{classLightfield_a1e2333a695147bd472dbfc869ca20c18}{}\label{classLightfield_a1e2333a695147bd472dbfc869ca20c18}
+
+\item 
+double {\bfseries get\+Mean\+Intensity} ()\hypertarget{classLightfield_a6a2b000243cf11ae70d7239f459d6a66}{}\label{classLightfield_a6a2b000243cf11ae70d7239f459d6a66}
+
+\item 
+double {\bfseries get\+Profile\+SD} ()\hypertarget{classLightfield_ac683a8188858ff4e59a5cade56cbfbb5}{}\label{classLightfield_ac683a8188858ff4e59a5cade56cbfbb5}
+
+\item 
+double {\bfseries get\+S\+D\+Cutoff} ()\hypertarget{classLightfield_ae067ae7e0711e9355370be009510bf57}{}\label{classLightfield_ae067ae7e0711e9355370be009510bf57}
+
+\item 
+std\+::vector$<$ cv\+::\+Scalar $>$ {\bfseries get\+Im\+Means} ()\hypertarget{classLightfield_a901089b01f9107e28ad35008299df133}{}\label{classLightfield_a901089b01f9107e28ad35008299df133}
+
+\item 
+std\+::vector$<$ double $>$ {\bfseries get\+Im\+S\+Ds} ()\hypertarget{classLightfield_a21811dcec4b34a9ee27647fa66730ebd}{}\label{classLightfield_a21811dcec4b34a9ee27647fa66730ebd}
+
+\item 
+std\+::vector$<$ int $>$ {\bfseries get\+Win\+Sizes} ()\hypertarget{classLightfield_a0d8e36cdc7dde3f23fa5f0d98448f528}{}\label{classLightfield_a0d8e36cdc7dde3f23fa5f0d98448f528}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/color\+Corrector/src/lightfield.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/color\+Corrector/src/lightfield.\+cpp\end{DoxyCompactItemize}

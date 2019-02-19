@@ -1,0 +1,368 @@
+\hypertarget{classLaserData}{}\section{Laser\+Data Class Reference}
+\label{classLaserData}\index{Laser\+Data@{Laser\+Data}}
+
+
+Inheritance diagram for Laser\+Data\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classLaserData__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Laser\+Data\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classLaserData__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classLaserData_ae7d37ab61d0ee00538c33740ac0ad7ab}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+void \hyperlink{classLaserData_abef00b09c8ee06285c0683198de5a9e3}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\item 
+void {\bfseries clear} ()\hypertarget{classLaserData_a6462ffa1c43147c6f8b86f1a2f0a88d5}{}\label{classLaserData_a6462ffa1c43147c6f8b86f1a2f0a88d5}
+
+\item 
+void \hyperlink{classLaserData_ab8e14af133eae966b6052cbd09a08109}{add\+C\+S\+V\+Headder} (std\+::ofstream \&file)
+\item 
+void \hyperlink{classLaserData_aea796bd61748189ccf1941389951935c}{add\+To\+C\+SV} (std\+::ofstream \&file)
+\item 
+void \hyperlink{classLaserData_ae206ddd7509d1120b189b7909f3868f1}{set\+BinX} (unsigned int binX)
+\item 
+void {\bfseries set\+OffsetY} (unsigned int offsetY)\hypertarget{classLaserData_a1c11124b5c9eacf10a7d55277338698c}{}\label{classLaserData_a1c11124b5c9eacf10a7d55277338698c}
+
+\item 
+time\+\_\+t {\bfseries rov\+Time} ()\hypertarget{classLaserData_a374a405b39ad33486f388e448dc2eeab}{}\label{classLaserData_a374a405b39ad33486f388e448dc2eeab}
+
+\item 
+void {\bfseries set\+Rov\+Time} (time\+\_\+t time)\hypertarget{classLaserData_aa92b06f057772ac6f47464406f43350d}{}\label{classLaserData_aa92b06f057772ac6f47464406f43350d}
+
+\item 
+std\+::string {\bfseries get\+Time\+String} ()\hypertarget{classLaserData_adf7b36dbe23e70c04258fe6b6acde00b}{}\label{classLaserData_adf7b36dbe23e70c04258fe6b6acde00b}
+
+\item 
+void {\bfseries set\+Time\+String} (std\+::string time)\hypertarget{classLaserData_a235e9b0d21c126b899e894cfcbc58b56}{}\label{classLaserData_a235e9b0d21c126b899e894cfcbc58b56}
+
+\item 
+unsigned int {\bfseries image\+Index} ()\hypertarget{classLaserData_a4fe36e4d909288cac808443692e5dbb4}{}\label{classLaserData_a4fe36e4d909288cac808443692e5dbb4}
+
+\item 
+void {\bfseries set\+Image\+Index} (unsigned int index)\hypertarget{classLaserData_a3d1a25ff94c1b8a4ecdd276bcb921b95}{}\label{classLaserData_a3d1a25ff94c1b8a4ecdd276bcb921b95}
+
+\item 
+unsigned int {\bfseries image\+Number} ()\hypertarget{classLaserData_a4e568927dff7b1ff99e55fdd96d62b61}{}\label{classLaserData_a4e568927dff7b1ff99e55fdd96d62b61}
+
+\item 
+void {\bfseries set\+Image\+Number} (unsigned int number)\hypertarget{classLaserData_a4ac9f1c41ffbefb4f742c2e6cecc906a}{}\label{classLaserData_a4ac9f1c41ffbefb4f742c2e6cecc906a}
+
+\item 
+std\+::string {\bfseries image\+Name} ()\hypertarget{classLaserData_a0a77f60dce173954f2f2731986412cd8}{}\label{classLaserData_a0a77f60dce173954f2f2731986412cd8}
+
+\item 
+void {\bfseries set\+Image\+Name} (std\+::string name)\hypertarget{classLaserData_a14cc63f0ed77169b30be7450584de688}{}\label{classLaserData_a14cc63f0ed77169b30be7450584de688}
+
+\item 
+unsigned int {\bfseries v\+Offset} ()\hypertarget{classLaserData_a30303c527ff03c222727b957a2541bce}{}\label{classLaserData_a30303c527ff03c222727b957a2541bce}
+
+\item 
+void {\bfseries set\+V\+Offset} (unsigned int v\+Offset)\hypertarget{classLaserData_ad434a5e9a47ff000f99eb8d89ed3dd65}{}\label{classLaserData_ad434a5e9a47ff000f99eb8d89ed3dd65}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries v} ()\hypertarget{classLaserData_a4bfc6b8a83236db7d1ba0627e5cb7168}{}\label{classLaserData_a4bfc6b8a83236db7d1ba0627e5cb7168}
+
+\item 
+void {\bfseries setV} (const std\+::vector$<$ unsigned int $>$ \&v)\hypertarget{classLaserData_a17dfb8ccb5849a7a3bf515622dc8b3b9}{}\label{classLaserData_a17dfb8ccb5849a7a3bf515622dc8b3b9}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries u} ()\hypertarget{classLaserData_abc1a434a56262a75d130eabd6ca7656d}{}\label{classLaserData_abc1a434a56262a75d130eabd6ca7656d}
+
+\item 
+void {\bfseries setU} (const std\+::vector$<$ unsigned int $>$ \&u)\hypertarget{classLaserData_a736f3846c951beaa88f871ec99fef8c6}{}\label{classLaserData_a736f3846c951beaa88f871ec99fef8c6}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries val} ()\hypertarget{classLaserData_ae030badaffb68af0c9f41f56bfaf9391}{}\label{classLaserData_ae030badaffb68af0c9f41f56bfaf9391}
+
+\item 
+void {\bfseries set\+Val} (const std\+::vector$<$ unsigned int $>$ \&val)\hypertarget{classLaserData_a9b00f899e110b2b503108475073b16d6}{}\label{classLaserData_a9b00f899e110b2b503108475073b16d6}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries val\+Normalized} ()\hypertarget{classLaserData_a26192f23f2611a05c9c79ab3f5b9a134}{}\label{classLaserData_a26192f23f2611a05c9c79ab3f5b9a134}
+
+\item 
+void {\bfseries set\+Val\+Normalized} (const std\+::vector$<$ unsigned int $>$ \&val\+Normalized)\hypertarget{classLaserData_ac4fce305a7df92cc2a837bad7e58e350}{}\label{classLaserData_ac4fce305a7df92cc2a837bad7e58e350}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries val\+Balanced} ()\hypertarget{classLaserData_acb78797723f1e691428a256b9ee0b2fd}{}\label{classLaserData_acb78797723f1e691428a256b9ee0b2fd}
+
+\item 
+void {\bfseries set\+Val\+Balanced} (const std\+::vector$<$ unsigned int $>$ \&val\+Balanced)\hypertarget{classLaserData_aecbef6e42ca2eb686264677bbcccc438}{}\label{classLaserData_aecbef6e42ca2eb686264677bbcccc438}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries spv} ()\hypertarget{classLaserData_af6101cbdd7405f2c2361277855df3a5d}{}\label{classLaserData_af6101cbdd7405f2c2361277855df3a5d}
+
+\item 
+void {\bfseries set\+Spv} (const std\+::vector$<$ float $>$ \&spv)\hypertarget{classLaserData_a58880371d0b0e2e1df814769debf3dfc}{}\label{classLaserData_a58880371d0b0e2e1df814769debf3dfc}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ \& {\bfseries pix\+Per\+Col} ()\hypertarget{classLaserData_a8dff7d0e8d0c2f78b2e19bb751e57c37}{}\label{classLaserData_a8dff7d0e8d0c2f78b2e19bb751e57c37}
+
+\item 
+void {\bfseries set\+Pix\+Per\+Col} (const std\+::vector$<$ unsigned int $>$ \&pix\+Per\+Col)\hypertarget{classLaserData_a15d7ac4f1a1913dce08017156db84a59}{}\label{classLaserData_a15d7ac4f1a1913dce08017156db84a59}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries median\+Pos} ()\hypertarget{classLaserData_ae4ac8277666d486de8c80295258e5e5e}{}\label{classLaserData_ae4ac8277666d486de8c80295258e5e5e}
+
+\item 
+void {\bfseries set\+Median\+Pos} (const std\+::vector$<$ float $>$ \&median\+Pos)\hypertarget{classLaserData_aae63077922dac9585ee9f6aeffcd5185}{}\label{classLaserData_aae63077922dac9585ee9f6aeffcd5185}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries x\+Vect} ()\hypertarget{classLaserData_a966b3d6c9473b1676445bffece1c8f2a}{}\label{classLaserData_a966b3d6c9473b1676445bffece1c8f2a}
+
+\item 
+void {\bfseries set\+X\+Vect} (const std\+::vector$<$ float $>$ \&x)\hypertarget{classLaserData_a545fd93b31e498d536764da4c7606f32}{}\label{classLaserData_a545fd93b31e498d536764da4c7606f32}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries y\+Vect} ()\hypertarget{classLaserData_a962d48969a89e416f078a2282f700713}{}\label{classLaserData_a962d48969a89e416f078a2282f700713}
+
+\item 
+void {\bfseries set\+Y\+Vect} (const std\+::vector$<$ float $>$ \&y)\hypertarget{classLaserData_acb28cb7f17cbcab67274c8a628339e91}{}\label{classLaserData_acb28cb7f17cbcab67274c8a628339e91}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries z\+Vect} ()\hypertarget{classLaserData_a7473f9bda3a43ea2f43bd6f1df5884b8}{}\label{classLaserData_a7473f9bda3a43ea2f43bd6f1df5884b8}
+
+\item 
+void {\bfseries set\+Z\+Vect} (const std\+::vector$<$ float $>$ \&z)\hypertarget{classLaserData_a13ad16cdb96c1b00b6f7c8bdf2d77e63}{}\label{classLaserData_a13ad16cdb96c1b00b6f7c8bdf2d77e63}
+
+\item 
+const std\+::vector$<$ float $>$ \& {\bfseries vent\+Moment} ()\hypertarget{classLaserData_aa607966f256d543a285b0e0823af6ca5}{}\label{classLaserData_aa607966f256d543a285b0e0823af6ca5}
+
+\item 
+void {\bfseries set\+Vent\+Moment} (const std\+::vector$<$ float $>$ \&vent\+Moment)\hypertarget{classLaserData_a88743b5ab7119e10e3ac93fdd840e75c}{}\label{classLaserData_a88743b5ab7119e10e3ac93fdd840e75c}
+
+\item 
+const unsigned int {\bfseries get\+Full\+ImgU} (unsigned int i)\hypertarget{classLaserData_af506c8333b4faa94722a0682ec10ce09}{}\label{classLaserData_af506c8333b4faa94722a0682ec10ce09}
+
+\item 
+const unsigned int {\bfseries get\+Full\+ImgV} (unsigned int i)\hypertarget{classLaserData_ac52435fa31f562ff9f5418a016b3d997}{}\label{classLaserData_ac52435fa31f562ff9f5418a016b3d997}
+
+\item 
+const unsigned int {\bfseries get\+Full\+Img\+Spv} (unsigned int i)\hypertarget{classLaserData_a2cd6aa3eba2c08027b1e4a6fb4935e00}{}\label{classLaserData_a2cd6aa3eba2c08027b1e4a6fb4935e00}
+
+\item 
+const std\+::vector$<$ unsigned int $>$ {\bfseries vent\+Class} ()\hypertarget{classLaserData_ad776d9688a1963f839a2a7d2eb551660}{}\label{classLaserData_ad776d9688a1963f839a2a7d2eb551660}
+
+\item 
+float {\bfseries get\+Range} (unsigned int index)\hypertarget{classLaserData_af8870494408bdc3f9f2c8d38dbf33b72}{}\label{classLaserData_af8870494408bdc3f9f2c8d38dbf33b72}
+
+\item 
+void \hyperlink{classLaserData_ac1f48af1c563bdebda713e818349c2d6}{set\+Svm\+Params} (float m1, float b1, float m2, float b2)
+\item 
+unsigned int {\bfseries classify} (float intensity, float moment)\hypertarget{classLaserData_a8ef58919e903663010cefebc8f2f5de0}{}\label{classLaserData_a8ef58919e903663010cefebc8f2f5de0}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+time\+\_\+t {\bfseries \+\_\+rov\+Time}\hypertarget{classLaserData_a2140cf25b9ac7ce20d6b540b20b99a7d}{}\label{classLaserData_a2140cf25b9ac7ce20d6b540b20b99a7d}
+
+\item 
+std\+::string {\bfseries \+\_\+time\+String}\hypertarget{classLaserData_aa45614462c6491caeeadb65943cbadd0}{}\label{classLaserData_aa45614462c6491caeeadb65943cbadd0}
+
+\item 
+unsigned int {\bfseries \+\_\+binX}\hypertarget{classLaserData_abb35aa1f1efc0dfac118b88089486edb}{}\label{classLaserData_abb35aa1f1efc0dfac118b88089486edb}
+
+\item 
+unsigned int {\bfseries \+\_\+offsetY}\hypertarget{classLaserData_a75e194db9bceaf11c08843ff80447fb1}{}\label{classLaserData_a75e194db9bceaf11c08843ff80447fb1}
+
+\item 
+unsigned int {\bfseries \+\_\+image\+Index}\hypertarget{classLaserData_ab05d3192dd1f9ff1c5c78a7615327c1f}{}\label{classLaserData_ab05d3192dd1f9ff1c5c78a7615327c1f}
+
+\item 
+unsigned int {\bfseries \+\_\+image\+Number}\hypertarget{classLaserData_af07e17529f55ccfedea786ce8ef0a07a}{}\label{classLaserData_af07e17529f55ccfedea786ce8ef0a07a}
+
+\item 
+unsigned long {\bfseries \+\_\+exposure\+Comp}\hypertarget{classLaserData_ac4c27dd390b8ba11b56fecaf5d8ffa3b}{}\label{classLaserData_ac4c27dd390b8ba11b56fecaf5d8ffa3b}
+
+\item 
+std\+::string {\bfseries \+\_\+image\+Name}\hypertarget{classLaserData_a4ecb08474180bc17d48c0a95c51ab1de}{}\label{classLaserData_a4ecb08474180bc17d48c0a95c51ab1de}
+
+\item 
+unsigned int {\bfseries \+\_\+v\+Offset}\hypertarget{classLaserData_a5c84579061d71307a242d75b35b2044f}{}\label{classLaserData_a5c84579061d71307a242d75b35b2044f}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+v}\hypertarget{classLaserData_a5c4ebb33fe698835a96816942c513eed}{}\label{classLaserData_a5c4ebb33fe698835a96816942c513eed}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+u}\hypertarget{classLaserData_ab27a18a599b0251dd2ba9654f7939965}{}\label{classLaserData_ab27a18a599b0251dd2ba9654f7939965}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+val}\hypertarget{classLaserData_ac709774b5b4618312b1400741efb0a1e}{}\label{classLaserData_ac709774b5b4618312b1400741efb0a1e}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+val\+Normalized}\hypertarget{classLaserData_ae80a6438d10d5f8330b0d9db65bc1f1d}{}\label{classLaserData_ae80a6438d10d5f8330b0d9db65bc1f1d}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+val\+Balanced}\hypertarget{classLaserData_aafea372e8ff8722dcd21c096047227a9}{}\label{classLaserData_aafea372e8ff8722dcd21c096047227a9}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+vent\+Moment}\hypertarget{classLaserData_a53b20ce99f11333b8a5d73dd5bd0b42e}{}\label{classLaserData_a53b20ce99f11333b8a5d73dd5bd0b42e}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+spv}\hypertarget{classLaserData_abdfa0a1645730ba76e4c2ee308ef4e6e}{}\label{classLaserData_abdfa0a1645730ba76e4c2ee308ef4e6e}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries \+\_\+pix\+Per\+Col}\hypertarget{classLaserData_aba7ca84cc24a7243498e948c615f3a9e}{}\label{classLaserData_aba7ca84cc24a7243498e948c615f3a9e}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+median\+Pos}\hypertarget{classLaserData_a62be581db140ce0db62e45da39b0d1b1}{}\label{classLaserData_a62be581db140ce0db62e45da39b0d1b1}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+x}\hypertarget{classLaserData_a3311c9d2df2169356639fc64b1ac4670}{}\label{classLaserData_a3311c9d2df2169356639fc64b1ac4670}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+y}\hypertarget{classLaserData_a23b516f406efca6a4f61832a16a2c11a}{}\label{classLaserData_a23b516f406efca6a4f61832a16a2c11a}
+
+\item 
+std\+::vector$<$ float $>$ {\bfseries \+\_\+z}\hypertarget{classLaserData_a22db10f704026dc077a20f36f3faed2e}{}\label{classLaserData_a22db10f704026dc077a20f36f3faed2e}
+
+\item 
+float \hyperlink{classLaserData_afe4fc743c3fdeb927428196399ef60e2}{\+\_\+m1}
+\item 
+float {\bfseries \+\_\+m2}\hypertarget{classLaserData_a8ed4737f95a8f494f7f3bbab397909be}{}\label{classLaserData_a8ed4737f95a8f494f7f3bbab397909be}
+
+\item 
+float {\bfseries \+\_\+b1}\hypertarget{classLaserData_a452d0b5c074ababf109daab4e2f14266}{}\label{classLaserData_a452d0b5c074ababf109daab4e2f14266}
+
+\item 
+float {\bfseries \+\_\+b2}\hypertarget{classLaserData_ad3b43914b5231ba98e3eb90ccebc394d}{}\label{classLaserData_ad3b43914b5231ba98e3eb90ccebc394d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Laser\+Data@{Laser\+Data}!add\+C\+S\+V\+Headder@{add\+C\+S\+V\+Headder}}
+\index{add\+C\+S\+V\+Headder@{add\+C\+S\+V\+Headder}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{add\+C\+S\+V\+Headder(std\+::ofstream \&file)}{addCSVHeadder(std::ofstream &file)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::add\+C\+S\+V\+Headder (
+\begin{DoxyParamCaption}
+\item[{std\+::ofstream \&}]{file}
+\end{DoxyParamCaption}
+)}\hypertarget{classLaserData_ab8e14af133eae966b6052cbd09a08109}{}\label{classLaserData_ab8e14af133eae966b6052cbd09a08109}
+output functions Time string
+
+cropped U
+
+cropped V
+
+cropped sub pixel value
+
+intensity of the line
+
+intensity of the line after correction
+
+x position of the extracted point
+
+y position of the extracted point
+
+z position of the extracted point \index{Laser\+Data@{Laser\+Data}!add\+To\+C\+SV@{add\+To\+C\+SV}}
+\index{add\+To\+C\+SV@{add\+To\+C\+SV}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{add\+To\+C\+S\+V(std\+::ofstream \&file)}{addToCSV(std::ofstream &file)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::add\+To\+C\+SV (
+\begin{DoxyParamCaption}
+\item[{std\+::ofstream \&}]{file}
+\end{DoxyParamCaption}
+)}\hypertarget{classLaserData_aea796bd61748189ccf1941389951935c}{}\label{classLaserData_aea796bd61748189ccf1941389951935c}
+Time string
+
+cropped U
+
+cropped V
+
+cropped sub pixel value
+
+intensity of the line
+
+intensity of the line after correction
+
+x position of the extracted point
+
+y position of the extracted point
+
+z position of the extracted point \index{Laser\+Data@{Laser\+Data}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classLaserData_ae7d37ab61d0ee00538c33740ac0ad7ab}{}\label{classLaserData_ae7d37ab61d0ee00538c33740ac0ad7ab}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{Abstract\+Data}.
+
+\index{Laser\+Data@{Laser\+Data}!set\+BinX@{set\+BinX}}
+\index{set\+BinX@{set\+BinX}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{set\+Bin\+X(unsigned int bin\+X)}{setBinX(unsigned int binX)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::set\+BinX (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{binX}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLaserData_ae206ddd7509d1120b189b7909f3868f1}{}\label{classLaserData_ae206ddd7509d1120b189b7909f3868f1}
+getters and setters \index{Laser\+Data@{Laser\+Data}!set\+Svm\+Params@{set\+Svm\+Params}}
+\index{set\+Svm\+Params@{set\+Svm\+Params}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{set\+Svm\+Params(float m1, float b1, float m2, float b2)}{setSvmParams(float m1, float b1, float m2, float b2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::set\+Svm\+Params (
+\begin{DoxyParamCaption}
+\item[{float}]{m1, }
+\item[{float}]{b1, }
+\item[{float}]{m2, }
+\item[{float}]{b2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLaserData_ac1f48af1c563bdebda713e818349c2d6}{}\label{classLaserData_ac1f48af1c563bdebda713e818349c2d6}
+helper functions \index{Laser\+Data@{Laser\+Data}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Data\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classLaserData_abef00b09c8ee06285c0683198de5a9e3}{}\label{classLaserData_abef00b09c8ee06285c0683198de5a9e3}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{Abstract\+Data}.
+
+
+
+\subsection{Member Data Documentation}
+\index{Laser\+Data@{Laser\+Data}!\+\_\+m1@{\+\_\+m1}}
+\index{\+\_\+m1@{\+\_\+m1}!Laser\+Data@{Laser\+Data}}
+\subsubsection[{\texorpdfstring{\+\_\+m1}{_m1}}]{\setlength{\rightskip}{0pt plus 5cm}float Laser\+Data\+::\+\_\+m1\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classLaserData_afe4fc743c3fdeb927428196399ef60e2}{}\label{classLaserData_afe4fc743c3fdeb927428196399ef60e2}
+S\+PV Parameters 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserdata.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserdata.\+cpp\end{DoxyCompactItemize}

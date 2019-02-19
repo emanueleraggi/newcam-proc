@@ -1,0 +1,105 @@
+\hypertarget{classLightfieldCorrector}{}\section{Lightfield\+Corrector Class Reference}
+\label{classLightfieldCorrector}\index{Lightfield\+Corrector@{Lightfield\+Corrector}}
+
+
+Inheritance diagram for Lightfield\+Corrector\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classLightfieldCorrector__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Lightfield\+Corrector\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classLightfieldCorrector__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ {\bfseries v\+Function\+Call}) (int args)\hypertarget{classLightfieldCorrector_a614fd7c6b30293d3e5d026300bd32384}{}\label{classLightfieldCorrector_a614fd7c6b30293d3e5d026300bd32384}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classImage}{Image} {\bfseries calculate\+Lightfield} ()\hypertarget{classLightfieldCorrector_abbb5d0f456cd709210ae6ab1a7f30856}{}\label{classLightfieldCorrector_abbb5d0f456cd709210ae6ab1a7f30856}
+
+\item 
+\hyperlink{classImage}{Image} \& {\bfseries get\+Lightfield} ()\hypertarget{classLightfieldCorrector_a14d07f12320475f587d578c1ae0ac03a}{}\label{classLightfieldCorrector_a14d07f12320475f587d578c1ae0ac03a}
+
+\item 
+\hyperlink{classImage}{Image} \& {\bfseries get\+Blur\+Light} (int kernel\+Size)\hypertarget{classLightfieldCorrector_a1275c6d9c4ff099f6d227c925fa30cf3}{}\label{classLightfieldCorrector_a1275c6d9c4ff099f6d227c925fa30cf3}
+
+\item 
+\hyperlink{classImage}{Image} \& {\bfseries get\+Blur\+Light} ()\hypertarget{classLightfieldCorrector_aadc807f89b358c62746f5cd9b6eb7195}{}\label{classLightfieldCorrector_aadc807f89b358c62746f5cd9b6eb7195}
+
+\item 
+\hyperlink{classImage}{Image} \& {\bfseries generate\+Preview} ()\hypertarget{classLightfieldCorrector_aad927f44926eb6d3d6ba7d31c31c300f}{}\label{classLightfieldCorrector_aad927f44926eb6d3d6ba7d31c31c300f}
+
+\item 
+void {\bfseries correct\+Image} (\hyperlink{classImage}{Image} \&in)\hypertarget{classLightfieldCorrector_a13a7932eff8edd3c22404f912c5cdc87}{}\label{classLightfieldCorrector_a13a7932eff8edd3c22404f912c5cdc87}
+
+\item 
+float \& {\bfseries get\+Application\+Intensity} ()\hypertarget{classLightfieldCorrector_af3e3136dca6d960339d5a9933d3f7f89}{}\label{classLightfieldCorrector_af3e3136dca6d960339d5a9933d3f7f89}
+
+\item 
+float \& {\bfseries get\+Contrast\+Intensity} ()\hypertarget{classLightfieldCorrector_a4f204342c578de9a4f24e30f1eeb28fc}{}\label{classLightfieldCorrector_a4f204342c578de9a4f24e30f1eeb28fc}
+
+\item 
+void {\bfseries set\+Contrast} (float contrast)\hypertarget{classLightfieldCorrector_ae72105b1355293324bac10c60117a1e5}{}\label{classLightfieldCorrector_ae72105b1355293324bac10c60117a1e5}
+
+\item 
+void {\bfseries set\+Brightness} (float brightness)\hypertarget{classLightfieldCorrector_a9c5cac0108c1402ce23d2ed18210fc7f}{}\label{classLightfieldCorrector_a9c5cac0108c1402ce23d2ed18210fc7f}
+
+\item 
+int {\bfseries get\+Light\+Progress} ()\hypertarget{classLightfieldCorrector_a0871454067e61cd73c9963eb19124776}{}\label{classLightfieldCorrector_a0871454067e61cd73c9963eb19124776}
+
+\item 
+void {\bfseries update\+Progress} ()\hypertarget{classLightfieldCorrector_a146332f64b11dadfdf7ff66b9c6e9f61}{}\label{classLightfieldCorrector_a146332f64b11dadfdf7ff66b9c6e9f61}
+
+\item 
+void {\bfseries reset\+Overflow\+Warning} ()\hypertarget{classLightfieldCorrector_a58cda57140cd520d557dfe02cc22e1c6}{}\label{classLightfieldCorrector_a58cda57140cd520d557dfe02cc22e1c6}
+
+\item 
+bool {\bfseries did\+Hist\+Overflow} ()\hypertarget{classLightfieldCorrector_ad14fc305d597c8909f8e37b5b07ffbb0}{}\label{classLightfieldCorrector_ad14fc305d597c8909f8e37b5b07ffbb0}
+
+\item 
+void {\bfseries set\+Light\+Progress\+Callback} (void($\ast$f)(int))\hypertarget{classLightfieldCorrector_a1cf23d3cb70e754725a3060463a1b7d0}{}\label{classLightfieldCorrector_a1cf23d3cb70e754725a3060463a1b7d0}
+
+\item 
+void {\bfseries save} ()\hypertarget{classLightfieldCorrector_af65ee3f55a3a5f0813646c793a5c0d4f}{}\label{classLightfieldCorrector_af65ee3f55a3a5f0813646c793a5c0d4f}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries \+\_\+per\+Chan\+Adjust}\hypertarget{classLightfieldCorrector_a06a4a68160d5a8530b337d0d9b395356}{}\label{classLightfieldCorrector_a06a4a68160d5a8530b337d0d9b395356}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries run\+Operations} ()\hypertarget{classLightfieldCorrector_ab3454d4370a7a6ccf5adaeecf585762d}{}\label{classLightfieldCorrector_ab3454d4370a7a6ccf5adaeecf585762d}
+
+\item 
+void {\bfseries calculate\+Lightfield\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ list, unsigned int i)\hypertarget{classLightfieldCorrector_abdcad14f0dff4627f45f3634759a1a6d}{}\label{classLightfieldCorrector_abdcad14f0dff4627f45f3634759a1a6d}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries calculate\+Lightfield} (\hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ \&list)\hypertarget{classLightfieldCorrector_a2d534d2f6f426ef9b3ff81e3b2db64d0}{}\label{classLightfieldCorrector_a2d534d2f6f426ef9b3ff81e3b2db64d0}
+
+\item 
+void {\bfseries run\+Thread} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ list)\hypertarget{classLightfieldCorrector_a9d518d89298053ce0b7a67d1ea541fb8}{}\label{classLightfieldCorrector_a9d518d89298053ce0b7a67d1ea541fb8}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/color\+Corrector/src/lightfieldcorrector.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/color\+Corrector/src/lightfieldcorrector.\+cpp\end{DoxyCompactItemize}

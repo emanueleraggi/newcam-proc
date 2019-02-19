@@ -1,0 +1,223 @@
+\hypertarget{classCameraCal}{}\section{Camera\+Cal Class Reference}
+\label{classCameraCal}\index{Camera\+Cal@{Camera\+Cal}}
+
+
+Inheritance diagram for Camera\+Cal\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classCameraCal__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Camera\+Cal\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classCameraCal__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+void \hyperlink{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\item 
+void {\bfseries undistort\+Points} (cv\+::\+Mat \&input, cv\+::\+Mat \&output)\hypertarget{classCameraCal_a9190758a8a5759f1d6b312ad3d97a093}{}\label{classCameraCal_a9190758a8a5759f1d6b312ad3d97a093}
+
+\item 
+void {\bfseries undistort\+Points} (const std\+::vector$<$ float $>$ \&u\+In, const std\+::vector$<$ float $>$ \&v\+In, std\+::vector$<$ float $>$ \&u\+Out, std\+::vector$<$ float $>$ \&v\+Out)\hypertarget{classCameraCal_abdfe8dff383368dc307cac7428bc9ec3}{}\label{classCameraCal_abdfe8dff383368dc307cac7428bc9ec3}
+
+\item 
+void {\bfseries undistort\+Points} (const std\+::vector$<$ float $>$ \&u\+In, const std\+::vector$<$ float $>$ \&v\+In, cv\+::\+Mat \&output)\hypertarget{classCameraCal_afa30ca95ccf257c211274dc0ebc8d707}{}\label{classCameraCal_afa30ca95ccf257c211274dc0ebc8d707}
+
+\item 
+void \hyperlink{classCameraCal_aa1cc38014e07e74f9eaf139b72e55d09}{project\+Points} (std\+::vector$<$ cv\+::\+Point3f $>$ object\+Points, cv\+::\+Mat R, cv\+::\+Mat T, std\+::vector$<$ cv\+::\+Point2f $>$ \&output)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCameraCal_aa1cc38014e07e74f9eaf139b72e55d09}{Camera\+Cal\+::project\+Points} Projects points from 3d space into the image frame. \end{DoxyCompactList}\item 
+cv\+::\+Mat {\bfseries undistort\+Mat} (cv\+::\+Mat \&in)\hypertarget{classCameraCal_a61ac0d332a40375867c9f445e2bf62ce}{}\label{classCameraCal_a61ac0d332a40375867c9f445e2bf62ce}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries undistort\+Image} (\hyperlink{classImage}{Image} \&in)\hypertarget{classCameraCal_ad305161d3bb04ec8df1366d32dfd9c8d}{}\label{classCameraCal_ad305161d3bb04ec8df1366d32dfd9c8d}
+
+\item 
+void {\bfseries cam2world} (cv\+::\+Mat \&input\+Points, cv\+::\+Mat \&output\+Points)\hypertarget{classCameraCal_af768f460fecd28f833c6663c298719d4}{}\label{classCameraCal_af768f460fecd28f833c6663c298719d4}
+
+\item 
+void \hyperlink{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+void \hyperlink{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\item 
+void {\bfseries undistort\+Points} (cv\+::\+Mat \&input, cv\+::\+Mat \&output)\hypertarget{classCameraCal_a9190758a8a5759f1d6b312ad3d97a093}{}\label{classCameraCal_a9190758a8a5759f1d6b312ad3d97a093}
+
+\item 
+void {\bfseries undistort\+Points} (const std\+::vector$<$ float $>$ \&u\+In, const std\+::vector$<$ float $>$ \&v\+In, std\+::vector$<$ float $>$ \&u\+Out, std\+::vector$<$ float $>$ \&v\+Out)\hypertarget{classCameraCal_abdfe8dff383368dc307cac7428bc9ec3}{}\label{classCameraCal_abdfe8dff383368dc307cac7428bc9ec3}
+
+\item 
+void {\bfseries undistort\+Points} (const std\+::vector$<$ float $>$ \&u\+In, const std\+::vector$<$ float $>$ \&v\+In, cv\+::\+Mat \&output)\hypertarget{classCameraCal_afa30ca95ccf257c211274dc0ebc8d707}{}\label{classCameraCal_afa30ca95ccf257c211274dc0ebc8d707}
+
+\item 
+cv\+::\+Mat {\bfseries undistort\+Mat} (cv\+::\+Mat \&in)\hypertarget{classCameraCal_a61ac0d332a40375867c9f445e2bf62ce}{}\label{classCameraCal_a61ac0d332a40375867c9f445e2bf62ce}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries undistort\+Image} (\hyperlink{classImage}{Image} \&in)\hypertarget{classCameraCal_ad305161d3bb04ec8df1366d32dfd9c8d}{}\label{classCameraCal_ad305161d3bb04ec8df1366d32dfd9c8d}
+
+\item 
+void {\bfseries cam2world} (cv\+::\+Mat \&input\+Points, cv\+::\+Mat \&output\+Points)\hypertarget{classCameraCal_af768f460fecd28f833c6663c298719d4}{}\label{classCameraCal_af768f460fecd28f833c6663c298719d4}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string {\bfseries camera\+Name}\hypertarget{classCameraCal_a6b5eb4c36c863701cff34e9ba2d6f64b}{}\label{classCameraCal_a6b5eb4c36c863701cff34e9ba2d6f64b}
+
+\item 
+double {\bfseries reporjection\+Error}\hypertarget{classCameraCal_a7f1f8fbe6975378cc8ffec8338e379ba}{}\label{classCameraCal_a7f1f8fbe6975378cc8ffec8338e379ba}
+
+\item 
+cv\+::\+Mat {\bfseries camera\+Matrix}\hypertarget{classCameraCal_abe31c21ecea3289f2e103acb6cc1208a}{}\label{classCameraCal_abe31c21ecea3289f2e103acb6cc1208a}
+
+\item 
+cv\+::\+Mat {\bfseries dist\+Coeffs}\hypertarget{classCameraCal_a55d562412415e341ef76bcb9c80f67f4}{}\label{classCameraCal_a55d562412415e341ef76bcb9c80f67f4}
+
+\item 
+double {\bfseries fovx}\hypertarget{classCameraCal_ae2db6a3f823cc793317eae41c8681065}{}\label{classCameraCal_ae2db6a3f823cc793317eae41c8681065}
+
+\item 
+double {\bfseries fovy}\hypertarget{classCameraCal_a2348222df74031059d634835d5325411}{}\label{classCameraCal_a2348222df74031059d634835d5325411}
+
+\item 
+double {\bfseries focal\+Length}\hypertarget{classCameraCal_ae821e874698bde0d95f99bd80d9891af}{}\label{classCameraCal_ae821e874698bde0d95f99bd80d9891af}
+
+\item 
+cv\+::\+Point2d {\bfseries principal\+Point}\hypertarget{classCameraCal_a41774b2252dc7e1517728b579d0a48db}{}\label{classCameraCal_a41774b2252dc7e1517728b579d0a48db}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\index{Camera\+Cal@{Camera\+Cal}!project\+Points@{project\+Points}}
+\index{project\+Points@{project\+Points}!Camera\+Cal@{Camera\+Cal}}
+\subsubsection[{\texorpdfstring{project\+Points(std\+::vector$<$ cv\+::\+Point3f $>$ object\+Points, cv\+::\+Mat R, cv\+::\+Mat T, std\+::vector$<$ cv\+::\+Point2f $>$ \&output)}{projectPoints(std::vector< cv::Point3f > objectPoints, cv::Mat R, cv::Mat T, std::vector< cv::Point2f > &output)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Cal\+::project\+Points (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ cv\+::\+Point3f $>$}]{object\+Points, }
+\item[{cv\+::\+Mat}]{R, }
+\item[{cv\+::\+Mat}]{T, }
+\item[{std\+::vector$<$ cv\+::\+Point2f $>$ \&}]{output}
+\end{DoxyParamCaption}
+)}\hypertarget{classCameraCal_aa1cc38014e07e74f9eaf139b72e55d09}{}\label{classCameraCal_aa1cc38014e07e74f9eaf139b72e55d09}
+
+
+\hyperlink{classCameraCal_aa1cc38014e07e74f9eaf139b72e55d09}{Camera\+Cal\+::project\+Points} Projects points from 3d space into the image frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em object\+Points} & the points in the the object (ie a checkerboard) \\
+\hline
+{\em R} & the rotation matrix of the object frame \\
+\hline
+{\em T} & the translation vector of the object frame \\
+\hline
+{\em output} & A referecne perameter that will be filled with the the points projected to the image frame; \\
+\hline
+\end{DoxyParams}
+\index{Camera\+Cal@{Camera\+Cal}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Camera\+Cal@{Camera\+Cal}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Cal\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{}\label{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{Abstract\+Data}.
+
+\index{Camera\+Cal@{Camera\+Cal}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Camera\+Cal@{Camera\+Cal}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Cal\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}{}\label{classCameraCal_a2f47fc4ab16adcdd6269184340e087ed}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{Abstract\+Data}.
+
+\index{Camera\+Cal@{Camera\+Cal}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Camera\+Cal@{Camera\+Cal}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Cal\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{}\label{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{Abstract\+Data}.
+
+\index{Camera\+Cal@{Camera\+Cal}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Camera\+Cal@{Camera\+Cal}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Cal\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}{}\label{classCameraCal_aed026a2f07ceffeaf5591072cae13f99}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{Abstract\+Data}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/cameracal.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/cameracal.\+cpp\end{DoxyCompactItemize}

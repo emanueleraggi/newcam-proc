@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+82c7c225a897859f0bdf91a0cb1e7f5d CMakeFiles/colorCorrector_automoc
+5335227317d1e7a4b3fb9327cd32d2ff CMakeFiles/colorCorrector_lib_automoc
+27eb733c45842f59cad7a5281e12bb45 ui_adaptivelightfieldwidget.h
+e0bd728ea3cbd783c5b292ecf4abb129 ui_histeqwidget.h
+0a4b120c0069c947355eecce3c7e72b2 ui_lightfieldwidget.h
+d9d36ca81ff98a951d61eec895729d4f ui_mainwindow.h
+68e6ac634ed31fb16232a4dd48ffde5e ui_rgbhsvwidget.h

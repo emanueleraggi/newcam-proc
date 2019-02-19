@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classBioDatabaseUI.html" title="BioDatabaseUI" alt="" coords="185,5,295,32"/>
+<area shape="rect" id="node3" href="$classconnectionMenu.html" title="connectionMenu" alt="" coords="181,56,299,83"/>
+<area shape="rect" id="node4" href="$classfirstNestedTable.html" title="firstNestedTable" alt="" coords="181,107,299,133"/>
+<area shape="rect" id="node5" href="$classfirstTableXmlExcelCSV.html" title="firstTableXmlExcelCSV" alt="" coords="160,157,320,184"/>
+<area shape="rect" id="node6" href="$classImagingWindow.html" title="ImagingWindow" alt="" coords="183,208,297,235"/>
+<area shape="rect" id="node8" href="$classMainWindow.html" title="MainWindow" alt="" coords="373,259,471,285"/>
+<area shape="rect" id="node9" href="$classLaserWaterfallGui.html" title="LaserWaterfallGui" alt="" coords="177,309,303,336"/>
+<area shape="rect" id="node10" href="$classroi.html" title="roi" alt="" coords="221,360,259,387"/>
+<area shape="rect" id="node11" href="$classsearchTable.html" title="searchTable" alt="" coords="193,411,287,437"/>
+<area shape="rect" id="node12" href="$classsingleCamWindow.html" title="singleCamWindow" alt="" coords="175,461,305,488"/>
+<area shape="rect" id="node13" href="$classStereoManager.html" title="StereoManager" alt="" coords="185,512,295,539"/>
+<area shape="rect" id="node14" href="$classstereoWindow.html" title="stereoWindow" alt="" coords="187,563,293,589"/>
+<area shape="rect" id="node7" href="$classImageManager.html" title="ImageManager" alt="" coords="368,208,476,235"/>
+</map>

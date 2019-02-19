@@ -1,0 +1,5 @@
+<map id="BoardLocator" name="BoardLocator">
+<area shape="rect" id="node2" href="$classImageProcessor.html" title="ImageProcessor" alt="" coords="5,81,123,108"/>
+<area shape="rect" id="node3" href="$classCameraCal.html" title="CameraCal" alt="" coords="147,81,235,108"/>
+<area shape="rect" id="node4" href="$classAbstractData.html" title="AbstractData" alt="" coords="141,5,240,32"/>
+</map>

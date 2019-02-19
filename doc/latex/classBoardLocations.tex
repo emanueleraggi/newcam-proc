@@ -1,0 +1,104 @@
+\hypertarget{classBoardLocations}{}\section{Board\+Locations Class Reference}
+\label{classBoardLocations}\index{Board\+Locations@{Board\+Locations}}
+
+
+Inheritance diagram for Board\+Locations\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classBoardLocations__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Board\+Locations\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classBoardLocations__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classBoardLocations_aaf84c2db5212ae94ddece86c333befb8}{read\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to read data from a file using a filename \end{DoxyCompactList}\item 
+void \hyperlink{classBoardLocations_a9355491bd25943d2ad4f725fc8aae849}{write\+File} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em abstract memeber to write data from a file using a filename \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ cv\+::\+Point2f $>$ {\bfseries get\+Board\+Points}\hypertarget{classBoardLocations_a66ae9db9985e92ab8466f96a46e96afb}{}\label{classBoardLocations_a66ae9db9985e92ab8466f96a46e96afb}
+
+\item 
+std\+::vector$<$ std\+::string $>$ {\bfseries filenames}\hypertarget{classBoardLocations_a7a970e1854031f1265817a7a471eca6b}{}\label{classBoardLocations_a7a970e1854031f1265817a7a471eca6b}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries translation\+Vectors}\hypertarget{classBoardLocations_a7f9e70f9b8f4e44a2da6db33ad278441}{}\label{classBoardLocations_a7f9e70f9b8f4e44a2da6db33ad278441}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries rotation\+Mats}\hypertarget{classBoardLocations_a2350b56ba0d12a29128192e9cf6924b5}{}\label{classBoardLocations_a2350b56ba0d12a29128192e9cf6924b5}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries U\+Vs}\hypertarget{classBoardLocations_a0036498864042a1b8e9e70409eb6d7c7}{}\label{classBoardLocations_a0036498864042a1b8e9e70409eb6d7c7}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries board\+Points}\hypertarget{classBoardLocations_a1590e9edb7bc6362d16a5abeb5246983}{}\label{classBoardLocations_a1590e9edb7bc6362d16a5abeb5246983}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\index{Board\+Locations@{Board\+Locations}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!Board\+Locations@{Board\+Locations}}
+\subsubsection[{\texorpdfstring{read\+File(std\+::string filename)}{readFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Board\+Locations\+::read\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classBoardLocations_aaf84c2db5212ae94ddece86c333befb8}{}\label{classBoardLocations_aaf84c2db5212ae94ddece86c333befb8}
+
+
+abstract memeber to read data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_ab43309236fd644fd303b4b1468a87d86}{Abstract\+Data}.
+
+\index{Board\+Locations@{Board\+Locations}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!Board\+Locations@{Board\+Locations}}
+\subsubsection[{\texorpdfstring{write\+File(std\+::string filename)}{writeFile(std::string filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void Board\+Locations\+::write\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classBoardLocations_a9355491bd25943d2ad4f725fc8aae849}{}\label{classBoardLocations_a9355491bd25943d2ad4f725fc8aae849}
+
+
+abstract memeber to write data from a file using a filename 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the location of the file you wish to write to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+unless overridden this function will just print an error to the screen 
+\end{DoxyNote}
+
+
+Reimplemented from \hyperlink{classAbstractData_a338dce47a9901032fd7b908a1c6df514}{Abstract\+Data}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/boardlocations.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Cal2/src/boardlocations.\+cpp\end{DoxyCompactItemize}

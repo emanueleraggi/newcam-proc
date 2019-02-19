@@ -1,0 +1,6 @@
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/rebuild_cache.dir
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/colorCorrector_lib.dir
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/edit_cache.dir
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/colorCorrector.dir
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/colorCorrector_lib_automoc.dir
+/home/labrat/Desktop/cam-proc/src/colorCorrector-build/CMakeFiles/colorCorrector_automoc.dir

@@ -1,0 +1,167 @@
+\hypertarget{classMorphOps}{}\section{Morph\+Ops Class Reference}
+\label{classMorphOps}\index{Morph\+Ops@{Morph\+Ops}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries runner} ()\hypertarget{classMorphOps_a525552ba49d5d3fb5fd02f7be008a30c}{}\label{classMorphOps_a525552ba49d5d3fb5fd02f7be008a30c}
+
+\item 
+void {\bfseries set\+In\+Directory} (boost\+::filesystem\+::path pa)\hypertarget{classMorphOps_afbbc9b689e24e4161ab2ca54f806950b}{}\label{classMorphOps_afbbc9b689e24e4161ab2ca54f806950b}
+
+\item 
+void {\bfseries set\+Im\+List} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ inL)\hypertarget{classMorphOps_ae6090157a5acb5913ec4f716b537d644}{}\label{classMorphOps_ae6090157a5acb5913ec4f716b537d644}
+
+\item 
+void {\bfseries set\+Output\+Directory} (boost\+::filesystem\+::path pa)\hypertarget{classMorphOps_a2d5347a94e5f5fca9d78676501138f69}{}\label{classMorphOps_a2d5347a94e5f5fca9d78676501138f69}
+
+\item 
+void {\bfseries set\+Seg\+Directory} (std\+::string pa)\hypertarget{classMorphOps_ac8d816e9ab14af83095b8e8e2b5507e6}{}\label{classMorphOps_ac8d816e9ab14af83095b8e8e2b5507e6}
+
+\item 
+void {\bfseries set\+Color\+Space} (Color\+Space cl)\hypertarget{classMorphOps_a6e913dc39633faa5841f0b66d6b1e2c2}{}\label{classMorphOps_a6e913dc39633faa5841f0b66d6b1e2c2}
+
+\item 
+void {\bfseries log\+Pipeline} ()\hypertarget{classMorphOps_a54bc83f7f5a0db999f38c0df1ec117e2}{}\label{classMorphOps_a54bc83f7f5a0db999f38c0df1ec117e2}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries fourier\+Transform} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_aef2a2deb7a0abd8c89526ac46a208f94}{}\label{classMorphOps_aef2a2deb7a0abd8c89526ac46a208f94}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries thresh\+Adapt\+Gauss\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a5ae1e857382a662fff54c632a7d7b5e5}{}\label{classMorphOps_a5ae1e857382a662fff54c632a7d7b5e5}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries thresh\+Adapt\+Mean\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_aaa1e5a43536ac12ef135050de4e7fd66}{}\label{classMorphOps_aaa1e5a43536ac12ef135050de4e7fd66}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries thresh\+O\+T\+S\+U\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a5f898ce4f35742c9af1054b7da4722b8}{}\label{classMorphOps_a5f898ce4f35742c9af1054b7da4722b8}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries thresh\+Static\+Proc} (\hyperlink{classImage}{Image} \&in, double thresh\+Val)\hypertarget{classMorphOps_a7add19cc2ec7544307d224d96f7f1b92}{}\label{classMorphOps_a7add19cc2ec7544307d224d96f7f1b92}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries get\+Win\+Img} (int ind, int win\+Size)\hypertarget{classMorphOps_a08a10a68676b2f430b73ca7297a2756b}{}\label{classMorphOps_a08a10a68676b2f430b73ca7297a2756b}
+
+\item 
+double {\bfseries get\+O\+T\+U\+S\+Thresh\+Val} (int ind, int win\+Size)\hypertarget{classMorphOps_ac970742a2d1ee15059a8df3ebcd55ff1}{}\label{classMorphOps_ac970742a2d1ee15059a8df3ebcd55ff1}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries hist\+Equalization} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a4f480cefe21011569ecaaa2d19c90e2f}{}\label{classMorphOps_a4f480cefe21011569ecaaa2d19c90e2f}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries hist\+Normalization} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a17ee1e01c8b2e9fd7d5730a0a03a8380}{}\label{classMorphOps_a17ee1e01c8b2e9fd7d5730a0a03a8380}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries bilateral\+Filter\+Proc} (\hyperlink{classImage}{Image} \&in, int kern)\hypertarget{classMorphOps_aa12dced8212555a43e3494f4f521045c}{}\label{classMorphOps_aa12dced8212555a43e3494f4f521045c}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries gaussian\+Filter\+Proc} (\hyperlink{classImage}{Image} \&in, int kern)\hypertarget{classMorphOps_af6cdc8e855e01fffdd878ce8e1728c78}{}\label{classMorphOps_af6cdc8e855e01fffdd878ce8e1728c78}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries laplacian\+Filter\+Proc} (\hyperlink{classImage}{Image} \&in, int kern)\hypertarget{classMorphOps_a86aa16737196420ba30e29acb9225ace}{}\label{classMorphOps_a86aa16737196420ba30e29acb9225ace}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries sharpen\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a5dc563f2d6b90340275ac68a7719182c}{}\label{classMorphOps_a5dc563f2d6b90340275ac68a7719182c}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries find\+Canny\+Edges} (\hyperlink{classImage}{Image} \&in, int thresh1, int thresh2)\hypertarget{classMorphOps_ac4618978f3e7b6fd8535c2f84e880a08}{}\label{classMorphOps_ac4618978f3e7b6fd8535c2f84e880a08}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries dist\+Transform\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_ae8e8726798045784f44676d5b6635182}{}\label{classMorphOps_ae8e8726798045784f44676d5b6635182}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries norm\+Go\+G\+Proc} (\hyperlink{classImage}{Image} in, int ksize, float sigma, int c)\hypertarget{classMorphOps_ab3bc60547764643733b21cfe1c873725}{}\label{classMorphOps_ab3bc60547764643733b21cfe1c873725}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries dilate\+Proc} (\hyperlink{classImage}{Image} \&in, int iter)\hypertarget{classMorphOps_aefa28b4e640acee86331894ec46923f8}{}\label{classMorphOps_aefa28b4e640acee86331894ec46923f8}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries erode\+Proc} (\hyperlink{classImage}{Image} \&in, int iter)\hypertarget{classMorphOps_a856e2bce7c779f3f7eb98c53e5944724}{}\label{classMorphOps_a856e2bce7c779f3f7eb98c53e5944724}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries open\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a01ece2ee35bff1e72c79bf3ce44f4cee}{}\label{classMorphOps_a01ece2ee35bff1e72c79bf3ce44f4cee}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries close\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_aad8386eb84b08dbbdf551803e20045aa}{}\label{classMorphOps_aad8386eb84b08dbbdf551803e20045aa}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries open\+Kernel\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a2cc4924131cfe8bd948b74217b5f5d58}{}\label{classMorphOps_a2cc4924131cfe8bd948b74217b5f5d58}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries close\+Kernel\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a7315f4fde63c25565a836f9f4154f7f8}{}\label{classMorphOps_a7315f4fde63c25565a836f9f4154f7f8}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries black\+Hat\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_a76a0d537bbc54fb7b7407f7123dcfd2b}{}\label{classMorphOps_a76a0d537bbc54fb7b7407f7123dcfd2b}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries morph\+Grad\+Proc} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_ab798269fc109f69dde88cc65821d5ce4}{}\label{classMorphOps_ab798269fc109f69dde88cc65821d5ce4}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries invert\+Im} (\hyperlink{classImage}{Image} \&in)\hypertarget{classMorphOps_ada9c91424d39e94a7291dd9fa2e5c15b}{}\label{classMorphOps_ada9c91424d39e94a7291dd9fa2e5c15b}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries hist\+Equalization\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a6ebac4745c30ed9b2e33c139fe1c947d}{}\label{classMorphOps_a6ebac4745c30ed9b2e33c139fe1c947d}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries hist\+Normalization\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_acdace4d7df6c24f48e88db6b7abdcaa5}{}\label{classMorphOps_acdace4d7df6c24f48e88db6b7abdcaa5}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries dist\+Transform\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a07b53aa5e4be0b5e4aa3142a63b874dd}{}\label{classMorphOps_a07b53aa5e4be0b5e4aa3142a63b874dd}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries thresh\+Adapt\+Gauss\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a2d05a7def8abecdb3c02712db72b789c}{}\label{classMorphOps_a2d05a7def8abecdb3c02712db72b789c}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries thresh\+Adapt\+Mean\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a10a99bfdfb44d16cefc99ac1b787dc1c}{}\label{classMorphOps_a10a99bfdfb44d16cefc99ac1b787dc1c}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries thresh\+Static\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, double thresh\+Val)\hypertarget{classMorphOps_ae92708fd4d4ad05588103c24912df25e}{}\label{classMorphOps_ae92708fd4d4ad05588103c24912df25e}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries thresh\+O\+T\+S\+U\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_ae3d0dbe4231d13af0002a406476d7617}{}\label{classMorphOps_ae3d0dbe4231d13af0002a406476d7617}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries gaussian\+Filter\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int kern)\hypertarget{classMorphOps_a84c304f798a1011bd737bcf113332734}{}\label{classMorphOps_a84c304f798a1011bd737bcf113332734}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries laplacian\+Filter\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int kern)\hypertarget{classMorphOps_aaeb822e46a359a735280ca46cfda557f}{}\label{classMorphOps_aaeb822e46a359a735280ca46cfda557f}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries bilateral\+Filter\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int kern)\hypertarget{classMorphOps_a30012ada0a9b24a1226552bc9eb5a201}{}\label{classMorphOps_a30012ada0a9b24a1226552bc9eb5a201}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries norm\+Go\+G\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int ksize, float sigma, int c)\hypertarget{classMorphOps_ab309bf19cd2335a4e3142408507d0a90}{}\label{classMorphOps_ab309bf19cd2335a4e3142408507d0a90}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries sharpen\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_afb943d959353aed23c44c9e4093601b6}{}\label{classMorphOps_afb943d959353aed23c44c9e4093601b6}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries dilate\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int iter)\hypertarget{classMorphOps_a4e97a8a1b8c9bf9a13a758b8f2c33d4b}{}\label{classMorphOps_a4e97a8a1b8c9bf9a13a758b8f2c33d4b}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries erode\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int iter)\hypertarget{classMorphOps_ab3864ad3b5e0a2bf91bce74d50ebd745}{}\label{classMorphOps_ab3864ad3b5e0a2bf91bce74d50ebd745}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries open\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a6fad306f5c27eff5ce405f430c097f50}{}\label{classMorphOps_a6fad306f5c27eff5ce405f430c097f50}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries close\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_ac8232d9bf4749fd6cd96998b1226cdcf}{}\label{classMorphOps_ac8232d9bf4749fd6cd96998b1226cdcf}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries black\+Hat\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a58d127c08c61c0192d487792dfa8b5f4}{}\label{classMorphOps_a58d127c08c61c0192d487792dfa8b5f4}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries morph\+Grad\+Proc\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_adda4744ac9e1dec36bb2010232f28aa7}{}\label{classMorphOps_adda4744ac9e1dec36bb2010232f28aa7}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries find\+Canny\+Edges\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in, int thresh1, int thresh2)\hypertarget{classMorphOps_a25345d78872fb006b1c0b9ae0e730220}{}\label{classMorphOps_a25345d78872fb006b1c0b9ae0e730220}
+
+\item 
+\hyperlink{classStereoImage}{Stereo\+Image} {\bfseries invert\+Im\+Stereo} (\hyperlink{classStereoImage}{Stereo\+Image} \&in)\hypertarget{classMorphOps_a1ae86e1832c976736197f5296118e0e2}{}\label{classMorphOps_a1ae86e1832c976736197f5296118e0e2}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/morphops.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/morphops.\+cpp\end{DoxyCompactItemize}

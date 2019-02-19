@@ -1,0 +1,107 @@
+\hypertarget{classSegmenter}{}\section{Segmenter Class Reference}
+\label{classSegmenter}\index{Segmenter@{Segmenter}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Seg\+Save\+Directory} (std\+::string pa)\hypertarget{classSegmenter_a1ca48cfbc029301763745cdff63c7315}{}\label{classSegmenter_a1ca48cfbc029301763745cdff63c7315}
+
+\item 
+void {\bfseries preserve\+Time\+Stamps} (std\+::string ts)\hypertarget{classSegmenter_aafe298f611a3e6ecbea5781e12375f64}{}\label{classSegmenter_aafe298f611a3e6ecbea5781e12375f64}
+
+\item 
+\hyperlink{structimgContours}{img\+Contours} {\bfseries find\+Contours} (\hyperlink{classImage}{Image} in)\hypertarget{classSegmenter_a7ec373f9e197294079cca622deab4db8}{}\label{classSegmenter_a7ec373f9e197294079cca622deab4db8}
+
+\item 
+cv\+::\+Rect {\bfseries get\+Bound\+Rect} (std\+::vector$<$ cv\+::\+Point $>$ contours)\hypertarget{classSegmenter_a4dfd1e2d42b757eaa2b148279dd7e26d}{}\label{classSegmenter_a4dfd1e2d42b757eaa2b148279dd7e26d}
+
+\item 
+double {\bfseries get\+Contour\+Match\+Strength} (std\+::vector$<$ cv\+::\+Point $>$ contoursA, std\+::vector$<$ cv\+::\+Point $>$ contoursB)\hypertarget{classSegmenter_a1b926b90d0700e7c6da07fa8a8b7bcc2}{}\label{classSegmenter_a1b926b90d0700e7c6da07fa8a8b7bcc2}
+
+\item 
+std\+::vector$<$ cv\+::\+Rect $>$ {\bfseries get\+Bound\+Rects} (\hyperlink{classImage}{Image} in)\hypertarget{classSegmenter_ab38db258ca0f5a7d38881da059bb3cbf}{}\label{classSegmenter_ab38db258ca0f5a7d38881da059bb3cbf}
+
+\item 
+\hyperlink{structimgContours}{img\+Contours} {\bfseries get\+Contours} (\hyperlink{classImage}{Image} in)\hypertarget{classSegmenter_aaf871a36de6c8306f4b632ab09292d32}{}\label{classSegmenter_aaf871a36de6c8306f4b632ab09292d32}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Rects} (\hyperlink{classImage}{Image} in, std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$ $>$ cont\+Data)\hypertarget{classSegmenter_a445cef990fc9d912b591975beb5f5727}{}\label{classSegmenter_a445cef990fc9d912b591975beb5f5727}
+
+\item 
+std\+::vector$<$ cv\+::\+Rect $>$ {\bfseries get\+Bound\+Rects\+Push} (std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$ $>$ contours)\hypertarget{classSegmenter_ac062fd10b08b8a7abe5e5e589e2b957f}{}\label{classSegmenter_ac062fd10b08b8a7abe5e5e589e2b957f}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Contours} (\hyperlink{classImage}{Image} in, std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$ $>$ contours, std\+::vector$<$ cv\+::\+Vec4i $>$ hierarchy)\hypertarget{classSegmenter_a58437eb1ba1c10ccee8f5fc838418a1f}{}\label{classSegmenter_a58437eb1ba1c10ccee8f5fc838418a1f}
+
+\item 
+double {\bfseries get\+Contour\+Area} (std\+::vector$<$ cv\+::\+Point $>$ contour)\hypertarget{classSegmenter_a47fdf2fb9233b48afc1fee0fe22c5cff}{}\label{classSegmenter_a47fdf2fb9233b48afc1fee0fe22c5cff}
+
+\item 
+cv\+::\+Moments {\bfseries get\+Moments} (std\+::vector$<$ cv\+::\+Point $>$ contour)\hypertarget{classSegmenter_ab0e8c2520946c9dd4ba4273a22cf545a}{}\label{classSegmenter_ab0e8c2520946c9dd4ba4273a22cf545a}
+
+\item 
+void {\bfseries blob\+Detect} (cv\+::\+Mat in)\hypertarget{classSegmenter_a1c28682631d90f7ada2f1f841952e801}{}\label{classSegmenter_a1c28682631d90f7ada2f1f841952e801}
+
+\item 
+void {\bfseries extract\+Blobs} (\hyperlink{classImage}{Image} in, int ind)\hypertarget{classSegmenter_a657c09adbb7d6edcbb58239b9d8db006}{}\label{classSegmenter_a657c09adbb7d6edcbb58239b9d8db006}
+
+\item 
+void {\bfseries generate\+R\+O\+I\+Stats} ()\hypertarget{classSegmenter_a1a20c2c950b263f9c263ec483c3c2657}{}\label{classSegmenter_a1a20c2c950b263f9c263ec483c3c2657}
+
+\item 
+void {\bfseries save\+Stats} (std\+::vector$<$ std\+::string $>$ stats)\hypertarget{classSegmenter_a00a11f9e084e9f02a58f1a50df6e527c}{}\label{classSegmenter_a00a11f9e084e9f02a58f1a50df6e527c}
+
+\item 
+std\+::vector$<$ cv\+::\+Key\+Point $>$ {\bfseries get\+Blob\+K\+Ps} (int ind)\hypertarget{classSegmenter_a36f865cdde985f42fbda4d49adee6eec}{}\label{classSegmenter_a36f865cdde985f42fbda4d49adee6eec}
+
+\item 
+std\+::vector$<$ cv\+::\+Key\+Point $>$ {\bfseries blob\+Detect\+Key\+Points} (cv\+::\+Mat in)\hypertarget{classSegmenter_a04e707d0e2d027d411ed1d49f1675a39}{}\label{classSegmenter_a04e707d0e2d027d411ed1d49f1675a39}
+
+\item 
+void {\bfseries find\+Contours\+Overwrite} (\hyperlink{classImage}{Image} in, int ind)\hypertarget{classSegmenter_a83f1dadfa90c7a55065bf7508f836a50}{}\label{classSegmenter_a83f1dadfa90c7a55065bf7508f836a50}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ {\bfseries extract\+Rects} (\hyperlink{classImage}{Image} in, int ind)\hypertarget{classSegmenter_ad1306f3d25657db48c54586169c607cd}{}\label{classSegmenter_ad1306f3d25657db48c54586169c607cd}
+
+\item 
+std\+::vector$<$ cv\+::\+Rect $>$ {\bfseries get\+Bound\+Rect\+Old} (int ind)\hypertarget{classSegmenter_a0ed74b8610d04960e96545a2769c791e}{}\label{classSegmenter_a0ed74b8610d04960e96545a2769c791e}
+
+\item 
+std\+::vector$<$ cv\+::\+Rotated\+Rect $>$ {\bfseries get\+Bound\+Rot\+Rect} (int ind)\hypertarget{classSegmenter_ad962f1ec52b2a08611cc6df03773ab61}{}\label{classSegmenter_ad962f1ec52b2a08611cc6df03773ab61}
+
+\item 
+std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$ $>$ {\bfseries get\+Contour\+Poly} (int ind)\hypertarget{classSegmenter_a6b072eb0387886c01f5cf19cba30d738}{}\label{classSegmenter_a6b072eb0387886c01f5cf19cba30d738}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Conts\+To\+Poly} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_ab84556c3c16c492f78fb11ad4553a68a}{}\label{classSegmenter_ab84556c3c16c492f78fb11ad4553a68a}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Bound\+Rect} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_a0bc8e220e8b8bd6d0340cb6db7124b41}{}\label{classSegmenter_a0bc8e220e8b8bd6d0340cb6db7124b41}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Bound\+Rot\+Rect} (\hyperlink{classImage}{Image} in, int ind)\hypertarget{classSegmenter_ae60f351ae7fd0d33ef61756770d29c3a}{}\label{classSegmenter_ae60f351ae7fd0d33ef61756770d29c3a}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Bound\+Circle} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_ae373ac05c991729d9b0a958fd411387d}{}\label{classSegmenter_ae373ac05c991729d9b0a958fd411387d}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries draw\+Bound\+Ellipse} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_aa1b3b5963af2bf4e7a7755e15b4a467f}{}\label{classSegmenter_aa1b3b5963af2bf4e7a7755e15b4a467f}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries proc\+Markers} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_a505367c5d793177ae076589f40435c25}{}\label{classSegmenter_a505367c5d793177ae076589f40435c25}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries proc\+Watershed} (\hyperlink{classImage}{Image} in, \hyperlink{classImage}{Image} out)\hypertarget{classSegmenter_a4f93fa4e012971d81f0d04f56bd06325}{}\label{classSegmenter_a4f93fa4e012971d81f0d04f56bd06325}
+
+\item 
+void {\bfseries calc\+Moments} (cv\+::\+Mat in, int ind)\hypertarget{classSegmenter_a271f104d841fd42f8f961d2a43fc573d}{}\label{classSegmenter_a271f104d841fd42f8f961d2a43fc573d}
+
+\item 
+void {\bfseries calc\+Hu\+Moments} (int ind)\hypertarget{classSegmenter_ad4ca3cf833fc9612a5df389d607a8cd3}{}\label{classSegmenter_ad4ca3cf833fc9612a5df389d607a8cd3}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/segmenter.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/segmenter.\+cpp\end{DoxyCompactItemize}

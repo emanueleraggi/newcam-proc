@@ -1,0 +1,7 @@
+<map id="SensorMelt" name="SensorMelt">
+<area shape="rect" id="node2" href="$structSensorMelt_1_1SensorOptode.html" title="SensorMelt::SensorOptode" alt="" coords="11,5,190,32"/>
+<area shape="rect" id="node3" href="$structSensorMelt_1_1SensorCTD.html" title="SensorMelt::SensorCTD" alt="" coords="18,56,183,83"/>
+<area shape="rect" id="node4" href="$structSensorMelt_1_1SensorLCI.html" title="SensorMelt::SensorLCI" alt="" coords="21,107,180,133"/>
+<area shape="rect" id="node5" href="$structSensorMelt_1_1SensorEcoPuck.html" title="SensorMelt::SensorEcoPuck" alt="" coords="5,157,196,184"/>
+<area shape="rect" id="node6" href="$structSensorMelt_1_1SensorGPS.html" title="SensorMelt::SensorGPS" alt="" coords="18,208,183,235"/>
+</map>

@@ -1,0 +1,170 @@
+\hypertarget{classcalibrator2d}{}\section{calibrator2d Class Reference}
+\label{classcalibrator2d}\index{calibrator2d@{calibrator2d}}
+
+
+Collaboration diagram for calibrator2d\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classcalibrator2d__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries setup\+Board} (int num\+Horizontal, int num\+Vertical, float grid\+Size)\hypertarget{classcalibrator2d_af7ea8fea2fe2f4dddaabf53eaeb627f0}{}\label{classcalibrator2d_af7ea8fea2fe2f4dddaabf53eaeb627f0}
+
+\item 
+void {\bfseries setup\+Asym\+Circ\+Board} (int num\+Horizontal, int num\+Vertical, float grid\+Size)\hypertarget{classcalibrator2d_a054356794a38491ec50d5f00de6921d8}{}\label{classcalibrator2d_a054356794a38491ec50d5f00de6921d8}
+
+\item 
+bool {\bfseries find\+Corners} ()\hypertarget{classcalibrator2d_ae21a633c8fdbc9d1d985780100688147}{}\label{classcalibrator2d_ae21a633c8fdbc9d1d985780100688147}
+
+\item 
+bool {\bfseries store\+Points} ()\hypertarget{classcalibrator2d_a9c7c8404911a25bca21ea6ee03152528}{}\label{classcalibrator2d_a9c7c8404911a25bca21ea6ee03152528}
+
+\item 
+bool {\bfseries unstore\+Points} ()\hypertarget{classcalibrator2d_abe2a5a7eb62731f43f6f8343ab37aa15}{}\label{classcalibrator2d_abe2a5a7eb62731f43f6f8343ab37aa15}
+
+\item 
+void {\bfseries calibrate} ()\hypertarget{classcalibrator2d_ac25ed63af6de3722155eda9b0844f977}{}\label{classcalibrator2d_ac25ed63af6de3722155eda9b0844f977}
+
+\item 
+void {\bfseries undistort\+Image} ()\hypertarget{classcalibrator2d_a96d83df2b7d366d42bf61547358c9af5}{}\label{classcalibrator2d_a96d83df2b7d366d42bf61547358c9af5}
+
+\item 
+bool {\bfseries next\+Image} ()\hypertarget{classcalibrator2d_a2d7e0a23afbc322ca77d628f34ab0613}{}\label{classcalibrator2d_a2d7e0a23afbc322ca77d628f34ab0613}
+
+\item 
+bool {\bfseries prev\+Image} ()\hypertarget{classcalibrator2d_af1a3bf827f11c6737b8369eae4789c62}{}\label{classcalibrator2d_af1a3bf827f11c6737b8369eae4789c62}
+
+\item 
+void {\bfseries goto\+Image} (int index)\hypertarget{classcalibrator2d_a9fd8b766132a7ce73343865ec06fcc0c}{}\label{classcalibrator2d_a9fd8b766132a7ce73343865ec06fcc0c}
+
+\item 
+int {\bfseries get\+Index} ()\hypertarget{classcalibrator2d_a4fa946638fe84cb015904af249d383c8}{}\label{classcalibrator2d_a4fa946638fe84cb015904af249d383c8}
+
+\item 
+\hyperlink{classcalImage}{cal\+Image} {\bfseries get\+Image} ()\hypertarget{classcalibrator2d_aebf7e6f254b50edef6dadea24d7095ce}{}\label{classcalibrator2d_aebf7e6f254b50edef6dadea24d7095ce}
+
+\item 
+\hyperlink{classcalImage}{cal\+Image} {\bfseries get\+Image} (int index)\hypertarget{classcalibrator2d_a73eb66d400663b1693188c9798364773}{}\label{classcalibrator2d_a73eb66d400663b1693188c9798364773}
+
+\item 
+double {\bfseries compute\+Reprojection\+Errors} ()\hypertarget{classcalibrator2d_a7cc23e9a343e0acef95e6b83dda108fd}{}\label{classcalibrator2d_a7cc23e9a343e0acef95e6b83dda108fd}
+
+\item 
+vector$<$ vector$<$ Point3f $>$ $>$ {\bfseries get\+Object\+Point\+Vect} ()\hypertarget{classcalibrator2d_a4e1d16dcb976d268985032a42bf627ad}{}\label{classcalibrator2d_a4e1d16dcb976d268985032a42bf627ad}
+
+\item 
+vector$<$ vector$<$ Point2f $>$ $>$ {\bfseries get\+Image\+Point\+Vect} ()\hypertarget{classcalibrator2d_a3861a75680988cb9bb098832faba0133}{}\label{classcalibrator2d_a3861a75680988cb9bb098832faba0133}
+
+\item 
+\hyperlink{classcalImage}{cal\+Image} \& {\bfseries current\+Image} ()\hypertarget{classcalibrator2d_a5e693cda283906f1077e89117c11a34c}{}\label{classcalibrator2d_a5e693cda283906f1077e89117c11a34c}
+
+\item 
+void {\bfseries write\+Y\+A\+ML} (string Filename)\hypertarget{classcalibrator2d_ace320844475a379524b8dd18ff037036}{}\label{classcalibrator2d_ace320844475a379524b8dd18ff037036}
+
+\item 
+Mat {\bfseries get\+Image\+Undistorted} ()\hypertarget{classcalibrator2d_a679d99c79f8a8d499a896c60e1734f20}{}\label{classcalibrator2d_a679d99c79f8a8d499a896c60e1734f20}
+
+\item 
+bool {\bfseries is\+Calibrated} ()\hypertarget{classcalibrator2d_a3e84790c9d4fcd23202f02b3d6917f5d}{}\label{classcalibrator2d_a3e84790c9d4fcd23202f02b3d6917f5d}
+
+\item 
+Mat {\bfseries get\+Board\+Position} (\hyperlink{classcalImage}{cal\+Image} image)\hypertarget{classcalibrator2d_addc5eb020d5b77d46dcc9cc3a6e619cf}{}\label{classcalibrator2d_addc5eb020d5b77d46dcc9cc3a6e619cf}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries name}\hypertarget{classcalibrator2d_a88560863cdfd0d2e43e44e6b241dc505}{}\label{classcalibrator2d_a88560863cdfd0d2e43e44e6b241dc505}
+
+\item 
+int {\bfseries num\+Boards}\hypertarget{classcalibrator2d_abe280c775f9ba89aae38d95435d3a6da}{}\label{classcalibrator2d_abe280c775f9ba89aae38d95435d3a6da}
+
+\item 
+int {\bfseries num\+Corners\+Hor}\hypertarget{classcalibrator2d_aa538c957784bdff0ba0c84cdc34e8f92}{}\label{classcalibrator2d_aa538c957784bdff0ba0c84cdc34e8f92}
+
+\item 
+int {\bfseries num\+Corners\+Ver}\hypertarget{classcalibrator2d_a2f7c137e6f18e1df5702c4b4d21a0040}{}\label{classcalibrator2d_a2f7c137e6f18e1df5702c4b4d21a0040}
+
+\item 
+int {\bfseries current\+Index}\hypertarget{classcalibrator2d_a85569cbf4f68929d9989c57c3f9c9bea}{}\label{classcalibrator2d_a85569cbf4f68929d9989c57c3f9c9bea}
+
+\item 
+\hyperlink{classautoSizeBoard}{auto\+Size\+Board} {\bfseries board}\hypertarget{classcalibrator2d_a54283621abdd58143b09ef4356c4b081}{}\label{classcalibrator2d_a54283621abdd58143b09ef4356c4b081}
+
+\item 
+int {\bfseries num\+Squares}\hypertarget{classcalibrator2d_a65b53307b8031572b5a819581e1a2e8a}{}\label{classcalibrator2d_a65b53307b8031572b5a819581e1a2e8a}
+
+\item 
+Size {\bfseries board\+\_\+sz}\hypertarget{classcalibrator2d_a1a9af4fba61d04293e061956e3349c78}{}\label{classcalibrator2d_a1a9af4fba61d04293e061956e3349c78}
+
+\item 
+\hyperlink{classimageList}{image\+List} {\bfseries img\+List}\hypertarget{classcalibrator2d_a612fa12b74f6ef630b49155e4f576f52}{}\label{classcalibrator2d_a612fa12b74f6ef630b49155e4f576f52}
+
+\item 
+vector$<$ Point2f $>$ {\bfseries corners}\hypertarget{classcalibrator2d_adb97aedf68f6c16c34270e70cf92d202}{}\label{classcalibrator2d_adb97aedf68f6c16c34270e70cf92d202}
+
+\item 
+int {\bfseries successes}\hypertarget{classcalibrator2d_a37a24fb3cef873171c031aeca8111a5c}{}\label{classcalibrator2d_a37a24fb3cef873171c031aeca8111a5c}
+
+\item 
+Mat {\bfseries intrinsic}\hypertarget{classcalibrator2d_a75914e9fea74ae658e6e3a7f9481cf8c}{}\label{classcalibrator2d_a75914e9fea74ae658e6e3a7f9481cf8c}
+
+\item 
+Mat {\bfseries dist\+Coeffs}\hypertarget{classcalibrator2d_ab179ebea2e60550d890bd0aeb3bd6510}{}\label{classcalibrator2d_ab179ebea2e60550d890bd0aeb3bd6510}
+
+\item 
+vector$<$ Mat $>$ {\bfseries rvecs}\hypertarget{classcalibrator2d_a58a3c5ca197092e320f4faeced4e26c5}{}\label{classcalibrator2d_a58a3c5ca197092e320f4faeced4e26c5}
+
+\item 
+vector$<$ Mat $>$ {\bfseries tvecs}\hypertarget{classcalibrator2d_afcd4858c26c63659ea2f59653f044b7c}{}\label{classcalibrator2d_afcd4858c26c63659ea2f59653f044b7c}
+
+\item 
+double {\bfseries fovx}\hypertarget{classcalibrator2d_ab620f4085345c447c5680e51b6bbbb17}{}\label{classcalibrator2d_ab620f4085345c447c5680e51b6bbbb17}
+
+\item 
+double {\bfseries fovy}\hypertarget{classcalibrator2d_acf74a3b93886b97c4e8a4784bef34bc9}{}\label{classcalibrator2d_acf74a3b93886b97c4e8a4784bef34bc9}
+
+\item 
+double {\bfseries focal\+Length}\hypertarget{classcalibrator2d_a6a1758714a608f3a9b24ec2f2b870acd}{}\label{classcalibrator2d_a6a1758714a608f3a9b24ec2f2b870acd}
+
+\item 
+Point2d {\bfseries principal\+Point}\hypertarget{classcalibrator2d_af7316fcff2d727265af2cea6e87edbc5}{}\label{classcalibrator2d_af7316fcff2d727265af2cea6e87edbc5}
+
+\item 
+Mat {\bfseries rectification}\hypertarget{classcalibrator2d_a00ce904d0010879ed738efee7738e51a}{}\label{classcalibrator2d_a00ce904d0010879ed738efee7738e51a}
+
+\item 
+Mat {\bfseries projection}\hypertarget{classcalibrator2d_a6818a2c5dd7db159bc06e7a1b4c362b2}{}\label{classcalibrator2d_a6818a2c5dd7db159bc06e7a1b4c362b2}
+
+\item 
+Mat {\bfseries mapX}\hypertarget{classcalibrator2d_adc87f58a631730999b9b02567796faba}{}\label{classcalibrator2d_adc87f58a631730999b9b02567796faba}
+
+\item 
+Mat {\bfseries mapY}\hypertarget{classcalibrator2d_a55c46dbb0e93fa42dc9ab53e91a893a7}{}\label{classcalibrator2d_a55c46dbb0e93fa42dc9ab53e91a893a7}
+
+\item 
+Mat {\bfseries imgU}\hypertarget{classcalibrator2d_a41559c6c5924c0df9bfda1ce354d9f03}{}\label{classcalibrator2d_a41559c6c5924c0df9bfda1ce354d9f03}
+
+\item 
+vector$<$ float $>$ {\bfseries per\+View\+Errors}\hypertarget{classcalibrator2d_a66bff8908a002c37e915454b99b0738d}{}\label{classcalibrator2d_a66bff8908a002c37e915454b99b0738d}
+
+\item 
+vector$<$ vector$<$ double $>$ $>$ {\bfseries per\+ViewX}\hypertarget{classcalibrator2d_aa8bd4480acaf1cb660f1c28b60f2da28}{}\label{classcalibrator2d_aa8bd4480acaf1cb660f1c28b60f2da28}
+
+\item 
+vector$<$ vector$<$ double $>$ $>$ {\bfseries per\+ViewY}\hypertarget{classcalibrator2d_a9f423a039647698693269ec55d63cdd9}{}\label{classcalibrator2d_a9f423a039647698693269ec55d63cdd9}
+
+\item 
+double {\bfseries total\+Error}\hypertarget{classcalibrator2d_a77f577df3c8ad43cab3d751c621188e5}{}\label{classcalibrator2d_a77f577df3c8ad43cab3d751c621188e5}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Calibration/calibrator2d.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Calibration/calibrator2d.\+cpp\end{DoxyCompactItemize}

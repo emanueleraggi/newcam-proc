@@ -1,0 +1,95 @@
+\hypertarget{classcalibrator3d}{}\section{calibrator3d Class Reference}
+\label{classcalibrator3d}\index{calibrator3d@{calibrator3d}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries setup\+Board} (int num\+Horizontal, int num\+Vertical, float grid\+Size)\hypertarget{classcalibrator3d_aecb62318e30c38f8b2204596ea9ec9ee}{}\label{classcalibrator3d_aecb62318e30c38f8b2204596ea9ec9ee}
+
+\item 
+bool {\bfseries find\+Corners} ()\hypertarget{classcalibrator3d_ab9d0a808ef3aa58e82079b6f97e512b0}{}\label{classcalibrator3d_ab9d0a808ef3aa58e82079b6f97e512b0}
+
+\item 
+bool {\bfseries store\+Points} ()\hypertarget{classcalibrator3d_af42cc19f1960c3a56dcb7f9ccdfeae29}{}\label{classcalibrator3d_af42cc19f1960c3a56dcb7f9ccdfeae29}
+
+\item 
+bool {\bfseries unstore\+Points} ()\hypertarget{classcalibrator3d_a46bdca4abe7a6e489092d01c85616211}{}\label{classcalibrator3d_a46bdca4abe7a6e489092d01c85616211}
+
+\item 
+void {\bfseries calibrate} ()\hypertarget{classcalibrator3d_a80e384f11c6a626ecc2872de97bf1724}{}\label{classcalibrator3d_a80e384f11c6a626ecc2872de97bf1724}
+
+\item 
+void {\bfseries write\+Y\+A\+ML} (string Filename)\hypertarget{classcalibrator3d_ab6ec3752c125a089ee5c595fce7d8e43}{}\label{classcalibrator3d_ab6ec3752c125a089ee5c595fce7d8e43}
+
+\item 
+void {\bfseries undistort\+Image} ()\hypertarget{classcalibrator3d_a52aa09a9535d0d59134bb2d552b14b50}{}\label{classcalibrator3d_a52aa09a9535d0d59134bb2d552b14b50}
+
+\item 
+void {\bfseries set\+Image} (int cam, Mat img)\hypertarget{classcalibrator3d_aada8c2f3bd578c79892ab90a3a443aa2}{}\label{classcalibrator3d_aada8c2f3bd578c79892ab90a3a443aa2}
+
+\item 
+\hyperlink{classcalImage}{cal\+Image} {\bfseries get\+Image} (int cam, int index)\hypertarget{classcalibrator3d_ac27182045d9ac747149a18ca1f48b644}{}\label{classcalibrator3d_ac27182045d9ac747149a18ca1f48b644}
+
+\item 
+\hyperlink{classcalImage}{cal\+Image} {\bfseries get\+Image} (int cam)\hypertarget{classcalibrator3d_aba41be909e1c63e718a57e94aeda4296}{}\label{classcalibrator3d_aba41be909e1c63e718a57e94aeda4296}
+
+\item 
+bool {\bfseries next\+Image} ()\hypertarget{classcalibrator3d_a21bfd66de8a89b4558b90ba77544417f}{}\label{classcalibrator3d_a21bfd66de8a89b4558b90ba77544417f}
+
+\item 
+bool {\bfseries prev\+Image} ()\hypertarget{classcalibrator3d_a7f40bb67446f78cfda48b566bb808c10}{}\label{classcalibrator3d_a7f40bb67446f78cfda48b566bb808c10}
+
+\item 
+void {\bfseries goto\+Image} (int index)\hypertarget{classcalibrator3d_a3f0c08b97eb5160eeee236e1752fdae0}{}\label{classcalibrator3d_a3f0c08b97eb5160eeee236e1752fdae0}
+
+\item 
+int {\bfseries get\+Index} ()\hypertarget{classcalibrator3d_aaee1a1f6b595dd24e1835117c5336552}{}\label{classcalibrator3d_aaee1a1f6b595dd24e1835117c5336552}
+
+\item 
+float {\bfseries compare\+Detected\+Boards} ()\hypertarget{classcalibrator3d_a97bb110d3a556aaf5b5a317f00063c9c}{}\label{classcalibrator3d_a97bb110d3a556aaf5b5a317f00063c9c}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{classcalibrator2d}{calibrator2d} $>$ {\bfseries cals}\hypertarget{classcalibrator3d_a4b8160b2c6c63e36e7caca6c7c7cfd20}{}\label{classcalibrator3d_a4b8160b2c6c63e36e7caca6c7c7cfd20}
+
+\item 
+int {\bfseries current\+Index}\hypertarget{classcalibrator3d_a123b6e46f2c82eade099783c5f84f3c8}{}\label{classcalibrator3d_a123b6e46f2c82eade099783c5f84f3c8}
+
+\item 
+bool {\bfseries board\+Found}\hypertarget{classcalibrator3d_a074d9de4f674b7ad31134b6d667e48dc}{}\label{classcalibrator3d_a074d9de4f674b7ad31134b6d667e48dc}
+
+\item 
+bool {\bfseries board\+Match}\hypertarget{classcalibrator3d_a531d16869b1113de631e8337a26a445f}{}\label{classcalibrator3d_a531d16869b1113de631e8337a26a445f}
+
+\item 
+int {\bfseries successes}\hypertarget{classcalibrator3d_a99f1552b106064d2139286a2244d679d}{}\label{classcalibrator3d_a99f1552b106064d2139286a2244d679d}
+
+\item 
+double {\bfseries total\+Error}\hypertarget{classcalibrator3d_ad8f51a15aebf584d2f47a2db0ea66888}{}\label{classcalibrator3d_ad8f51a15aebf584d2f47a2db0ea66888}
+
+\item 
+bool {\bfseries calibrated}\hypertarget{classcalibrator3d_afa23b323b9331541cd178730a62ddd0b}{}\label{classcalibrator3d_afa23b323b9331541cd178730a62ddd0b}
+
+\item 
+Mat {\bfseries R}\hypertarget{classcalibrator3d_a2c86fd41c790b69943d0b9c0f8cdf748}{}\label{classcalibrator3d_a2c86fd41c790b69943d0b9c0f8cdf748}
+
+\item 
+Mat {\bfseries T}\hypertarget{classcalibrator3d_abc81d70f1cc72f72ca4725b822499f17}{}\label{classcalibrator3d_abc81d70f1cc72f72ca4725b822499f17}
+
+\item 
+Mat {\bfseries E}\hypertarget{classcalibrator3d_a433708cbf86b2538429fe482c4630f9e}{}\label{classcalibrator3d_a433708cbf86b2538429fe482c4630f9e}
+
+\item 
+Mat {\bfseries F}\hypertarget{classcalibrator3d_aa6a857d10361437976e6de1e194bd8b3}{}\label{classcalibrator3d_aa6a857d10361437976e6de1e194bd8b3}
+
+\item 
+Mat {\bfseries Q}\hypertarget{classcalibrator3d_a846de3ef785d34d958ede8ce24c8896b}{}\label{classcalibrator3d_a846de3ef785d34d958ede8ce24c8896b}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Calibration/calibrator3d.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/camera\+Calibration/calibrator3d.\+cpp\end{DoxyCompactItemize}

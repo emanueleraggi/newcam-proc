@@ -1,0 +1,225 @@
+\hypertarget{classLaserLoadImage}{}\section{Laser\+Load\+Image Class Reference}
+\label{classLaserLoadImage}\index{Laser\+Load\+Image@{Laser\+Load\+Image}}
+
+
+Inheritance diagram for Laser\+Load\+Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{classLaserLoadImage__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Laser\+Load\+Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classLaserLoadImage__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classLaserLoadImage_ad69e4575ad9c23a50e9a9003da3c23c4}{extract\+Line} ()\hypertarget{classLaserLoadImage_ad69e4575ad9c23a50e9a9003da3c23c4}{}\label{classLaserLoadImage_ad69e4575ad9c23a50e9a9003da3c23c4}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classLaserLoadImage_ad69e4575ad9c23a50e9a9003da3c23c4}{Laser\+Load\+Image\+::extract\+Line} this is the main function that should be called by a user, its ultimate goal is to find V and S\+PV. \end{DoxyCompactList}\item 
+void {\bfseries exposure\+Comp} ()\hypertarget{classLaserLoadImage_a128ae8a030aab7de5624c9dbc95138bb}{}\label{classLaserLoadImage_a128ae8a030aab7de5624c9dbc95138bb}
+
+\item 
+void \hyperlink{classLaserLoadImage_afaf089991d1c4c7292485a3775293c44}{threshold} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classLaserLoadImage_afaf089991d1c4c7292485a3775293c44}{Laser\+Load\+Image\+::threshold} threashold the image using otsu\textquotesingle{}s method. \end{DoxyCompactList}\item 
+void \hyperlink{classLaserLoadImage_ae86bd81ae6b5aaaf2dd0ef524a2f75f0}{compute\+Cluster\+Metrics} ()\hypertarget{classLaserLoadImage_ae86bd81ae6b5aaaf2dd0ef524a2f75f0}{}\label{classLaserLoadImage_ae86bd81ae6b5aaaf2dd0ef524a2f75f0}
+
+\begin{DoxyCompactList}\small\item\em computes the follwoing\+: mean location of the laser line\+: \+\_\+line\+Mean median pos vector(per column)\+: \+\_\+laser\+Data.\+\_\+median\+Pos a vector containing the number of thresholded pixels per column\+: \+\_\+laser\+Data.\+\_\+\+P\+PC \end{DoxyCompactList}\item 
+void \hyperlink{classLaserLoadImage_a552e5903040d7216fe002af7780e558e}{find\+Filtered\+Clusters} ()\hypertarget{classLaserLoadImage_a552e5903040d7216fe002af7780e558e}{}\label{classLaserLoadImage_a552e5903040d7216fe002af7780e558e}
+
+\begin{DoxyCompactList}\small\item\em this function will populate the \+\_\+filtered\+Clusters class variable by using \hyperlink{classLaserLoadImage_a52449eec749ada197fe003cc3a84d4ac}{filter\+Clusters()} on each column \end{DoxyCompactList}\item 
+void \hyperlink{classLaserLoadImage_aef969dd632105811e0d50888523377ad}{findV} ()\hypertarget{classLaserLoadImage_aef969dd632105811e0d50888523377ad}{}\label{classLaserLoadImage_aef969dd632105811e0d50888523377ad}
+
+\begin{DoxyCompactList}\small\item\em uses filtered clusters as windows and finds the maximum value within. the output will be pushed to \+\_\+laser\+Data.\+V \end{DoxyCompactList}\item 
+\hyperlink{classImage}{Image} \hyperlink{classLaserLoadImage_a942c3c8c57686f22f97f8a31c3449710}{displayV} ()\hypertarget{classLaserLoadImage_a942c3c8c57686f22f97f8a31c3449710}{}\label{classLaserLoadImage_a942c3c8c57686f22f97f8a31c3449710}
+
+\begin{DoxyCompactList}\small\item\em generates an opencv imshow of the calculated V \end{DoxyCompactList}\item 
+void {\bfseries find\+S\+PV} ()\hypertarget{classLaserLoadImage_a1523df713b4695ad9c7fb3c5470c7e48}{}\label{classLaserLoadImage_a1523df713b4695ad9c7fb3c5470c7e48}
+
+\item 
+float {\bfseries find\+S\+PV} (unsigned int col)\hypertarget{classLaserLoadImage_a8190901295b250ebe2e0e4786522ce55}{}\label{classLaserLoadImage_a8190901295b250ebe2e0e4786522ce55}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries display\+S\+PV} (unsigned int height, unsigned int v\+Stretch)\hypertarget{classLaserLoadImage_a63e9d5a7f55a8a567c0f166f572b2dbc}{}\label{classLaserLoadImage_a63e9d5a7f55a8a567c0f166f572b2dbc}
+
+\item 
+void {\bfseries find\+World\+Points} ()\hypertarget{classLaserLoadImage_a70213542b7599c5162136dad26f0f9cf}{}\label{classLaserLoadImage_a70213542b7599c5162136dad26f0f9cf}
+
+\item 
+void {\bfseries range\+Normalize} ()\hypertarget{classLaserLoadImage_ad9b7b4f8800f37ff89f986ca4af8a7bf}{}\label{classLaserLoadImage_ad9b7b4f8800f37ff89f986ca4af8a7bf}
+
+\item 
+float {\bfseries find\+Vent\+Moment} (unsigned int col)\hypertarget{classLaserLoadImage_a08fde3030797b4f14d8cffa9db54f907}{}\label{classLaserLoadImage_a08fde3030797b4f14d8cffa9db54f907}
+
+\item 
+void {\bfseries find\+Vent\+Moments} ()\hypertarget{classLaserLoadImage_a70ba3d146434d777c01767899d66f568}{}\label{classLaserLoadImage_a70ba3d146434d777c01767899d66f568}
+
+\item 
+unsigned int {\bfseries classify} (float intensity, float moment)\hypertarget{classLaserLoadImage_ad7e054d5777b2321b61a3cf93367715c}{}\label{classLaserLoadImage_ad7e054d5777b2321b61a3cf93367715c}
+
+\item 
+bool {\bfseries read\+From\+File} (boost\+::filesystem\+::path file\+Path, Color\+Space cs=Grey)\hypertarget{classLaserLoadImage_a6178e09e1ccd0722efb3a8ac5bc4d645}{}\label{classLaserLoadImage_a6178e09e1ccd0722efb3a8ac5bc4d645}
+
+\item 
+void \hyperlink{classLaserLoadImage_ac8a2c4419ce1ce434ee4326c806d5d15}{set\+Window\+Size} (unsigned int size)
+\item 
+void {\bfseries set\+Threshold} (float thresh)\hypertarget{classLaserLoadImage_aa38909a755d671d8a84194dcd2265170}{}\label{classLaserLoadImage_aa38909a755d671d8a84194dcd2265170}
+
+\item 
+void {\bfseries set\+Survey\+Alt} (float alt)\hypertarget{classLaserLoadImage_a474d701a87924e779cebd0ecf9415745}{}\label{classLaserLoadImage_a474d701a87924e779cebd0ecf9415745}
+
+\item 
+std\+::vector$<$ unsigned int $>$ \hyperlink{classLaserLoadImage_a6fab08d0290afb2d0abe8dd6cf7ee591}{get\+Cluster\+Intensity} (unsigned int col)
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries get\+Window\+Intensity} (unsigned int col)\hypertarget{classLaserLoadImage_aed823a660fc4aaf28aa5237abb71384b}{}\label{classLaserLoadImage_aed823a660fc4aaf28aa5237abb71384b}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries get\+ClusterV} (unsigned int col)\hypertarget{classLaserLoadImage_a5f041db40eacf0aedc64ffa4262f3f92}{}\label{classLaserLoadImage_a5f041db40eacf0aedc64ffa4262f3f92}
+
+\item 
+std\+::vector$<$ unsigned int $>$ {\bfseries get\+Window\+Vect} (unsigned int col)\hypertarget{classLaserLoadImage_a5baa426e2a545cd10ecacd015658ac7b}{}\label{classLaserLoadImage_a5baa426e2a545cd10ecacd015658ac7b}
+
+\item 
+\hyperlink{classImage}{Image} {\bfseries get\+Thresh} ()\hypertarget{classLaserLoadImage_ac7e693fde607c976c0082ac8630909e7}{}\label{classLaserLoadImage_ac7e693fde607c976c0082ac8630909e7}
+
+\item 
+float {\bfseries get\+Median\+LineV} ()\hypertarget{classLaserLoadImage_af59c73a542cba2dcf79b9b434d2ef732}{}\label{classLaserLoadImage_af59c73a542cba2dcf79b9b434d2ef732}
+
+\item 
+\hyperlink{classLaserData}{Laser\+Data} \& {\bfseries get\+Laser\+Data} ()\hypertarget{classLaserLoadImage_a1f674f7012f2709fa33192f7650cbf97}{}\label{classLaserLoadImage_a1f674f7012f2709fa33192f7650cbf97}
+
+\item 
+void {\bfseries unload} ()\hypertarget{classLaserLoadImage_a795a35b98cab62422739efe6eb4d2fa5}{}\label{classLaserLoadImage_a795a35b98cab62422739efe6eb4d2fa5}
+
+\item 
+float {\bfseries get\+Line\+Mean} ()\hypertarget{classLaserLoadImage_ab854e861fb3c5bdd148a8b4a3c61a1af}{}\label{classLaserLoadImage_ab854e861fb3c5bdd148a8b4a3c61a1af}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classCameraCal}{Camera\+Cal} $>$ {\bfseries camera\+Cal}\hypertarget{classLaserLoadImage_a2727aa8348ef7f6c9ae3ace78ddd3219}{}\label{classLaserLoadImage_a2727aa8348ef7f6c9ae3ace78ddd3219}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classLaserCal}{Laser\+Cal} $>$ {\bfseries laser\+Cal}\hypertarget{classLaserLoadImage_a3d0120ef420c233eed3ef72436981164}{}\label{classLaserLoadImage_a3d0120ef420c233eed3ef72436981164}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries on\+File\+Set} ()\hypertarget{classLaserLoadImage_a8823ec67ba386ed13602b9ec7647cd45}{}\label{classLaserLoadImage_a8823ec67ba386ed13602b9ec7647cd45}
+
+\item 
+std\+::vector$<$ std\+::vector$<$ unsigned int $>$ $>$ \hyperlink{classLaserLoadImage_ab8290a8c7d2eb46979b7e09f5293102a}{find\+Cluster\+In\+Col} (int j)
+\begin{DoxyCompactList}\small\item\em finds clusters of pixels $>$ 0 in a column of the threholded image \end{DoxyCompactList}\item 
+std\+::vector$<$ unsigned int $>$ \hyperlink{classLaserLoadImage_a52449eec749ada197fe003cc3a84d4ac}{filter\+Clusters} (std\+::vector$<$ std\+::vector$<$ unsigned int $>$$>$ cluster\+List)
+\begin{DoxyCompactList}\small\item\em this is the fucntion that is called to filter out sets of multiple clusters currently it will select the cluster closest to the median of the entire laser line Note\+: this works P\+E\+R-\/\+C\+O\+L\+U\+MN \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classLaserData}{Laser\+Data} {\bfseries \+\_\+laser\+Data}\hypertarget{classLaserLoadImage_a20ccad5730f328187aa2ea6ebbd4593a}{}\label{classLaserLoadImage_a20ccad5730f328187aa2ea6ebbd4593a}
+
+\item 
+cv\+::\+Mat {\bfseries \+\_\+threshold}\hypertarget{classLaserLoadImage_aeb5996250313d036392ff988d1e84d8d}{}\label{classLaserLoadImage_aeb5996250313d036392ff988d1e84d8d}
+
+\item 
+unsigned int {\bfseries \+\_\+window\+Size}\hypertarget{classLaserLoadImage_ac0e8f5931a32a78468afcf1a15425d44}{}\label{classLaserLoadImage_ac0e8f5931a32a78468afcf1a15425d44}
+
+\item 
+std\+::vector$<$ std\+::vector$<$ unsigned int $>$ $>$ {\bfseries \+\_\+filtered\+Clusters}\hypertarget{classLaserLoadImage_af3fca1d9756d7cf5d304d5b813ff1b45}{}\label{classLaserLoadImage_af3fca1d9756d7cf5d304d5b813ff1b45}
+
+\item 
+float {\bfseries \+\_\+line\+Mean}\hypertarget{classLaserLoadImage_a90ff3111ee60ba50a9dcaf90b9a2734a}{}\label{classLaserLoadImage_a90ff3111ee60ba50a9dcaf90b9a2734a}
+
+\item 
+unsigned int {\bfseries \+\_\+threshold\+Limit}\hypertarget{classLaserLoadImage_a1d24ebe33a3d2ea1b9f2aa9c7e42caf4}{}\label{classLaserLoadImage_a1d24ebe33a3d2ea1b9f2aa9c7e42caf4}
+
+\item 
+bool {\bfseries \+\_\+debug}\hypertarget{classLaserLoadImage_a2c9ccd7fba113ebb52c6e5824d05daeb}{}\label{classLaserLoadImage_a2c9ccd7fba113ebb52c6e5824d05daeb}
+
+\item 
+float {\bfseries \+\_\+survey\+Alt}\hypertarget{classLaserLoadImage_a33091b991b7a53293f9d4a766583cdc7}{}\label{classLaserLoadImage_a33091b991b7a53293f9d4a766583cdc7}
+
+\item 
+float {\bfseries \+\_\+thresh\+Adjust}\hypertarget{classLaserLoadImage_ab51fd66959c5f55b562fafecbc71998a}{}\label{classLaserLoadImage_ab51fd66959c5f55b562fafecbc71998a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Laser\+Load\+Image@{Laser\+Load\+Image}!filter\+Clusters@{filter\+Clusters}}
+\index{filter\+Clusters@{filter\+Clusters}!Laser\+Load\+Image@{Laser\+Load\+Image}}
+\subsubsection[{\texorpdfstring{filter\+Clusters(std\+::vector$<$ std\+::vector$<$ unsigned int $>$$>$ cluster\+List)}{filterClusters(std::vector< std::vector< unsigned int >> clusterList)}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ unsigned int $>$ Laser\+Load\+Image\+::filter\+Clusters (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ std\+::vector$<$ unsigned int $>$$>$}]{cluster\+List}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classLaserLoadImage_a52449eec749ada197fe003cc3a84d4ac}{}\label{classLaserLoadImage_a52449eec749ada197fe003cc3a84d4ac}
+
+
+this is the fucntion that is called to filter out sets of multiple clusters currently it will select the cluster closest to the median of the entire laser line Note\+: this works P\+E\+R-\/\+C\+O\+L\+U\+MN 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cluster\+List} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a vector of ints represnting index of the points in the cluster 
+\end{DoxyReturn}
+\index{Laser\+Load\+Image@{Laser\+Load\+Image}!find\+Cluster\+In\+Col@{find\+Cluster\+In\+Col}}
+\index{find\+Cluster\+In\+Col@{find\+Cluster\+In\+Col}!Laser\+Load\+Image@{Laser\+Load\+Image}}
+\subsubsection[{\texorpdfstring{find\+Cluster\+In\+Col(int j)}{findClusterInCol(int j)}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ std\+::vector$<$ unsigned int $>$ $>$ Laser\+Load\+Image\+::find\+Cluster\+In\+Col (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classLaserLoadImage_ab8290a8c7d2eb46979b7e09f5293102a}{}\label{classLaserLoadImage_ab8290a8c7d2eb46979b7e09f5293102a}
+
+
+finds clusters of pixels $>$ 0 in a column of the threholded image 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & the j-\/th col that you want to find the clusters in \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a vector of clusters (clusters are represented as vectors$<$unsigned int$>$) 
+\end{DoxyReturn}
+\index{Laser\+Load\+Image@{Laser\+Load\+Image}!get\+Cluster\+Intensity@{get\+Cluster\+Intensity}}
+\index{get\+Cluster\+Intensity@{get\+Cluster\+Intensity}!Laser\+Load\+Image@{Laser\+Load\+Image}}
+\subsubsection[{\texorpdfstring{get\+Cluster\+Intensity(unsigned int col)}{getClusterIntensity(unsigned int col)}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ unsigned int $>$ Laser\+Load\+Image\+::get\+Cluster\+Intensity (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{classLaserLoadImage_a6fab08d0290afb2d0abe8dd6cf7ee591}{}\label{classLaserLoadImage_a6fab08d0290afb2d0abe8dd6cf7ee591}
+\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/ Handy Getter functions \textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/ \index{Laser\+Load\+Image@{Laser\+Load\+Image}!set\+Window\+Size@{set\+Window\+Size}}
+\index{set\+Window\+Size@{set\+Window\+Size}!Laser\+Load\+Image@{Laser\+Load\+Image}}
+\subsubsection[{\texorpdfstring{set\+Window\+Size(unsigned int size)}{setWindowSize(unsigned int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Load\+Image\+::set\+Window\+Size (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLaserLoadImage_ac8a2c4419ce1ce434ee4326c806d5d15}{}\label{classLaserLoadImage_ac8a2c4419ce1ce434ee4326c806d5d15}
+\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/ configuration functions \textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/\textbackslash{}/ \index{Laser\+Load\+Image@{Laser\+Load\+Image}!threshold@{threshold}}
+\index{threshold@{threshold}!Laser\+Load\+Image@{Laser\+Load\+Image}}
+\subsubsection[{\texorpdfstring{threshold()}{threshold()}}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\+Load\+Image\+::threshold (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classLaserLoadImage_afaf089991d1c4c7292485a3775293c44}{}\label{classLaserLoadImage_afaf089991d1c4c7292485a3775293c44}
+
+
+\hyperlink{classLaserLoadImage_afaf089991d1c4c7292485a3775293c44}{Laser\+Load\+Image\+::threshold} threashold the image using otsu\textquotesingle{}s method. 
+
+N\+O\+TE\+: if \+\_\+debug flag is on this will show an image of the origional image and the threasholded image 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserimage.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/laser\+Extractor/src/laserimage.\+cpp\end{DoxyCompactItemize}

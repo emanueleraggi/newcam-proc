@@ -1,0 +1,7 @@
+<map id="ColorCorrector" name="ColorCorrector">
+<area shape="rect" id="node3" href="$classAdaptiveLightfield.html" title="AdaptiveLightfield" alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node4" href="$classHistEqualizer.html" title="HistEqualizer" alt="" coords="155,155,255,181"/>
+<area shape="rect" id="node5" href="$classLightfieldCorrector.html" title="LightfieldCorrector" alt="" coords="280,155,408,181"/>
+<area shape="rect" id="node6" href="$classRgbHsvStretch.html" title="RgbHsvStretch" alt="" coords="432,155,544,181"/>
+<area shape="rect" id="node2" href="$classImageProcessor.html" title="ImageProcessor" alt="" coords="216,5,333,32"/>
+</map>

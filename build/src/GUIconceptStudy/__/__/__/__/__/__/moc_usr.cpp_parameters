@@ -1,0 +1,6 @@
+-I/usr/local/include/opencv
+-I/usr/local/include
+-I/usr/include
+-o
+/home/labrat/Desktop/cam-proc/build/src/GUIconceptStudy/__/__/__/__/__/__/moc_usr.cpp
+/usr

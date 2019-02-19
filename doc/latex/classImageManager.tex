@@ -1,0 +1,98 @@
+\hypertarget{classImageManager}{}\section{Image\+Manager Class Reference}
+\label{classImageManager}\index{Image\+Manager@{Image\+Manager}}
+
+
+Inheritance diagram for Image\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classImageManager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Image\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classImageManager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Image\+Manager} (Q\+Widget $\ast$parent=0)\hypertarget{classImageManager_add597bba6d164dfd4dc40b4775414d48}{}\label{classImageManager_add597bba6d164dfd4dc40b4775414d48}
+
+\item 
+void {\bfseries resize\+Event} (Q\+Resize\+Event $\ast$event)\hypertarget{classImageManager_a7fd447691d098359eb7048579bdfd5d3}{}\label{classImageManager_a7fd447691d098359eb7048579bdfd5d3}
+
+\item 
+\hyperlink{classAbstractToolbar}{Abstract\+Toolbar} \& {\bfseries get\+Selected\+Tool} ()\hypertarget{classImageManager_a34d3377f775b22c2298447c81fd2dc26}{}\label{classImageManager_a34d3377f775b22c2298447c81fd2dc26}
+
+\item 
+void {\bfseries update\+Progress} ()\hypertarget{classImageManager_aec6bdbacd28f30680f03d3b66e217649}{}\label{classImageManager_aec6bdbacd28f30680f03d3b66e217649}
+
+\item 
+void {\bfseries run\+Process} ()\hypertarget{classImageManager_a71b09b8d79c52484d853738d50dea626}{}\label{classImageManager_a71b09b8d79c52484d853738d50dea626}
+
+\item 
+void {\bfseries disable\+Processing} ()\hypertarget{classImageManager_a0c3f061d23f4d93d40aa2e2138f153e6}{}\label{classImageManager_a0c3f061d23f4d93d40aa2e2138f153e6}
+
+\item 
+void {\bfseries finish\+Processing} ()\hypertarget{classImageManager_aef18f54f475d4846089485429b3d769c}{}\label{classImageManager_aef18f54f475d4846089485429b3d769c}
+
+\item 
+void {\bfseries add\+Tool} (\hyperlink{classAbstractToolbar}{Abstract\+Toolbar} $\ast$tool)\hypertarget{classImageManager_a44bd2e61708faa38ef676811f02550a9}{}\label{classImageManager_a44bd2e61708faa38ef676811f02550a9}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries save} ()\hypertarget{classImageManager_a6e7c976a788766f38494a8ae2b9742d0}{}\label{classImageManager_a6e7c976a788766f38494a8ae2b9742d0}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String {\bfseries \+\_\+last\+Loaded\+Dir}\hypertarget{classImageManager_a431b9d2028e87f9e2de7598ea1fd0126}{}\label{classImageManager_a431b9d2028e87f9e2de7598ea1fd0126}
+
+\item 
+boost\+::thread {\bfseries calc\+Thread}\hypertarget{classImageManager_a5a9596a130499ca7cdb01a3288b26cce}{}\label{classImageManager_a5a9596a130499ca7cdb01a3288b26cce}
+
+\item 
+boost\+::thread {\bfseries update\+Prog}\hypertarget{classImageManager_a40f441562aba29f80326c64481b90be4}{}\label{classImageManager_a40f441562aba29f80326c64481b90be4}
+
+\item 
+boost\+::thread {\bfseries save\+Thread}\hypertarget{classImageManager_aa6fa36a5f712864b185d07e88ce16713}{}\label{classImageManager_aa6fa36a5f712864b185d07e88ce16713}
+
+\item 
+Ui\+::\+Image\+Manager $\ast$ {\bfseries ui}\hypertarget{classImageManager_aac7a0da284155ea2a3c7ad1d794c25db}{}\label{classImageManager_aac7a0da284155ea2a3c7ad1d794c25db}
+
+\item 
+\hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$\+::Ptr {\bfseries \+\_\+im\+List}\hypertarget{classImageManager_acb3bf29229b6b7ce322301fd027bca79}{}\label{classImageManager_acb3bf29229b6b7ce322301fd027bca79}
+
+\item 
+\hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$\+::Ptr {\bfseries \+\_\+cropped\+List}\hypertarget{classImageManager_af1be6b67382c51c0644ecf8b099a4c5f}{}\label{classImageManager_af1be6b67382c51c0644ecf8b099a4c5f}
+
+\item 
+size\+\_\+t {\bfseries lower\+Crop}\hypertarget{classImageManager_aa1a26ef032b956ac291c3e61b08071da}{}\label{classImageManager_aa1a26ef032b956ac291c3e61b08071da}
+
+\item 
+size\+\_\+t {\bfseries upper\+Crop}\hypertarget{classImageManager_a4073901ae2a2e73ea437a7ed31de4630}{}\label{classImageManager_a4073901ae2a2e73ea437a7ed31de4630}
+
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ {\bfseries \+\_\+corrected\+List}\hypertarget{classImageManager_a742ff03c897fc7f8c70b4a1e0844047b}{}\label{classImageManager_a742ff03c897fc7f8c70b4a1e0844047b}
+
+\item 
+std\+::vector$<$ \hyperlink{classAbstractToolbar}{Abstract\+Toolbar} $\ast$ $>$ {\bfseries \+\_\+widgets}\hypertarget{classImageManager_ae6c8127792450450ea818ba41f7e092c}{}\label{classImageManager_ae6c8127792450450ea818ba41f7e092c}
+
+\item 
+int {\bfseries \+\_\+selected\+Processor}\hypertarget{classImageManager_a7ac3cb804746be1e5aec2a922f74d46d}{}\label{classImageManager_a7ac3cb804746be1e5aec2a922f74d46d}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/qtinclude/imagemanager.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/lib\+Cam/qtinclude/imagemanager.\+cpp\end{DoxyCompactItemize}

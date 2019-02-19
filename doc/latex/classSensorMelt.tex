@@ -1,0 +1,90 @@
+\hypertarget{classSensorMelt}{}\section{Sensor\+Melt Class Reference}
+\label{classSensorMelt}\index{Sensor\+Melt@{Sensor\+Melt}}
+
+
+Collaboration diagram for Sensor\+Melt\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensorMelt__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structSensorMelt_1_1SensorCTD}{Sensor\+C\+TD}
+\item 
+struct \hyperlink{structSensorMelt_1_1SensorEcoPuck}{Sensor\+Eco\+Puck}
+\item 
+struct \hyperlink{structSensorMelt_1_1SensorGPS}{Sensor\+G\+PS}
+\item 
+struct \hyperlink{structSensorMelt_1_1SensorLCI}{Sensor\+L\+CI}
+\item 
+struct \hyperlink{structSensorMelt_1_1SensorOptode}{Sensor\+Optode}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Directory} (std\+::shared\+\_\+ptr$<$ \hyperlink{classImageList}{Image\+List}$<$ \hyperlink{classImage}{Image} $>$ $>$ in\+List)\hypertarget{classSensorMelt_a2783557000c9d3b4036e57216ea6e09f}{}\label{classSensorMelt_a2783557000c9d3b4036e57216ea6e09f}
+
+\item 
+std\+::vector$<$ int $>$ \hyperlink{classSensorMelt_aa2270d366f5c6aa6e0aadae79cd93d4c}{match\+Images} (std\+::vector$<$ unsigned long $>$ sensor\+TS, std\+::string sensor)\hypertarget{classSensorMelt_aa2270d366f5c6aa6e0aadae79cd93d4c}{}\label{classSensorMelt_aa2270d366f5c6aa6e0aadae79cd93d4c}
+
+\begin{DoxyCompactList}\small\item\em Timestamp matching and sensor averaging. \end{DoxyCompactList}\item 
+std\+::vector$<$ double $>$ {\bfseries average\+Matches} (std\+::vector$<$ double $>$ values, std\+::vector$<$ int $>$ match\+Idx)\hypertarget{classSensorMelt_ad40955991df6c51ea6b67232d6965bb2}{}\label{classSensorMelt_ad40955991df6c51ea6b67232d6965bb2}
+
+\item 
+void {\bfseries set\+Averaging\+Switch} (bool onoff)\hypertarget{classSensorMelt_a9d29e0629225037b657e5d8834dd5368}{}\label{classSensorMelt_a9d29e0629225037b657e5d8834dd5368}
+
+\item 
+void \hyperlink{classSensorMelt_a7f336a1b250a6bf3dc20056d0b336a70}{import\+C\+TD} ()\hypertarget{classSensorMelt_a7f336a1b250a6bf3dc20056d0b336a70}{}\label{classSensorMelt_a7f336a1b250a6bf3dc20056d0b336a70}
+
+\begin{DoxyCompactList}\small\item\em Import sensor data and run operations. \end{DoxyCompactList}\item 
+void {\bfseries import\+G\+PS} ()\hypertarget{classSensorMelt_a343783897c3bbf188a207952b06eb6ce}{}\label{classSensorMelt_a343783897c3bbf188a207952b06eb6ce}
+
+\item 
+void {\bfseries import\+Optode} ()\hypertarget{classSensorMelt_a188ed30ee1d6f41058b94e7d13b9f530}{}\label{classSensorMelt_a188ed30ee1d6f41058b94e7d13b9f530}
+
+\item 
+void {\bfseries import\+Eco\+Puck} ()\hypertarget{classSensorMelt_a9a901431e2ddcb908bee5f8cd5ec5e1f}{}\label{classSensorMelt_a9a901431e2ddcb908bee5f8cd5ec5e1f}
+
+\item 
+void {\bfseries import\+L\+CI} ()\hypertarget{classSensorMelt_affc3489ea2248d3ba2dcd70f572f765a}{}\label{classSensorMelt_affc3489ea2248d3ba2dcd70f572f765a}
+
+\item 
+void \hyperlink{classSensorMelt_a1038b8ef5a2289f1a2a60679e3e36c83}{run\+All} ()\hypertarget{classSensorMelt_a1038b8ef5a2289f1a2a60679e3e36c83}{}\label{classSensorMelt_a1038b8ef5a2289f1a2a60679e3e36c83}
+
+\begin{DoxyCompactList}\small\item\em Runner. \end{DoxyCompactList}\item 
+void \hyperlink{classSensorMelt_a4c540c78f10eaf7e5624480d2224d4e9}{write\+C\+S\+V\+\_\+avg} ()\hypertarget{classSensorMelt_a4c540c78f10eaf7e5624480d2224d4e9}{}\label{classSensorMelt_a4c540c78f10eaf7e5624480d2224d4e9}
+
+\begin{DoxyCompactList}\small\item\em Write\+C\+S\+Vs. \end{DoxyCompactList}\item 
+void {\bfseries write\+C\+S\+V\+\_\+raw} ()\hypertarget{classSensorMelt_a0e4ede3109a2f518093f26c7548a2c1d}{}\label{classSensorMelt_a0e4ede3109a2f518093f26c7548a2c1d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structSensorMelt_1_1SensorOptode}{Sensor\+Optode} {\bfseries optode}\hypertarget{classSensorMelt_ae0063988bded43f7f276d3189cd1cbab}{}\label{classSensorMelt_ae0063988bded43f7f276d3189cd1cbab}
+
+\item 
+\hyperlink{structSensorMelt_1_1SensorCTD}{Sensor\+C\+TD} {\bfseries ctd}\hypertarget{classSensorMelt_a10901fdb2ebc391f9ace7aca442cc714}{}\label{classSensorMelt_a10901fdb2ebc391f9ace7aca442cc714}
+
+\item 
+\hyperlink{structSensorMelt_1_1SensorGPS}{Sensor\+G\+PS} {\bfseries gps}\hypertarget{classSensorMelt_a7256a26297622176134d700247d46a17}{}\label{classSensorMelt_a7256a26297622176134d700247d46a17}
+
+\item 
+\hyperlink{structSensorMelt_1_1SensorEcoPuck}{Sensor\+Eco\+Puck} {\bfseries puck}\hypertarget{classSensorMelt_aecd5fcbde5231feea280afa6c4f68519}{}\label{classSensorMelt_aecd5fcbde5231feea280afa6c4f68519}
+
+\item 
+\hyperlink{structSensorMelt_1_1SensorLCI}{Sensor\+L\+CI} {\bfseries lci}\hypertarget{classSensorMelt_a06d5b21e9f457badef3eade0496c04c4}{}\label{classSensorMelt_a06d5b21e9f457badef3eade0496c04c4}
+
+\item 
+bool {\bfseries average\+Switch}\hypertarget{classSensorMelt_a4dd8c68b80e0a10d134c628f1d7c69ea}{}\label{classSensorMelt_a4dd8c68b80e0a10d134c628f1d7c69ea}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/sensormelt.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/sensormelt.\+cpp\end{DoxyCompactItemize}

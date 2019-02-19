@@ -1,0 +1,62 @@
+\hypertarget{classFilters}{}\section{Filters Class Reference}
+\label{classFilters}\index{Filters@{Filters}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classFilters_a6f5b5774525467f08d95f0d6730bd1fd}{set\+Img} (std\+::string pa, Color\+Space cs)\hypertarget{classFilters_a6f5b5774525467f08d95f0d6730bd1fd}{}\label{classFilters_a6f5b5774525467f08d95f0d6730bd1fd}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classImage}{Image}. \end{DoxyCompactList}\item 
+void {\bfseries set\+Out\+Directory} (std\+::string pa)\hypertarget{classFilters_a096463b2b9f280a5061fe899fd3a9d7d}{}\label{classFilters_a096463b2b9f280a5061fe899fd3a9d7d}
+
+\item 
+void {\bfseries set\+Contr\+Bright} (float cont, float bright)\hypertarget{classFilters_a77e100fe8260a41ccde330410ea93209}{}\label{classFilters_a77e100fe8260a41ccde330410ea93209}
+
+\item 
+void {\bfseries set\+Color\+Space} (Color\+Space cs)\hypertarget{classFilters_ac71f55e185b1ebbc29a2091132c0c08a}{}\label{classFilters_ac71f55e185b1ebbc29a2091132c0c08a}
+
+\item 
+std\+::vector$<$ cv\+::\+Mat $>$ {\bfseries get\+Im\+Chans} (cv\+::\+Mat in)\hypertarget{classFilters_a7248724e2f55b467dbd1db731946f98e}{}\label{classFilters_a7248724e2f55b467dbd1db731946f98e}
+
+\item 
+cv\+::\+Mat \hyperlink{classFilters_a57b50d0698fd7602a021e99fdc4c88bb}{get\+Gaussian\+Kernel} ()\hypertarget{classFilters_a57b50d0698fd7602a021e99fdc4c88bb}{}\label{classFilters_a57b50d0698fd7602a021e99fdc4c88bb}
+
+\begin{DoxyCompactList}\small\item\em Make Kernels. \end{DoxyCompactList}\item 
+cv\+::\+Mat {\bfseries get\+Gx} ()\hypertarget{classFilters_adebade550c3d0c65a963d8d29f7fc143}{}\label{classFilters_adebade550c3d0c65a963d8d29f7fc143}
+
+\item 
+cv\+::\+Mat {\bfseries get\+Gy} ()\hypertarget{classFilters_af7dacd92c7fe33930ce750d71a78c180}{}\label{classFilters_af7dacd92c7fe33930ce750d71a78c180}
+
+\item 
+cv\+::\+Mat {\bfseries get\+LoG} ()\hypertarget{classFilters_aaa60a7d6c730f64d8392e392faa07357}{}\label{classFilters_aaa60a7d6c730f64d8392e392faa07357}
+
+\item 
+cv\+::\+Mat \hyperlink{classFilters_a9473f368864da7596853b1c854ca52e5}{proc\+Filter} (cv\+::\+Mat in, cv\+::\+Mat kernel)\hypertarget{classFilters_a9473f368864da7596853b1c854ca52e5}{}\label{classFilters_a9473f368864da7596853b1c854ca52e5}
+
+\begin{DoxyCompactList}\small\item\em Convolve image with kernel. \end{DoxyCompactList}\item 
+cv\+::\+Mat \hyperlink{classFilters_a0adccec7973e15417195ebb495f27230}{proc\+Gauss} (int ksize, float sigma, int c)\hypertarget{classFilters_a0adccec7973e15417195ebb495f27230}{}\label{classFilters_a0adccec7973e15417195ebb495f27230}
+
+\begin{DoxyCompactList}\small\item\em Run Filter. \end{DoxyCompactList}\item 
+cv\+::\+Mat {\bfseries proc\+Gx} (cv\+::\+Mat in, int ksize, float sigma, int c)\hypertarget{classFilters_aec450acf6d2f8fa0e5150b45f359ce8d}{}\label{classFilters_aec450acf6d2f8fa0e5150b45f359ce8d}
+
+\item 
+cv\+::\+Mat {\bfseries proc\+Gy} (cv\+::\+Mat in, int ksize, float sigma, int c)\hypertarget{classFilters_a059ddcbe357b61d9202e4d371ffcc496}{}\label{classFilters_a059ddcbe357b61d9202e4d371ffcc496}
+
+\item 
+cv\+::\+Mat {\bfseries proc\+LoG} (int ksize, float sigma, int c)\hypertarget{classFilters_a47863aa8d5b323578753dff10ec16d05}{}\label{classFilters_a47863aa8d5b323578753dff10ec16d05}
+
+\item 
+cv\+::\+Mat {\bfseries proc\+Norm\+Gradient} (cv\+::\+Mat in, int ksize, float sigma, int c)\hypertarget{classFilters_af5c6d1d4edef0cdde6d7baa18ad66e33}{}\label{classFilters_af5c6d1d4edef0cdde6d7baa18ad66e33}
+
+\item 
+void \hyperlink{classFilters_af92c67a7f21ffdff4b22eac19547fd45}{proc\+Edge\+Detection} (int ksize, float sigma, int c)\hypertarget{classFilters_af92c67a7f21ffdff4b22eac19547fd45}{}\label{classFilters_af92c67a7f21ffdff4b22eac19547fd45}
+
+\begin{DoxyCompactList}\small\item\em Detect Zero Crossings. \end{DoxyCompactList}\item 
+void \hyperlink{classFilters_aaa048935a8173b4b3d9d1b48167e9850}{set\+Params} (int ksize, float sigma, int c)\hypertarget{classFilters_aaa048935a8173b4b3d9d1b48167e9850}{}\label{classFilters_aaa048935a8173b4b3d9d1b48167e9850}
+
+\begin{DoxyCompactList}\small\item\em Kernel Param Setters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/filters.\+h\item 
+/home/labrat/\+Desktop/cam-\/proc/src/roi\+Proc/filters.\+cpp\end{DoxyCompactItemize}
